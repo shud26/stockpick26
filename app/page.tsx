@@ -20,6 +20,9 @@ export default function Home() {
             <Link href="/glossary" className="text-sm text-[#8B8B90] hover:text-white transition-colors">
               Glossary
             </Link>
+            <Link href="/tools" className="text-sm text-[#8B8B90] hover:text-white transition-colors">
+              Tools
+            </Link>
           </div>
         </nav>
       </header>
@@ -135,6 +138,70 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Tools Section */}
+        <section className="py-16 px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-bold text-white mb-2 text-center">Free Calculators</h2>
+            <p className="text-[#6B6B70] text-center mb-10">Useful tools for your investment decisions</p>
+
+            <div className="grid md:grid-cols-2 gap-4">
+              <Link
+                href="/tools"
+                className="bg-[#111113] border border-[#1F1F23] rounded-xl p-5 hover:border-[#10b981] transition-colors group"
+              >
+                <h3 className="text-white font-semibold group-hover:text-[#10b981] transition-colors mb-2">
+                  P/E Ratio Calculator
+                </h3>
+                <p className="text-[13px] text-[#ADADB0]">
+                  Is this stock overpriced? Find out in seconds.
+                </p>
+              </Link>
+              <Link
+                href="/tools"
+                className="bg-[#111113] border border-[#1F1F23] rounded-xl p-5 hover:border-[#10b981] transition-colors group"
+              >
+                <h3 className="text-white font-semibold group-hover:text-[#10b981] transition-colors mb-2">
+                  Dividend Yield Calculator
+                </h3>
+                <p className="text-[13px] text-[#ADADB0]">
+                  How much income will you get from dividends?
+                </p>
+              </Link>
+              <Link
+                href="/tools"
+                className="bg-[#111113] border border-[#1F1F23] rounded-xl p-5 hover:border-[#10b981] transition-colors group"
+              >
+                <h3 className="text-white font-semibold group-hover:text-[#10b981] transition-colors mb-2">
+                  Compound Growth Calculator
+                </h3>
+                <p className="text-[13px] text-[#ADADB0]">
+                  See how your money grows over 10, 20, 30 years.
+                </p>
+              </Link>
+              <Link
+                href="/tools"
+                className="bg-[#111113] border border-[#1F1F23] rounded-xl p-5 hover:border-[#10b981] transition-colors group"
+              >
+                <h3 className="text-white font-semibold group-hover:text-[#10b981] transition-colors mb-2">
+                  Position Size Calculator
+                </h3>
+                <p className="text-[13px] text-[#ADADB0]">
+                  How many shares should you buy? Don&apos;t guess.
+                </p>
+              </Link>
+            </div>
+
+            <div className="text-center mt-8">
+              <Link
+                href="/tools"
+                className="text-[#10b981] hover:text-[#34d399] text-sm font-medium transition-colors"
+              >
+                Try all calculators →
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="py-20 px-4">
           <div className="max-w-2xl mx-auto text-center">
@@ -162,7 +229,8 @@ export default function Home() {
             <p>StockPick26 - Stock Market Glossary for Beginners</p>
             <div className="flex items-center gap-4">
               <Link href="/glossary" className="hover:text-[#10b981] transition-colors">Glossary</Link>
-              <Link href="/privacy" className="hover:text-[#10b981] transition-colors">Privacy Policy</Link>
+              <Link href="/tools" className="hover:text-[#10b981] transition-colors">Tools</Link>
+              <Link href="/privacy" className="hover:text-[#10b981] transition-colors">Privacy</Link>
               <Link href="/about" className="hover:text-[#10b981] transition-colors">About</Link>
             </div>
           </div>
