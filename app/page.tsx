@@ -23,6 +23,9 @@ export default function Home() {
             <Link href="/tools" className="text-sm text-[#8B8B90] hover:text-white transition-colors">
               Tools
             </Link>
+            <Link href="/learn" className="text-sm text-[#8B8B90] hover:text-white transition-colors">
+              Learn
+            </Link>
           </div>
         </nav>
       </header>
@@ -202,6 +205,67 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Learn Section */}
+        <section className="py-16 px-4 bg-[#111113] border-y border-[#1F1F23]">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-bold text-white mb-2 text-center">Learn to Invest</h2>
+            <p className="text-[#6B6B70] text-center mb-10">No-fluff guides for beginners</p>
+
+            <div className="space-y-4">
+              <Link
+                href="/learn/how-to-read-stock-charts"
+                className="block bg-[#0A0A0B] border border-[#1F1F23] rounded-xl p-5 hover:border-[#10b981] transition-colors group"
+              >
+                <div className="flex items-center gap-3 mb-1">
+                  <span className="text-xs text-[#10b981]">Basics</span>
+                  <span className="text-xs text-[#6B6B70]">•</span>
+                  <span className="text-xs text-[#6B6B70]">8 min</span>
+                </div>
+                <h3 className="text-white font-semibold group-hover:text-[#10b981] transition-colors">
+                  How to Read Stock Charts (Without Getting Overwhelmed)
+                </h3>
+              </Link>
+
+              <Link
+                href="/learn/5-numbers-every-investor-should-know"
+                className="block bg-[#0A0A0B] border border-[#1F1F23] rounded-xl p-5 hover:border-[#10b981] transition-colors group"
+              >
+                <div className="flex items-center gap-3 mb-1">
+                  <span className="text-xs text-[#10b981]">Analysis</span>
+                  <span className="text-xs text-[#6B6B70]">•</span>
+                  <span className="text-xs text-[#6B6B70]">6 min</span>
+                </div>
+                <h3 className="text-white font-semibold group-hover:text-[#10b981] transition-colors">
+                  5 Numbers Every Investor Should Know
+                </h3>
+              </Link>
+
+              <Link
+                href="/learn/dividend-investing-101"
+                className="block bg-[#0A0A0B] border border-[#1F1F23] rounded-xl p-5 hover:border-[#10b981] transition-colors group"
+              >
+                <div className="flex items-center gap-3 mb-1">
+                  <span className="text-xs text-[#10b981]">Strategy</span>
+                  <span className="text-xs text-[#6B6B70]">•</span>
+                  <span className="text-xs text-[#6B6B70]">7 min</span>
+                </div>
+                <h3 className="text-white font-semibold group-hover:text-[#10b981] transition-colors">
+                  Dividend Investing 101: Getting Paid to Hold Stocks
+                </h3>
+              </Link>
+            </div>
+
+            <div className="text-center mt-8">
+              <Link
+                href="/learn"
+                className="text-[#10b981] hover:text-[#34d399] text-sm font-medium transition-colors"
+              >
+                View all guides →
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="py-20 px-4">
           <div className="max-w-2xl mx-auto text-center">
@@ -230,8 +294,8 @@ export default function Home() {
             <div className="flex items-center gap-4">
               <Link href="/glossary" className="hover:text-[#10b981] transition-colors">Glossary</Link>
               <Link href="/tools" className="hover:text-[#10b981] transition-colors">Tools</Link>
+              <Link href="/learn" className="hover:text-[#10b981] transition-colors">Learn</Link>
               <Link href="/privacy" className="hover:text-[#10b981] transition-colors">Privacy</Link>
-              <Link href="/about" className="hover:text-[#10b981] transition-colors">About</Link>
             </div>
           </div>
         </div>
