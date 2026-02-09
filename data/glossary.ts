@@ -410,6 +410,58 @@ export const glossaryTerms: GlossaryTerm[] = [
     category: 'market',
     relatedTerms: ['sp500', 'nasdaq', 'etf'],
   },
+
+  // === New Terms (Day 25+) ===
+  {
+    slug: 'dollar-cost-averaging',
+    term: 'Dollar-Cost Averaging',
+    termEn: 'DCA',
+    definition: 'Investing a fixed amount at regular intervals regardless of stock price',
+    description: 'Dollar-cost averaging (DCA) means you invest the same amount of money on a regular schedule—say $500 every month—no matter what the market is doing. When prices are high, you buy fewer shares. When prices drop, you buy more. Over time, this smooths out your average cost per share and removes the stress of trying to time the market. Most 401(k) contributions already work this way.',
+    example: 'Invest $200/month in an S&P 500 ETF. In January you get 2 shares at $100, in February 4 shares at $50, in March 2.5 shares at $80. Average cost: $76.92/share instead of trying to guess the bottom.',
+    category: 'trading',
+    relatedTerms: ['etf', 'index', 'buy'],
+  },
+  {
+    slug: 'bid-ask-spread',
+    term: 'Bid-Ask Spread',
+    termEn: 'Bid-Offer Spread',
+    definition: 'The difference between the highest price a buyer will pay (bid) and the lowest price a seller will accept (ask)',
+    description: 'Every stock has two prices at any moment: the bid (what buyers offer) and the ask (what sellers want). The gap between them is the spread. A tight spread (small gap) means the stock is liquid and heavily traded—think Apple or Microsoft. A wide spread means fewer traders and higher cost to buy/sell. The spread is essentially a hidden transaction cost. Market makers profit from this gap.',
+    example: 'Stock XYZ: Bid $49.95, Ask $50.05. Spread = $0.10 (0.2%). If you buy at $50.05 and immediately sell, you lose $0.10 per share.',
+    category: 'trading',
+    relatedTerms: ['market-order', 'limit-order', 'buy', 'sell'],
+  },
+  {
+    slug: 'death-cross',
+    term: 'Death Cross',
+    termEn: 'Bearish Moving Average Crossover',
+    definition: 'When the 50-day moving average crosses below the 200-day moving average—a bearish signal',
+    description: 'The death cross is the opposite of the golden cross. It happens when a stock\'s short-term trend (50-day moving average) drops below its long-term trend (200-day moving average). Traders see this as a warning that momentum is shifting downward. It\'s not a guaranteed crash signal—sometimes stocks recover quickly. But historically, major market downturns (2008, 2020) were preceded by death crosses.',
+    example: 'In March 2020, the S&P 500 formed a death cross as COVID fears spread. The index had already dropped ~30% by the time the signal triggered.',
+    category: 'analysis',
+    relatedTerms: ['golden-cross', 'moving-average', 'bear-market'],
+  },
+  {
+    slug: 'vix',
+    term: 'VIX',
+    termEn: 'CBOE Volatility Index',
+    definition: 'The "Fear Index"—measures expected volatility in the S&P 500 over the next 30 days',
+    description: 'The VIX doesn\'t measure actual stock prices. It measures how scared (or calm) investors are about the future. A VIX below 15 means calm markets and low fear. Above 20 means rising anxiety. Above 30 means panic mode. The VIX spikes during crashes and corrections because investors rush to buy put options for protection, driving up options prices. Contrarian investors sometimes buy stocks when the VIX is extremely high, following the "be greedy when others are fearful" strategy.',
+    example: 'Normal market: VIX ~15. COVID crash (March 2020): VIX hit 82. If VIX is above 30, it might be a buying opportunity—historically, markets tend to recover from extreme fear.',
+    category: 'market',
+    relatedTerms: ['bear-market', 'bull-market', 'sp500'],
+  },
+  {
+    slug: 'diversification',
+    term: 'Diversification',
+    termEn: 'Risk Spreading',
+    definition: 'Spreading investments across different assets to reduce risk—don\'t put all your eggs in one basket',
+    description: 'Diversification is the closest thing to a free lunch in investing. By owning stocks across different sectors (tech, healthcare, energy), asset types (stocks, bonds, real estate), and regions (US, international, emerging markets), you reduce the chance that one bad investment wrecks your whole portfolio. If tech stocks crash but healthcare stocks hold steady, your diversified portfolio takes a smaller hit. The goal isn\'t to maximize returns—it\'s to get good returns while minimizing the chance of catastrophic losses.',
+    example: 'Bad: 100% of savings in Tesla stock. Better: 40% US stocks, 20% international stocks, 20% bonds, 10% real estate, 10% cash. One sector crashes? Your portfolio survives.',
+    category: 'basic',
+    relatedTerms: ['etf', 'index', 'market-cap'],
+  },
 ];
 
 // Get term by slug
