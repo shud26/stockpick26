@@ -1,59 +1,25 @@
 import type { Metadata } from "next";
-import { Inter, DM_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
-
-const dmMono = DM_Mono({
-  variable: "--font-dm-mono",
-  subsets: ["latin"],
-  weight: ["400", "500"],
-});
-
 export const metadata: Metadata = {
-  title: "Stock Market Glossary | Learn Stock Terms for Beginners | StockPick26",
-  description: "Learn stock market terminology for beginners. Simple explanations of PER, PBR, EPS, ROE, dividends, ETFs, and more. Free stock investing glossary.",
-  keywords: "stock glossary, stock terms, PER meaning, PBR meaning, EPS explained, stock investing basics, dividend yield, stock market for beginners",
+  title: "StockPick26 — 매일 시황 분석 & 종목 추천",
+  description: "AI가 매일 경제뉴스를 분석해 국내·미국 시황과 종목 추천을 정리합니다.",
   openGraph: {
-    title: "Stock Market Glossary | Learn Stock Terms | StockPick26",
-    description: "Learn stock market terminology for beginners. Simple explanations of investing terms.",
+    title: "StockPick26 — 매일 시황 분석 & 종목 추천",
+    description: "AI가 매일 경제뉴스를 분석해 국내·미국 시황과 종목 추천을 정리합니다.",
     type: "website",
     url: "https://stockpick26.com",
-    locale: "en_US",
     siteName: "StockPick26",
-  },
-  twitter: {
-    card: "summary",
-    title: "Stock Market Glossary | StockPick26",
-    description: "Learn stock market terminology for beginners.",
   },
   alternates: {
     canonical: "https://stockpick26.com",
   },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <head>
-        <meta name="robots" content="index, follow" />
-        <meta name="google-adsense-account" content="ca-pub-8600828705366909" />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8600828705366909"
-          crossOrigin="anonymous"
-        />
-      </head>
-      <body
-        className={`${inter.variable} ${dmMono.variable} antialiased min-h-screen bg-[#0A0A0B] text-white`}
-      >
+    <html lang="ko">
+      <body style={{ margin: 0, padding: 0, background: '#fff', color: '#111', fontFamily: 'system-ui, -apple-system, sans-serif' }}>
         {children}
       </body>
     </html>
