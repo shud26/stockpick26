@@ -147,9 +147,7 @@ export default async function DailyReportPage({ params }: { params: Promise<{ da
                     )}
 
                     {/* 차트 */}
-                    <div style={{ borderRadius: 8, overflow: 'hidden', border: '1px solid #e5e7eb' }}>
-                      <TradingViewWidget symbol={`KRX:${pick.ticker}`} height={280} theme="light" />
-                    </div>
+                    <TradingViewWidget symbol={`KRX:${pick.ticker}`} name={pick.name} />
                   </div>
                 );
               })}
@@ -195,9 +193,7 @@ export default async function DailyReportPage({ params }: { params: Promise<{ da
                     {pick.catalyst && (
                       <p style={{ fontSize: '0.8rem', color: '#16a34a', marginBottom: '1rem' }}>⚡ {pick.catalyst}</p>
                     )}
-                    <div style={{ borderRadius: 8, overflow: 'hidden', border: '1px solid #e5e7eb' }}>
-                      <TradingViewWidget symbol={`NASDAQ:${pick.ticker}`} height={280} theme="light" />
-                    </div>
+                    <TradingViewWidget symbol={`NASDAQ:${pick.ticker}`} name={pick.name} />
                   </div>
                 );
               })}
