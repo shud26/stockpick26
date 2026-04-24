@@ -47,8 +47,7 @@ export default async function DailyReportPage({ params }: { params: Promise<{ da
           </Link>
           <div style={{ display: 'flex', gap: '1.5rem' }}>
             <Link href="/daily" style={{ fontSize: '0.875rem', color: '#111', textDecoration: 'none', fontWeight: 600 }}>Daily</Link>
-            <Link href="/glossary" style={{ fontSize: '0.875rem', color: '#6b7280', textDecoration: 'none' }}>Glossary</Link>
-            <Link href="/tools" style={{ fontSize: '0.875rem', color: '#6b7280', textDecoration: 'none' }}>Tools</Link>
+            <Link href="/about" style={{ fontSize: '0.875rem', color: '#6b7280', textDecoration: 'none' }}>About</Link>
           </div>
         </div>
       </header>
@@ -244,6 +243,45 @@ export default async function DailyReportPage({ params }: { params: Promise<{ da
         </p>
 
       </main>
+
+      {/* 배너 — 주식 봇 예고 */}
+      <div style={{ background: '#f9fafb', borderTop: '1px solid #f3f4f6', padding: '2.5rem 1.5rem' }}>
+        <div style={{ maxWidth: 720, margin: '0 auto' }}>
+          <p style={{ fontSize: '0.7rem', fontWeight: 700, color: '#9ca3af', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
+            Coming Soon
+          </p>
+          <h3 style={{ fontSize: '1.1rem', fontWeight: 800, color: '#111', marginBottom: '0.5rem', letterSpacing: '-0.02em' }}>
+            주식 자동매매 봇 개발 중
+          </h3>
+          <p style={{ fontSize: '0.875rem', color: '#6b7280', lineHeight: 1.7, marginBottom: '1.25rem' }}>
+            KIS API 연동 ETF 자동매매 봇을 개발하고 있습니다.<br />
+            수익 현황을 이 사이트에서 실시간으로 공개할 예정입니다.
+          </p>
+          <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+            {['KIS API 연동', 'ETF MA 추세추종', '수익 공개', '알림 구독'].map(tag => (
+              <span key={tag} style={{
+                fontSize: '0.75rem', padding: '0.25rem 0.75rem',
+                background: '#fff', border: '1px solid #e5e7eb',
+                borderRadius: 999, color: '#374151'
+              }}>{tag}</span>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* 푸터 */}
+      <footer style={{ borderTop: '1px solid #f3f4f6', padding: '1.5rem', background: '#fff' }}>
+        <div style={{ maxWidth: 720, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '0.5rem' }}>
+          <p style={{ fontSize: '0.78rem', color: '#9ca3af', margin: 0 }}>
+            © 2026 StockPick26 — AI 시황 분석
+          </p>
+          <div style={{ display: 'flex', gap: '1.25rem' }}>
+            <Link href="/about" style={{ fontSize: '0.78rem', color: '#9ca3af', textDecoration: 'none' }}>About</Link>
+            <Link href="/privacy" style={{ fontSize: '0.78rem', color: '#9ca3af', textDecoration: 'none' }}>Privacy</Link>
+          </div>
+        </div>
+      </footer>
+
     </div>
   );
 }
