@@ -22,12 +22,13 @@ const ACTION_COLOR: Record<string, string> = {
 
 const STARS = (n: number) => '★'.repeat(n) + '☆'.repeat(5 - n);
 
-export default function DailyReportPage({ params }: { params: { date: string } }) {
-  const report = getReport(params.date);
+export default async function DailyReportPage({ params }: { params: Promise<{ date: string }> }) {
+  const { date } = await params;
+  const report = getReport(date);
   if (!report) notFound();
 
   const allDates = getAllReportDates();
-  const currentIdx = allDates.indexOf(params.date);
+  const currentIdx = allDates.indexOf(date);
   const prevDate = allDates[currentIdx + 1];
   const nextDate = allDates[currentIdx - 1];
   const sentiment = SENTIMENT_CONFIG[report.sentiment as keyof typeof SENTIMENT_CONFIG] ?? SENTIMENT_CONFIG.neutral;
