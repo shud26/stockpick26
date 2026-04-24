@@ -3,11 +3,12 @@
 import { useEffect, useRef } from 'react';
 
 interface Props {
-  symbol: string;   // e.g. "KRX:005930" or "NASDAQ:INTC"
+  symbol: string;
   height?: number;
+  theme?: 'light' | 'dark';
 }
 
-export function TradingViewWidget({ symbol, height = 300 }: Props) {
+export function TradingViewWidget({ symbol, height = 300, theme = 'light' }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -24,10 +25,10 @@ export function TradingViewWidget({ symbol, height = 300 }: Props) {
       symbol,
       interval: 'D',
       timezone: 'Asia/Seoul',
-      theme: 'dark',
+      theme,
       style: '1',
       locale: 'kr',
-      backgroundColor: '#111113',
+      backgroundColor: theme === 'light' ? '#ffffff' : '#111113',
       hide_top_toolbar: false,
       hide_legend: false,
       save_image: false,

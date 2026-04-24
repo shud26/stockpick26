@@ -8,16 +8,19 @@ export async function generateStaticParams() {
   return dates.map(date => ({ date }));
 }
 
-const SENTIMENT_CONFIG = {
-  bullish: { label: '강세 🟢', color: '#10b981' },
-  bearish: { label: '약세 🔴', color: '#ef4444' },
-  neutral: { label: '중립 🟡', color: '#f59e0b' },
+const SENTIMENT_MAP = {
+  bullish: { label: '강세장', color: '#16a34a', bg: '#f0fdf4' },
+  bearish: { label: '약세장', color: '#dc2626', bg: '#fef2f2' },
+  neutral: { label: '중립',   color: '#d97706', bg: '#fffbeb' },
 };
 
-const ACTION_COLOR: Record<string, string> = {
-  '매수': '#10b981', buy: '#10b981',
-  '관망': '#f59e0b', hold: '#f59e0b',
-  '비중축소': '#ef4444', sell: '#ef4444',
+const ACTION_MAP: Record<string, { color: string; bg: string }> = {
+  '매수': { color: '#16a34a', bg: '#f0fdf4' },
+  buy:    { color: '#16a34a', bg: '#f0fdf4' },
+  '관망': { color: '#d97706', bg: '#fffbeb' },
+  hold:   { color: '#d97706', bg: '#fffbeb' },
+  '비중축소': { color: '#dc2626', bg: '#fef2f2' },
+  sell:       { color: '#dc2626', bg: '#fef2f2' },
 };
 
 const STARS = (n: number) => '★'.repeat(n) + '☆'.repeat(5 - n);
@@ -28,175 +31,201 @@ export default async function DailyReportPage({ params }: { params: Promise<{ da
   if (!report) notFound();
 
   const allDates = getAllReportDates();
-  const currentIdx = allDates.indexOf(date);
-  const prevDate = allDates[currentIdx + 1];
-  const nextDate = allDates[currentIdx - 1];
-  const sentiment = SENTIMENT_CONFIG[report.sentiment as keyof typeof SENTIMENT_CONFIG] ?? SENTIMENT_CONFIG.neutral;
+  const idx = allDates.indexOf(date);
+  const prevDate = allDates[idx + 1];
+  const nextDate = allDates[idx - 1];
+  const sentiment = SENTIMENT_MAP[report.sentiment as keyof typeof SENTIMENT_MAP] ?? SENTIMENT_MAP.neutral;
 
   return (
-    <>
-      <header className="sticky top-0 z-50 border-b border-[#1F1F23] bg-[#0A0A0B]/90 backdrop-blur-sm">
-        <nav className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/" className="text-lg font-bold tracking-tight text-white hover:text-[#10b981] transition-colors">
+    <div style={{ background: '#fff', minHeight: '100vh', fontFamily: 'system-ui, -apple-system, sans-serif' }}>
+
+      {/* 헤더 */}
+      <header style={{ borderBottom: '1px solid #e5e7eb', padding: '1rem 0', position: 'sticky', top: 0, background: '#fff', zIndex: 50 }}>
+        <div style={{ maxWidth: 720, margin: '0 auto', padding: '0 1.5rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <Link href="/" style={{ fontWeight: 700, fontSize: '1rem', color: '#111', textDecoration: 'none', letterSpacing: '-0.02em' }}>
             StockPick26
           </Link>
-          <div className="flex items-center gap-4">
-            <Link href="/daily" className="text-sm text-[#10b981]">Daily Report</Link>
-            <Link href="/glossary" className="text-sm text-[#8B8B90] hover:text-white transition-colors">Glossary</Link>
-            <Link href="/tools" className="text-sm text-[#8B8B90] hover:text-white transition-colors">Tools</Link>
+          <div style={{ display: 'flex', gap: '1.5rem' }}>
+            <Link href="/daily" style={{ fontSize: '0.875rem', color: '#111', textDecoration: 'none', fontWeight: 600 }}>Daily</Link>
+            <Link href="/glossary" style={{ fontSize: '0.875rem', color: '#6b7280', textDecoration: 'none' }}>Glossary</Link>
+            <Link href="/tools" style={{ fontSize: '0.875rem', color: '#6b7280', textDecoration: 'none' }}>Tools</Link>
           </div>
-        </nav>
+        </div>
       </header>
 
-      <main className="max-w-4xl mx-auto px-4 py-10 space-y-10">
+      <main style={{ maxWidth: 720, margin: '0 auto', padding: '3rem 1.5rem 6rem' }}>
 
-        {/* 헤더 */}
-        <div>
-          <div className="flex items-center gap-3 mb-2">
-            <span className="text-xs text-[#6B6B70]">{report.date}</span>
-            <span className="text-xs text-[#6B6B70]">•</span>
-            <span className="text-xs text-[#6B6B70]">{report.generated_at} 생성</span>
-          </div>
-          <h1 className="text-2xl md:text-3xl font-bold text-white mb-3">
-            📊 오늘의 시황 리포트
+        {/* 날짜 + 제목 */}
+        <div style={{ marginBottom: '2.5rem' }}>
+          <p style={{ fontSize: '0.8rem', color: '#9ca3af', marginBottom: '0.5rem' }}>
+            {date} · {report.generated_at}
+          </p>
+          <h1 style={{ fontSize: '1.75rem', fontWeight: 800, color: '#111', lineHeight: 1.3, marginBottom: '0.75rem', letterSpacing: '-0.03em' }}>
+            오늘의 시황 리포트
           </h1>
-          <p className="text-[#ADADB0] text-lg leading-relaxed">{report.one_liner}</p>
+          <p style={{ fontSize: '1.05rem', color: '#374151', lineHeight: 1.7 }}>
+            {report.one_liner}
+          </p>
         </div>
 
-        {/* 시황 요약 */}
-        <section className="bg-[#111113] border border-[#1F1F23] rounded-2xl p-6">
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-white font-bold text-lg">시장 요약</h2>
-            <span className="text-sm font-medium px-3 py-1 rounded-full"
-              style={{ color: sentiment.color, backgroundColor: `${sentiment.color}20` }}>
+        <hr style={{ border: 'none', borderTop: '1px solid #f3f4f6', margin: '2rem 0' }} />
+
+        {/* 시장 요약 */}
+        <section style={{ marginBottom: '3rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
+            <h2 style={{ fontSize: '1rem', fontWeight: 700, color: '#111', margin: 0 }}>시장 요약</h2>
+            <span style={{
+              fontSize: '0.75rem', fontWeight: 600, padding: '0.2rem 0.6rem', borderRadius: 999,
+              color: sentiment.color, background: sentiment.bg
+            }}>
               {sentiment.label}
             </span>
           </div>
-          <p className="text-[#ADADB0] leading-relaxed">{report.market_summary}</p>
+          <p style={{ fontSize: '0.95rem', color: '#374151', lineHeight: 1.8, margin: 0 }}>
+            {report.market_summary}
+          </p>
         </section>
 
         {/* 핵심 테마 */}
         {report.key_themes?.length > 0 && (
-          <section>
-            <h2 className="text-white font-bold text-lg mb-4">💡 오늘의 핵심 테마</h2>
-            <div className="grid md:grid-cols-2 gap-3">
+          <section style={{ marginBottom: '3rem' }}>
+            <h2 style={{ fontSize: '1rem', fontWeight: 700, color: '#111', marginBottom: '1rem' }}>핵심 테마</h2>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem' }}>
               {report.key_themes.map((t: any, i: number) => (
-                <div key={i} className="bg-[#111113] border border-[#1F1F23] rounded-xl p-4">
-                  <p className="text-[#10b981] font-semibold text-sm mb-1">{t.theme}</p>
-                  <p className="text-[#ADADB0] text-sm leading-relaxed">{t.description}</p>
+                <div key={i} style={{ padding: '1rem', background: '#f9fafb', borderRadius: 8, border: '1px solid #f3f4f6' }}>
+                  <p style={{ fontSize: '0.8rem', fontWeight: 700, color: '#111', marginBottom: '0.3rem' }}>{t.theme}</p>
+                  <p style={{ fontSize: '0.8rem', color: '#6b7280', lineHeight: 1.6, margin: 0 }}>{t.description}</p>
                 </div>
               ))}
             </div>
           </section>
         )}
 
-        {/* 국내 종목 추천 */}
+        <hr style={{ border: 'none', borderTop: '1px solid #f3f4f6', margin: '2rem 0' }} />
+
+        {/* 국내 종목 */}
         {report.kr_picks?.length > 0 && (
-          <section>
-            <h2 className="text-white font-bold text-lg mb-4">🇰🇷 국내 종목 추천</h2>
-            <div className="space-y-4">
-              {report.kr_picks.map((pick: any, i: number) => (
-                <div key={i} className="bg-[#111113] border border-[#1F1F23] rounded-2xl p-5">
-                  <div className="flex items-start justify-between mb-3">
-                    <div>
-                      <span className="text-white font-bold text-lg">{pick.name}</span>
-                      <span className="text-[#6B6B70] text-sm ml-2">{pick.ticker}</span>
-                      <span className="text-[#f59e0b] text-sm ml-2">{STARS(pick.rating)}</span>
+          <section style={{ marginBottom: '3rem' }}>
+            <h2 style={{ fontSize: '1rem', fontWeight: 700, color: '#111', marginBottom: '1.5rem' }}>🇰🇷 국내 종목</h2>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '2.5rem' }}>
+              {report.kr_picks.map((pick: any, i: number) => {
+                const action = ACTION_MAP[pick.action] ?? { color: '#6b7280', bg: '#f9fafb' };
+                return (
+                  <div key={i}>
+                    {/* 종목 헤더 */}
+                    <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: '0.75rem' }}>
+                      <div>
+                        <span style={{ fontSize: '1.15rem', fontWeight: 800, color: '#111', letterSpacing: '-0.02em' }}>{pick.name}</span>
+                        <span style={{ fontSize: '0.8rem', color: '#9ca3af', marginLeft: '0.5rem' }}>{pick.ticker}</span>
+                        <span style={{ fontSize: '0.8rem', color: '#f59e0b', marginLeft: '0.5rem' }}>{STARS(pick.rating)}</span>
+                      </div>
+                      <span style={{
+                        fontSize: '0.75rem', fontWeight: 700, padding: '0.25rem 0.75rem',
+                        borderRadius: 999, color: action.color, background: action.bg
+                      }}>{pick.action}</span>
                     </div>
-                    <span className="text-sm font-bold px-3 py-1 rounded-full"
-                      style={{ color: ACTION_COLOR[pick.action] ?? '#fff', backgroundColor: `${ACTION_COLOR[pick.action] ?? '#fff'}20` }}>
-                      {pick.action}
-                    </span>
+
+                    {/* 분석 */}
+                    <p style={{ fontSize: '0.9rem', color: '#374151', lineHeight: 1.8, marginBottom: '1rem' }}>{pick.reason}</p>
+
+                    {/* 수치 */}
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '0.5rem', marginBottom: '1rem' }}>
+                      {[
+                        { label: '매수 구간', value: pick.buy_zone, color: '#374151' },
+                        { label: '목표가', value: pick.target, color: '#16a34a' },
+                        { label: '리스크', value: pick.risk, color: '#dc2626' },
+                      ].map((item, j) => (
+                        <div key={j} style={{ padding: '0.75rem', background: '#f9fafb', borderRadius: 8 }}>
+                          <p style={{ fontSize: '0.7rem', color: '#9ca3af', marginBottom: '0.25rem' }}>{item.label}</p>
+                          <p style={{ fontSize: '0.8rem', fontWeight: 600, color: item.color, margin: 0 }}>{item.value}</p>
+                        </div>
+                      ))}
+                    </div>
+
+                    {pick.catalyst && (
+                      <p style={{ fontSize: '0.8rem', color: '#16a34a', marginBottom: '1rem' }}>⚡ {pick.catalyst}</p>
+                    )}
+
+                    {/* 차트 */}
+                    <div style={{ borderRadius: 8, overflow: 'hidden', border: '1px solid #e5e7eb' }}>
+                      <TradingViewWidget symbol={`KRX:${pick.ticker}`} height={280} theme="light" />
+                    </div>
                   </div>
-                  <p className="text-[#ADADB0] text-sm leading-relaxed mb-3">{pick.reason}</p>
-                  <div className="grid grid-cols-3 gap-3 text-xs">
-                    <div className="bg-[#0A0A0B] rounded-lg p-2">
-                      <p className="text-[#6B6B70] mb-1">매수 구간</p>
-                      <p className="text-white font-medium">{pick.buy_zone}</p>
-                    </div>
-                    <div className="bg-[#0A0A0B] rounded-lg p-2">
-                      <p className="text-[#6B6B70] mb-1">목표가</p>
-                      <p className="text-[#10b981] font-medium">{pick.target}</p>
-                    </div>
-                    <div className="bg-[#0A0A0B] rounded-lg p-2">
-                      <p className="text-[#6B6B70] mb-1">리스크</p>
-                      <p className="text-[#ef4444] font-medium text-[11px]">{pick.risk}</p>
-                    </div>
-                  </div>
-                  {pick.catalyst && (
-                    <p className="mt-2 text-xs text-[#10b981]">⚡ {pick.catalyst}</p>
-                  )}
-                  {/* TradingView 차트 */}
-                  <div className="mt-4">
-                    <TradingViewWidget
-                      symbol={`KRX:${pick.ticker}`}
-                      height={300}
-                    />
-                  </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </section>
         )}
 
-        {/* 미국 종목 추천 */}
+        <hr style={{ border: 'none', borderTop: '1px solid #f3f4f6', margin: '2rem 0' }} />
+
+        {/* 미국 종목 */}
         {report.us_picks?.length > 0 && (
-          <section>
-            <h2 className="text-white font-bold text-lg mb-4">🇺🇸 미국 종목 추천</h2>
-            <div className="space-y-4">
-              {report.us_picks.map((pick: any, i: number) => (
-                <div key={i} className="bg-[#111113] border border-[#1F1F23] rounded-2xl p-5">
-                  <div className="flex items-start justify-between mb-3">
-                    <div>
-                      <span className="text-white font-bold text-lg">{pick.name}</span>
-                      <span className="text-[#6B6B70] text-sm ml-2">{pick.ticker}</span>
-                      <span className="text-[#f59e0b] text-sm ml-2">{STARS(pick.rating)}</span>
+          <section style={{ marginBottom: '3rem' }}>
+            <h2 style={{ fontSize: '1rem', fontWeight: 700, color: '#111', marginBottom: '1.5rem' }}>🇺🇸 미국 종목</h2>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '2.5rem' }}>
+              {report.us_picks.map((pick: any, i: number) => {
+                const action = ACTION_MAP[pick.action] ?? { color: '#6b7280', bg: '#f9fafb' };
+                return (
+                  <div key={i}>
+                    <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: '0.75rem' }}>
+                      <div>
+                        <span style={{ fontSize: '1.15rem', fontWeight: 800, color: '#111', letterSpacing: '-0.02em' }}>{pick.name}</span>
+                        <span style={{ fontSize: '0.8rem', color: '#9ca3af', marginLeft: '0.5rem' }}>{pick.ticker}</span>
+                        <span style={{ fontSize: '0.8rem', color: '#f59e0b', marginLeft: '0.5rem' }}>{STARS(pick.rating)}</span>
+                      </div>
+                      <span style={{
+                        fontSize: '0.75rem', fontWeight: 700, padding: '0.25rem 0.75rem',
+                        borderRadius: 999, color: action.color, background: action.bg
+                      }}>{pick.action}</span>
                     </div>
-                    <span className="text-sm font-bold px-3 py-1 rounded-full"
-                      style={{ color: ACTION_COLOR[pick.action] ?? '#fff', backgroundColor: `${ACTION_COLOR[pick.action] ?? '#fff'}20` }}>
-                      {pick.action}
-                    </span>
+                    <p style={{ fontSize: '0.9rem', color: '#374151', lineHeight: 1.8, marginBottom: '1rem' }}>{pick.reason}</p>
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '0.5rem', marginBottom: '1rem' }}>
+                      {[
+                        { label: 'Buy Zone', value: pick.buy_zone, color: '#374151' },
+                        { label: 'Target', value: pick.target, color: '#16a34a' },
+                        { label: 'Risk', value: pick.risk, color: '#dc2626' },
+                      ].map((item, j) => (
+                        <div key={j} style={{ padding: '0.75rem', background: '#f9fafb', borderRadius: 8 }}>
+                          <p style={{ fontSize: '0.7rem', color: '#9ca3af', marginBottom: '0.25rem' }}>{item.label}</p>
+                          <p style={{ fontSize: '0.8rem', fontWeight: 600, color: item.color, margin: 0 }}>{item.value}</p>
+                        </div>
+                      ))}
+                    </div>
+                    {pick.catalyst && (
+                      <p style={{ fontSize: '0.8rem', color: '#16a34a', marginBottom: '1rem' }}>⚡ {pick.catalyst}</p>
+                    )}
+                    <div style={{ borderRadius: 8, overflow: 'hidden', border: '1px solid #e5e7eb' }}>
+                      <TradingViewWidget symbol={`NASDAQ:${pick.ticker}`} height={280} theme="light" />
+                    </div>
                   </div>
-                  <p className="text-[#ADADB0] text-sm leading-relaxed mb-3">{pick.reason}</p>
-                  <div className="grid grid-cols-3 gap-3 text-xs">
-                    <div className="bg-[#0A0A0B] rounded-lg p-2">
-                      <p className="text-[#6B6B70] mb-1">Buy Zone</p>
-                      <p className="text-white font-medium">{pick.buy_zone}</p>
-                    </div>
-                    <div className="bg-[#0A0A0B] rounded-lg p-2">
-                      <p className="text-[#6B6B70] mb-1">Target</p>
-                      <p className="text-[#10b981] font-medium">{pick.target}</p>
-                    </div>
-                    <div className="bg-[#0A0A0B] rounded-lg p-2">
-                      <p className="text-[#6B6B70] mb-1">Risk</p>
-                      <p className="text-[#ef4444] font-medium text-[11px]">{pick.risk}</p>
-                    </div>
-                  </div>
-                  {pick.catalyst && (
-                    <p className="mt-2 text-xs text-[#10b981]">⚡ {pick.catalyst}</p>
-                  )}
-                  <div className="mt-4">
-                    <TradingViewWidget symbol={`NASDAQ:${pick.ticker}`} height={300} />
-                  </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </section>
         )}
 
         {/* 차트 포인트 */}
         {report.chart_points?.length > 0 && (
-          <section>
-            <h2 className="text-white font-bold text-lg mb-4">📈 차트 분석 포인트</h2>
-            <div className="grid md:grid-cols-2 gap-3">
+          <section style={{ marginBottom: '3rem' }}>
+            <h2 style={{ fontSize: '1rem', fontWeight: 700, color: '#111', marginBottom: '1rem' }}>차트 포인트</h2>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem' }}>
               {report.chart_points.map((cp: any, i: number) => (
-                <div key={i} className="bg-[#111113] border border-[#1F1F23] rounded-xl p-4">
-                  <p className="text-white font-semibold mb-2">{cp.name} <span className="text-[#6B6B70] text-xs">{cp.ticker}</span></p>
-                  <div className="space-y-1 text-xs text-[#ADADB0]">
-                    <p>🔑 핵심 레벨: <span className="text-white">{cp.key_level}</span></p>
-                    <p>📊 MA 시그널: <span className="text-white">{cp.ma_signal}</span></p>
-                    <p>💹 RSI: <span className="text-white">{cp.rsi_signal}</span></p>
-                    <p>📐 패턴: <span className="text-[#10b981]">{cp.pattern}</span></p>
+                <div key={i} style={{ padding: '1rem', background: '#f9fafb', borderRadius: 8, border: '1px solid #f3f4f6' }}>
+                  <p style={{ fontWeight: 700, fontSize: '0.85rem', color: '#111', marginBottom: '0.5rem' }}>
+                    {cp.name} <span style={{ color: '#9ca3af', fontWeight: 400 }}>{cp.ticker}</span>
+                  </p>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                    {[
+                      ['핵심 레벨', cp.key_level],
+                      ['MA', cp.ma_signal],
+                      ['RSI', cp.rsi_signal],
+                      ['패턴', cp.pattern],
+                    ].map(([k, v]) => (
+                      <p key={k} style={{ fontSize: '0.78rem', color: '#6b7280', margin: 0 }}>
+                        <span style={{ color: '#9ca3af' }}>{k} </span>{v}
+                      </p>
+                    ))}
                   </div>
                 </div>
               ))}
@@ -204,30 +233,21 @@ export default async function DailyReportPage({ params }: { params: Promise<{ da
           </section>
         )}
 
-        {/* 날짜 네비게이션 */}
-        <div className="flex items-center justify-between pt-4 border-t border-[#1F1F23]">
-          {prevDate ? (
-            <Link href={`/daily/${prevDate}`}
-              className="text-sm text-[#8B8B90] hover:text-white transition-colors">
-              ← {prevDate}
-            </Link>
-          ) : <div />}
-          <Link href="/daily" className="text-xs text-[#6B6B70] hover:text-[#10b981] transition-colors">
-            전체 아카이브
-          </Link>
-          {nextDate ? (
-            <Link href={`/daily/${nextDate}`}
-              className="text-sm text-[#8B8B90] hover:text-white transition-colors">
-              {nextDate} →
-            </Link>
-          ) : <div />}
+        {/* 날짜 네비 */}
+        <div style={{ display: 'flex', justifyContent: 'space-between', paddingTop: '2rem', borderTop: '1px solid #f3f4f6' }}>
+          {prevDate
+            ? <Link href={`/daily/${prevDate}`} style={{ fontSize: '0.85rem', color: '#6b7280', textDecoration: 'none' }}>← {prevDate}</Link>
+            : <span />}
+          {nextDate
+            ? <Link href={`/daily/${nextDate}`} style={{ fontSize: '0.85rem', color: '#6b7280', textDecoration: 'none' }}>{nextDate} →</Link>
+            : <span />}
         </div>
 
-        {/* 면책 */}
-        <p className="text-[11px] text-[#4B4B50] text-center pb-6">
-          본 리포트는 AI가 생성한 정보로 투자 권유가 아닙니다. 투자의 최종 결정은 본인의 판단으로 하시기 바랍니다.
+        <p style={{ fontSize: '0.72rem', color: '#d1d5db', textAlign: 'center', marginTop: '3rem' }}>
+          AI가 생성한 정보로 투자 권유가 아닙니다. 투자 결정은 본인의 판단으로 하세요.
         </p>
+
       </main>
-    </>
+    </div>
   );
 }
