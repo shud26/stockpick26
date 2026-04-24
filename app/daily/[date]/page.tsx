@@ -63,7 +63,7 @@ export default async function DailyReportPage({ params }: { params: Promise<{ da
             오늘의 시황 리포트
           </h1>
           <p style={{ fontSize: '1.05rem', color: '#374151', lineHeight: 1.7 }}>
-            {report.one_liner}
+            {report.one_liner || report.conclusion}
           </p>
         </div>
 
@@ -112,7 +112,7 @@ export default async function DailyReportPage({ params }: { params: Promise<{ da
                 return (
                   <div key={i}>
                     {/* 종목 헤더 */}
-                    <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: '0.75rem' }}>
+                    <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
                       <div>
                         <span style={{ fontSize: '1.15rem', fontWeight: 800, color: '#111', letterSpacing: '-0.02em' }}>{pick.name}</span>
                         <span style={{ fontSize: '0.8rem', color: '#9ca3af', marginLeft: '0.5rem' }}>{pick.ticker}</span>
@@ -124,19 +124,34 @@ export default async function DailyReportPage({ params }: { params: Promise<{ da
                       }}>{pick.action}</span>
                     </div>
 
+                    {/* 섹터 */}
+                    {pick.sector && (
+                      <p style={{ fontSize: '0.75rem', color: '#6b7280', marginBottom: '0.75rem' }}>
+                        <span style={{ background: '#f3f4f6', padding: '0.15rem 0.5rem', borderRadius: 4 }}>{pick.sector}</span>
+                      </p>
+                    )}
+
+                    {/* 뉴스 근거 */}
+                    {pick.news_basis && (
+                      <p style={{ fontSize: '0.82rem', color: '#6b7280', fontStyle: 'italic', borderLeft: '3px solid #e5e7eb', paddingLeft: '0.75rem', marginBottom: '0.75rem', lineHeight: 1.6 }}>
+                        📰 {pick.news_basis}
+                      </p>
+                    )}
+
                     {/* 분석 */}
                     <p style={{ fontSize: '0.9rem', color: '#374151', lineHeight: 1.8, marginBottom: '1rem' }}>{pick.reason}</p>
 
                     {/* 수치 */}
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '0.5rem', marginBottom: '1rem' }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '0.5rem', marginBottom: '1rem' }}>
                       {[
                         { label: '매수 구간', value: pick.buy_zone, color: '#374151' },
                         { label: '목표가', value: pick.target, color: '#16a34a' },
-                        { label: '리스크', value: pick.risk, color: '#dc2626' },
+                        { label: '손절', value: pick.stop_loss, color: '#dc2626' },
+                        { label: '리스크', value: pick.risk, color: '#9ca3af' },
                       ].map((item, j) => (
                         <div key={j} style={{ padding: '0.75rem', background: '#f9fafb', borderRadius: 8 }}>
                           <p style={{ fontSize: '0.7rem', color: '#9ca3af', marginBottom: '0.25rem' }}>{item.label}</p>
-                          <p style={{ fontSize: '0.8rem', fontWeight: 600, color: item.color, margin: 0 }}>{item.value}</p>
+                          <p style={{ fontSize: '0.78rem', fontWeight: 600, color: item.color, margin: 0, lineHeight: 1.4 }}>{item.value}</p>
                         </div>
                       ))}
                     </div>
@@ -165,7 +180,7 @@ export default async function DailyReportPage({ params }: { params: Promise<{ da
                 const action = ACTION_MAP[pick.action] ?? { color: '#6b7280', bg: '#f9fafb' };
                 return (
                   <div key={i}>
-                    <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: '0.75rem' }}>
+                    <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
                       <div>
                         <span style={{ fontSize: '1.15rem', fontWeight: 800, color: '#111', letterSpacing: '-0.02em' }}>{pick.name}</span>
                         <span style={{ fontSize: '0.8rem', color: '#9ca3af', marginLeft: '0.5rem' }}>{pick.ticker}</span>
@@ -176,16 +191,27 @@ export default async function DailyReportPage({ params }: { params: Promise<{ da
                         borderRadius: 999, color: action.color, background: action.bg
                       }}>{pick.action}</span>
                     </div>
+                    {pick.sector && (
+                      <p style={{ fontSize: '0.75rem', color: '#6b7280', marginBottom: '0.75rem' }}>
+                        <span style={{ background: '#f3f4f6', padding: '0.15rem 0.5rem', borderRadius: 4 }}>{pick.sector}</span>
+                      </p>
+                    )}
+                    {pick.news_basis && (
+                      <p style={{ fontSize: '0.82rem', color: '#6b7280', fontStyle: 'italic', borderLeft: '3px solid #e5e7eb', paddingLeft: '0.75rem', marginBottom: '0.75rem', lineHeight: 1.6 }}>
+                        📰 {pick.news_basis}
+                      </p>
+                    )}
                     <p style={{ fontSize: '0.9rem', color: '#374151', lineHeight: 1.8, marginBottom: '1rem' }}>{pick.reason}</p>
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '0.5rem', marginBottom: '1rem' }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '0.5rem', marginBottom: '1rem' }}>
                       {[
                         { label: 'Buy Zone', value: pick.buy_zone, color: '#374151' },
                         { label: 'Target', value: pick.target, color: '#16a34a' },
-                        { label: 'Risk', value: pick.risk, color: '#dc2626' },
+                        { label: 'Stop Loss', value: pick.stop_loss, color: '#dc2626' },
+                        { label: 'Risk', value: pick.risk, color: '#9ca3af' },
                       ].map((item, j) => (
                         <div key={j} style={{ padding: '0.75rem', background: '#f9fafb', borderRadius: 8 }}>
                           <p style={{ fontSize: '0.7rem', color: '#9ca3af', marginBottom: '0.25rem' }}>{item.label}</p>
-                          <p style={{ fontSize: '0.8rem', fontWeight: 600, color: item.color, margin: 0 }}>{item.value}</p>
+                          <p style={{ fontSize: '0.78rem', fontWeight: 600, color: item.color, margin: 0, lineHeight: 1.4 }}>{item.value}</p>
                         </div>
                       ))}
                     </div>
