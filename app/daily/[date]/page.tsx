@@ -218,7 +218,7 @@ export default async function DailyReportPage({ params }: { params: Promise<{ da
                     {pick.catalyst && (
                       <p style={{ fontSize: '0.8rem', color: '#16a34a', marginBottom: '1rem' }}>⚡ {pick.catalyst}</p>
                     )}
-                    <TradingViewWidget symbol={`NASDAQ:${pick.ticker}`} name={pick.name} />
+                    <TradingViewWidget symbol={`${pick.exchange || 'NASDAQ'}:${pick.ticker}`} name={pick.name} />
                   </div>
                 );
               })}
