@@ -1,0 +1,95 @@
+{
+  "date": "2026-04-27",
+  "generated_at": "2026-04-27 01:00 KST",
+  "headline": "2026년 4월 26일 경제 뉴스 요약: 케냐 선수, 마라톤 2시간 벽 깨고, 주택 입주 통계 엇갈리며 공포 구간에 접어들다",
+  "sentiment": "bearish",
+  "fear_greed": "공포 구간, 탐욕 과열 주의",
+  "market_overview": "2026년 4월 26일, 케냐 선수 사웨가 마라톤 2시간 벽을 깨는 기록을 세웠다. 서울 주택 입주 통계가 민간 플랫폼과 공공기관 간 엇갈리는 상황이 발생했다. 미국에서는 대규모 구조조정이 진행되고 있으며, 연명의료 유보 및 중단 건수가 50만 건을 돌파했다. 증시 급등으로 미성년 투자자들의 주식 가치가 크게 상승했다.",
+  "key_themes": [
+    {
+      "theme": "주택 입주 통계",
+      "description": "민간 플랫폼과 공공기관 간 주택 입주 통계가 엇갈리는 상황이 발생했다.",
+      "sector": "부동산"
+    },
+    {
+      "theme": "연명의료",
+      "description": "연명의료 유보 및 중단 건수가 8년 만에 50만 건을 돌파했다.",
+      "sector": "보건"
+    },
+    {
+      "theme": "미성년 투자자",
+      "description": "증시 급등으로 미성년 투자자들의 주식 가치가 크게 상승했다.",
+      "sector": "금융"
+    },
+    {
+      "theme": "구조조정",
+      "description": "메타플랫폼이 대규모 구조조정을 발표했으나 주가 상승에 미치지 못했다.",
+      "sector": "기술"
+    }
+  ],
+  "kr_headlines": [
+    {
+      "title": "4.4만가구 vs 1.4만가구…서울 입주물량 통계 ‘3배 차이’ 무슨 일",
+      "summary": "민간 플랫폼과 공공기관 간 서울 아파트 입주 통계가 엇갈리며 주택 시장의 혼란이 예상된다.",
+      "impact": "부정",
+      "source": "머니"
+    },
+    {
+      "title": "“반도체 슈퍼사이클 저희도 탑니다”…핵심소재 주목하는 석화업계",
+      "summary": "석유화학 기업들이 고부가가치 시장인 반도체 소재에 무게를 두고 있다.",
+      "impact": "긍정",
+      "source": "머니"
+    },
+    {
+      "title": "“엄마, 주식 이런 거였어요”…불장에 ‘돈맛’ 본 아이들, 보유주식 3조 육박",
+      "summary": "증시 급등으로 미성년 투자자들의 주식 가치가 크게 상승했다.",
+      "impact": "중립",
+      "source": "머니"
+    },
+    {
+      "title": "연명치료 유보·중단, 8년 새 50만건 넘어…“남성이 여성보다 많아”",
+      "summary": "연명의료 유보 및 중단 건수가 8년 만에 50만 건을 돌파했다.",
+      "impact": "부정",
+      "source": "머니"
+    },
+    {
+      "title": "“너희가 AI 투자한다고 되겠어?”...8천명 날려도 주가 힘 못쓰는 메타",
+      "summary": "메타플랫폼이 대규모 구조조정을 발표했으나 주가 상승에 미치지 못했다.",
+      "impact": "부정",
+      "source": "머니"
+    }
+  ],
+  "us_headlines": [
+    {
+      "title": "As mass layoffs threaten jobs, here are 4 smart moves to protect yourself",
+      "summary": "대규모 구조조정으로 인한 직장 보호를 위한 4가지 전략.",
+      "impact": "부정",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Planning to age in place? Watch out for these hidden costs.",
+      "summary": "자택에서 노후를 보내려는 경우 숨겨진 비용을 주의해야 한다.",
+      "impact": "부정",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Medicare Advantage buyers, beware: The rules for selling plans are changing — and could harm seniors",
+      "summary": "메디케어 어드밴티지 판매 규칙이 변경되며 고령자에게 해가 될 수 있다.",
+      "impact": "부정",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "I’m exactly 5 years from retirement. Here’s what I’ll do first to prepare.",
+      "summary": "퇴직 5년 전에 해야 할 첫 번째 준비사항.",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "As mass layoffs threaten jobs, here are 4 smart moves to protect yourself",
+      "summary": "대규모 구조조정으로 인한 직장 보호를 위한 4가지 전략.",
+      "impact": "부정",
+      "source": "MarketWatch"
+    }
+  ],
+  "conclusion": "2026년 4월 26일, 주택 입주 통계의 불일치와 연명의료 유보 건수의 증가, 미성년 투자자의 증가 등 다양한 이슈가 발생했다. 특히 미국에서는 대규모 구조조정이 진행되며 직장 보호 전략에 대한 관심이 높아질 것으로 예상된다. 내일은 이러한 이슈들이 시장에 어떤 영향을 미칠지 주목해야 할 것이다."
+}
