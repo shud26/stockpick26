@@ -46,7 +46,8 @@ export default async function DailyReportPage({ params }: { params: Promise<{ da
             StockPick26
           </Link>
           <div style={{ display: 'flex', gap: '1.5rem' }}>
-            <Link href="/daily" style={{ fontSize: '0.875rem', color: '#111', textDecoration: 'none', fontWeight: 600 }}>Daily</Link>
+            <Link href="/news"  style={{ fontSize: '0.875rem', color: '#6b7280', textDecoration: 'none' }}>뉴스</Link>
+            <Link href="/daily" style={{ fontSize: '0.875rem', color: '#111', textDecoration: 'none', fontWeight: 600 }}>종목추천</Link>
             <Link href="/about" style={{ fontSize: '0.875rem', color: '#6b7280', textDecoration: 'none' }}>About</Link>
           </div>
         </div>
