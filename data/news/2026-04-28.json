@@ -1,0 +1,95 @@
+{
+  "date": "2026-04-28",
+  "generated_at": "2026-04-28 01:00 KST",
+  "headline": "2026년 4월 28일 경제 뉴스: 국내외 주요 기업의 이슈와 경제 동향",
+  "sentiment": "neutral",
+  "fear_greed": "시장 심리는 중립적입니다. 투자자들은 주요 기업들의 실적과 경제 지표를 주목하고 있습니다.",
+  "market_overview": "국내외 시장은 혼조세를 보이고 있습니다. 주요 기업들의 실적 발표와 경제 지표 발표가 예정되어 있어 투자자들의 관심이 집중되고 있습니다.",
+  "key_themes": [
+    {
+      "theme": "기업 실적",
+      "description": "주요 기업들의 실적 발표가 진행되고 있습니다.",
+      "sector": "전체"
+    },
+    {
+      "theme": "기술 혁신",
+      "description": "기술 기업들의 혁신적인 제품과 서비스가 주목받고 있습니다.",
+      "sector": "기술"
+    },
+    {
+      "theme": "금융 정책",
+      "description": "중앙은행의 금융 정책 변화가 경제에 미치는 영향을 분석하고 있습니다.",
+      "sector": "금융"
+    },
+    {
+      "theme": "환경 지속 가능성",
+      "description": "기업들의 환경 지속 가능성 노력이 주목받고 있습니다.",
+      "sector": "환경"
+    }
+  ],
+  "kr_headlines": [
+    {
+      "title": "개인정보 털려도 ‘약관 안보셨어요?’…오픈마켓 갑질 이제 못한다",
+      "summary": "공정위가 오픈마켓의 불공정약관을 시정하기로 결정했습니다.",
+      "impact": "중립",
+      "source": "머니"
+    },
+    {
+      "title": "8개월간 치밀하게 준비…항공사 동료 살해범의 소름 돋는 시나리오",
+      "summary": "항공사 동료를 살해한 김동환의 범행 계획이 공소장에서 확인되었습니다.",
+      "impact": "부정",
+      "source": "머니"
+    },
+    {
+      "title": "세아창원특수강 ‘총수 부당지원’ 1심서 무죄",
+      "summary": "세아창원특수강이 총수 일가의 개인 회사를 부당하게 지원한 혐의로 기소된 사건에서 무죄 판결을 받았습니다.",
+      "impact": "긍정",
+      "source": "머니"
+    },
+    {
+      "title": "다이아 대신 손가락 ‘반지 문신’…MZ세대 약혼 문화 확산",
+      "summary": "MZ세대의 약혼 문화로 문신 반지가 새로운 트렌드로 떠오르고 있습니다.",
+      "impact": "중립",
+      "source": "머니"
+    },
+    {
+      "title": "이란 석유 400만 배럴 호르무즈 통과",
+      "summary": "이란 석유가 호르무즈 해협을 통과하며 국제 유가에 영향을 미치고 있습니다.",
+      "impact": "부정",
+      "source": "머니"
+    }
+  ],
+  "us_headlines": [
+    {
+      "title": "Microsoft and OpenAI aren’t breaking up. But they’re not exclusive anymore.",
+      "summary": "Microsoft와 OpenAI가 새로운 협력 계약을 체결했습니다.",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "A record 20 million single women own homes — even though it’s more expensive for a woman to buy a house than a man",
+      "summary": "싱글 여성의 주택 소유자가 기록적으로 증가하고 있습니다.",
+      "impact": "긍정",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Apple is defying a global smartphone slump, as shown through this first-time feat",
+      "summary": "Apple이 전 세계 스마트폰 시장에서 성과를 내고 있습니다.",
+      "impact": "긍정",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Want the lowest mortgage rate you can get? Credit-scoring changes mean home buyers need a new strategy.",
+      "summary": "신용 점수 변화로 집 구매자가 새로운 전략을 필요로 합니다.",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "A record 20 million single women own homes — even though it’s more expensive for a woman to buy a house than a man",
+      "summary": "싱글 여성의 주택 소유자가 기록적으로 증가하고 있습니다.",
+      "impact": "긍정",
+      "source": "MarketWatch"
+    }
+  ],
+  "conclusion": "2026년 4월 28일의 경제 뉴스는 다양한 주제를 다루고 있습니다. 국내에서는 오픈마켓의 불공정약관 시정과 세아창원특수강의 무죄 판결 등이 주목받고 있으며, 미국에서는 Microsoft와 OpenAI의 협력 계약과 Apple의 성과 등이 주요 이슈입니다. 투자자들은 이러한 이슈들과 함께 주요 기업들의 실적 발표와 경제 지표 발표를 주목해야 할 것으로 보입니다."
+}
