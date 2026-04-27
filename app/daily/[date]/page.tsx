@@ -145,12 +145,12 @@ export default async function DailyReportPage({ params }: { params: Promise<{ da
                     {/* 수치 */}
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '0.5rem', marginBottom: '1rem' }}>
                       {[
+                        { label: '현재가', value: pick.current_price ? Number(pick.current_price).toLocaleString('ko-KR') + '원' : '-', color: '#111' },
                         { label: '매수 구간', value: pick.buy_zone, color: '#374151' },
                         { label: '목표가', value: pick.target, color: '#16a34a' },
                         { label: '손절', value: pick.stop_loss, color: '#dc2626' },
-                        { label: '리스크', value: pick.risk, color: '#9ca3af' },
                       ].map((item, j) => (
-                        <div key={j} style={{ padding: '0.75rem', background: '#f9fafb', borderRadius: 8 }}>
+                        <div key={j} style={{ padding: '0.75rem', background: j === 0 ? '#f0f9ff' : '#f9fafb', borderRadius: 8, border: j === 0 ? '1px solid #bae6fd' : 'none' }}>
                           <p style={{ fontSize: '0.7rem', color: '#9ca3af', marginBottom: '0.25rem' }}>{item.label}</p>
                           <p style={{ fontSize: '0.78rem', fontWeight: 600, color: item.color, margin: 0, lineHeight: 1.4 }}>{item.value}</p>
                         </div>
@@ -205,12 +205,12 @@ export default async function DailyReportPage({ params }: { params: Promise<{ da
                     <p style={{ fontSize: '0.9rem', color: '#374151', lineHeight: 1.8, marginBottom: '1rem' }}>{pick.reason}</p>
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '0.5rem', marginBottom: '1rem' }}>
                       {[
+                        { label: 'Current', value: pick.current_price ? '$' + Number(pick.current_price).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '-', color: '#111' },
                         { label: 'Buy Zone', value: pick.buy_zone, color: '#374151' },
                         { label: 'Target', value: pick.target, color: '#16a34a' },
                         { label: 'Stop Loss', value: pick.stop_loss, color: '#dc2626' },
-                        { label: 'Risk', value: pick.risk, color: '#9ca3af' },
                       ].map((item, j) => (
-                        <div key={j} style={{ padding: '0.75rem', background: '#f9fafb', borderRadius: 8 }}>
+                        <div key={j} style={{ padding: '0.75rem', background: j === 0 ? '#f0f9ff' : '#f9fafb', borderRadius: 8, border: j === 0 ? '1px solid #bae6fd' : 'none' }}>
                           <p style={{ fontSize: '0.7rem', color: '#9ca3af', marginBottom: '0.25rem' }}>{item.label}</p>
                           <p style={{ fontSize: '0.78rem', fontWeight: 600, color: item.color, margin: 0, lineHeight: 1.4 }}>{item.value}</p>
                         </div>
