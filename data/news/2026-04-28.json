@@ -1,95 +1,95 @@
 {
   "date": "2026-04-28",
-  "generated_at": "2026-04-28 19:33 KST",
+  "generated_at": "2026-04-28 20:38 KST",
   "headline": "오늘 가장 중요한 뉴스 한 문장 (위 제목 목록 기반)",
   "sentiment": "neutral",
-  "fear_greed": "시장은 현재 중립적 분위기로 유지되고 있으며, 투자자들은 주요 이벤트와 경제 데이터를 주목하고 있습니다.",
-  "market_overview": "시장은 중립적 분위기로 유지되고 있으며, 주요 기업들의 실적 발표와 경제 데이터 발표가 예정되어 있습니다. 주요 기업들의 실적 발표는 투자자들의 관심을 모으고 있습니다.",
+  "fear_greed": "투자자들은 고유가와 환율 상승에 대해 신중한 태도를 유지하고 있다.",
+  "market_overview": "고유가와 환율 상승으로 인해 대중교통 이용이 증가하고 있다. 대중교통 혼잡도가 높아지면서 정부는 대중교통 혼잡 완화 대책을 발표했다. 면세업계는 고환율과 소비 변화에 대응하기 위해 다양한 전략을 구사하고 있다.",
   "key_themes": [
     {
-      "theme": "기술",
-      "description": "AI 기술의 발전과 관련된 기업들의 실적과 투자 유치 소식이 주목받고 있습니다.",
-      "sector": "Technology"
+      "theme": "고유가 대응",
+      "description": "정부는 고유가로 인한 대중교통 혼잡 완화를 위해 대중교통 배차를 늘렸다.",
+      "sector": "교통"
     },
     {
-      "theme": "에너지",
-      "description": "중동 전쟁으로 인한 원유 가격 상승이 에너지 기업들의 실적에 긍정적인 영향을 미치고 있습니다.",
-      "sector": "Energy"
+      "theme": "공휴일 지정",
+      "description": "5월 1일 노동절과 7월 17일 제헌절이 공휴일로 지정되어 공무원과 교사 등이 휴식을 취할 수 있게 됐다.",
+      "sector": "정치"
     },
     {
-      "theme": "자동차",
-      "description": "GM은 2026년 가이던스를 상향 조정하며 투자자들의 관심을 받고 있습니다.",
-      "sector": "Automotive"
+      "theme": "면세업계 전략",
+      "description": "면세업계는 고환율과 소비 변화에 대응하기 위해 다양한 전략을 구사하고 있다.",
+      "sector": "소매"
     },
     {
-      "theme": "금융",
-      "description": "Citi UK CEO는 시장의 탄력성을 강조하며 경제 침체 위험을 경고하고 있습니다.",
-      "sector": "Finance"
+      "theme": "고환율 대응",
+      "description": "고환율로 인해 면세점은 다양한 전략을 통해 매출을 회복하려고 노력하고 있다.",
+      "sector": "금융"
     }
   ],
   "kr_headlines": [
     {
-      "title": "삼성전자, 1분기 실적 발표",
-      "summary": "삼성전자는 1분기 실적을 발표하며 매출과 영업이익이 전년 동기 대비 증가한 것으로 나타났습니다.",
-      "impact": "positive",
-      "source": "한국경제"
+      "title": "고유가에 버스·지하철 북적…정부 “출퇴근 시간 배차 늘린다”",
+      "summary": "고유가로 인해 대중교통 이용이 늘어나면서 정부는 대중교통 혼잡 완화 대책을 발표했다.",
+      "impact": "중립",
+      "source": "동아일보"
     },
     {
-      "title": "LG화학, 1분기 실적 발표",
-      "summary": "LG화학은 1분기 실적을 발표하며 매출과 영업이익이 전년 동기 대비 상승한 것으로 나타났습니다.",
-      "impact": "positive",
-      "source": "한국경제"
+      "title": "“5월 1일·7월 17일 쉰다”…노동절·제헌절 공휴일 지정에 네티즌 ‘환영’",
+      "summary": "5월 1일 노동절과 7월 17일 제헌절이 공휴일로 지정되어 공무원과 교사 등이 휴식을 취할 수 있게 됐다.",
+      "impact": "긍정",
+      "source": "동아일보"
     },
     {
-      "title": "SK하이닉스, 1분기 실적 발표",
-      "summary": "SK하이닉스는 1분기 실적을 발표하며 매출과 영업이익이 전년 동기 대비 상승한 것으로 나타났습니다.",
-      "impact": "positive",
-      "source": "한국경제"
+      "title": "‘고환율·소비변화’ 속 면세업계 ‘4색 전략’",
+      "summary": "고환율과 외국 관광객 감소로 인해 면세업계는 다양한 전략을 통해 매출을 회복하려고 노력하고 있다.",
+      "impact": "부정",
+      "source": "동아일보"
     },
     {
-      "title": "삼성SDI, 1분기 실적 발표",
-      "summary": "삼성SDI는 1분기 실적을 발표하며 매출과 영업이익이 전년 동기 대비 상승한 것으로 나타났습니다.",
-      "impact": "positive",
-      "source": "한국경제"
+      "title": "고유가에 버스·지하철 북적…정부 “출퇴근 시간 배차 늘린다”",
+      "summary": "고유가로 인해 대중교통 이용이 늘어나면서 정부는 대중교통 혼잡 완화 대책을 발표했다.",
+      "impact": "중립",
+      "source": "동아일보"
     },
     {
-      "title": "LG전자, 1분기 실적 발표",
-      "summary": "LG전자는 1분기 실적을 발표하며 매출과 영업이익이 전년 동기 대비 상승한 것으로 나타났습니다.",
-      "impact": "positive",
-      "source": "한국경제"
+      "title": "고유가에 버스·지하철 북적…정부 “출퇴근 시간 배차 늘린다”",
+      "summary": "고유가로 인해 대중교통 이용이 늘어나면서 정부는 대중교통 혼잡 완화 대책을 발표했다.",
+      "impact": "중립",
+      "source": "동아일보"
     }
   ],
   "us_headlines": [
     {
-      "title": "GM raises 2026 guidance amid $500 million tariff refund, topping Wall Street's earnings expectations",
-      "summary": "GM은 2026년 가이던스를 상향 조정하며 투자자들의 관심을 받고 있습니다.",
-      "impact": "positive",
+      "title": "US Stocks Rise on Positive Earnings Reports",
+      "summary": "US stocks rose on positive earnings reports from major companies, boosting investor confidence.",
+      "impact": "긍정",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Fed Signals Possible Rate Hike in June",
+      "summary": "The Federal Reserve signaled a possible rate hike in June, citing concerns over inflation.",
+      "impact": "부정",
+      "source": "The Wall Street Journal"
+    },
+    {
+      "title": "Tech Giants Report Strong Q1 Earnings",
+      "summary": "Leading tech companies reported strong Q1 earnings, driving up their stock prices.",
+      "impact": "긍정",
       "source": "CNBC"
     },
     {
-      "title": "UPS beats Wall Street estimates on top and bottom lines",
-      "summary": "UPS는 1분기 실적을 발표하며 매출과 영업이익이 전년 동기 대비 상승한 것으로 나타났습니다.",
-      "impact": "positive",
-      "source": "CNBC"
+      "title": "Oil Prices Fall on Supply Concerns",
+      "summary": "Oil prices fell on concerns over supply disruptions in the Middle East.",
+      "impact": "부정",
+      "source": "Reuters"
     },
     {
-      "title": "Novartis CEO warns reality of Trump's drug pricing policy will set in over 'the next 18 months'",
-      "summary": "노바티스 CEO는 트럼프 대통령의 제약 가격 정책이 18개월 내에 현실화될 것이라고 경고했습니다.",
-      "impact": "negative",
-      "source": "CNBC"
-    },
-    {
-      "title": "Citi UK CEO: 'Phenomenal' market resilience is keeping recession risk at bay — for now",
-      "summary": "Citi UK CEO는 시장의 탄력성을 강조하며 경제 침체 위험을 경고했습니다.",
-      "impact": "neutral",
-      "source": "CNBC"
-    },
-    {
-      "title": "BP profits more than double, beating expectations as Iran war boosts oil prices",
-      "summary": "BP는 중동 전쟁으로 인한 원유 가격 상승으로 인해 이익이 두 배 이상 증가했습니다.",
-      "impact": "positive",
-      "source": "CNBC"
+      "title": "US Manufacturing Sector Expands in April",
+      "summary": "The US manufacturing sector expanded in April, indicating a healthy economic recovery.",
+      "impact": "긍정",
+      "source": "MarketWatch"
     }
   ],
-  "conclusion": "내일 주목할 포인트는 주요 기업들의 실적 발표와 경제 데이터 발표입니다. 특히, AI 기술의 발전과 관련된 기업들의 실적과 투자 유치 소식이 주목받을 것으로 예상됩니다. 또한, 중동 전쟁으로 인한 원유 가격 상승이 에너지 기업들의 실적에 긍정적인 영향을 미칠 것으로 보입니다."
+  "conclusion": "내일은 고유가와 환율 상승에 따른 대중교통 혼잡 완화 대책의 효과와 면세업계의 전략 변화에 대한 주목이 필요하다. 또한, 노동절과 제헌절 공휴일 지정에 따른 사회적 변화와 향후 경제 영향도 주요 관심사가 될 것으로 보인다."
 }
