@@ -1,0 +1,102 @@
+{
+  "date": "2026-04-29",
+  "generated_at": "2026-04-29 07:00 KST",
+  "sentiment": "bullish",
+  "fear_greed": "시장은 중동 전쟁으로 인한 원유 공급 불안과 함께 AI 기술 혁신에 대한 긍정적인 기대감을 보이고 있습니다.",
+  "market_summary": "중동 전쟁으로 인한 원유 공급 불안과 AI 기술 혁신에 대한 긍정적인 기대감이 복합적으로 작용하고 있습니다. 원유 가격 상승으로 에너지 섹터가 강세를 보이며, AI 기술 혁신에 대한 기대감으로 정보기술(IT) 섹터가 상승세를 유지하고 있습니다.",
+  "conclusion": "중동 전쟁으로 인한 원유 공급 불안은 에너지 섹터에 긍정적인 영향을 미칠 전망입니다. AI 기술 혁신에 대한 기대감은 IT 섹터에 긍정적인 영향을 미칠 것으로 보입니다. 투자 포트폴리오를 조정하여 에너지와 IT 섹터에 투자하는 것이 좋습니다.",
+  "kr_picks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "매수",
+      "rating": 5,
+      "current_price": 222000,
+      "reason": "반도체 업황 회복과 AI 기술 혁신에 따른 수혜 기대",
+      "buy_zone": "215,340~224,220원",
+      "target": "248,640원 (+12%)",
+      "stop_loss": "206,460원 (-7%)",
+      "catalyst": "AI 기술 혁신",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005930"
+    },
+    {
+      "ticker": "005380",
+      "name": "현대차",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "매수",
+      "rating": 5,
+      "current_price": 555000,
+      "reason": "반도체 업황 회복과 AI 기술 혁신에 따른 수혜 기대",
+      "buy_zone": "538,350~560,550원",
+      "target": "621,600원 (+12%)",
+      "stop_loss": "516,150원 (-7%)",
+      "catalyst": "AI 기술 혁신",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005380"
+    },
+    {
+      "ticker": "006400",
+      "name": "삼성SDI",
+      "exchange": "KRX",
+      "sector": "화학",
+      "action": "매수",
+      "rating": 5,
+      "current_price": 680000,
+      "reason": "중동 전쟁으로 인한 원유 공급 불안으로 인한 화학 제품 가격 상승 기대",
+      "buy_zone": "659,600~686,800원",
+      "target": "761,600원 (+12%)",
+      "stop_loss": "632,400원 (-7%)",
+      "catalyst": "원유 공급 불안",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:006400"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "exchange": "NASDAQ",
+      "sector": "IT",
+      "action": "buy",
+      "rating": 4,
+      "current_price": 270.71,
+      "reason": "AI 기술 혁신에 따른 수혜 기대",
+      "buy_zone": "$262.59~$273.42",
+      "target": "$303.20 (+12%)",
+      "stop_loss": "$251.76 (-7%)",
+      "catalyst": "AI 기술 혁신",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:AAPL"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "exchange": "NASDAQ",
+      "sector": "IT",
+      "action": "buy",
+      "rating": 4,
+      "current_price": 429.25,
+      "reason": "AI 기술 혁신에 따른 수혜 기대",
+      "buy_zone": "$416.37~$433.54",
+      "target": "$480.76 (+12%)",
+      "stop_loss": "$399.20 (-7%)",
+      "catalyst": "AI 기술 혁신",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:MSFT"
+    },
+    {
+      "ticker": "XOM",
+      "name": "ExxonMobil",
+      "exchange": "NYSE",
+      "sector": "에너지",
+      "action": "buy",
+      "rating": 4,
+      "current_price": 150.56,
+      "reason": "중동 전쟁으로 인한 원유 공급 불안으로 인한 가격 상승 기대",
+      "buy_zone": "$146.04~$152.07",
+      "target": "$168.63 (+12%)",
+      "stop_loss": "$140.02 (-7%)",
+      "catalyst": "원유 공급 불안",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NYSE:XOM"
+    }
+  ]
+}

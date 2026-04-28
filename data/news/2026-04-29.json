@@ -1,0 +1,95 @@
+{
+  "date": "2026-04-29",
+  "generated_at": "2026-04-29 07:00 KST",
+  "headline": "삼성전자가 가전사업 구조 개편을 단행하며 엑시노스 2600에 AI 그래픽 기술을 처음으로 적용했습니다.",
+  "sentiment": "bullish",
+  "fear_greed": "시장은 중동 전쟁으로 인한 원유 공급 불안과 함께 AI 기술 혁신에 대한 긍정적인 기대감을 보이고 있습니다.",
+  "market_overview": "삼성전자가 가전 사업 구조 개편을 단행하며 저수익 제품의 OEM 전환을 결정하였습니다. 또한, 삼성SDI는 적자폭을 줄이는 등 실적 개선세를 이어갔습니다. 트럼프 주니어의 방한과 함께 네이버는 대화형 AI 검색 기능을 출시하였습니다.",
+  "key_themes": [
+    {
+      "theme": "가전 구조 개편",
+      "description": "삼성전자는 가전 사업에서 저수익 제품의 OEM 전환을 단행하였습니다.",
+      "sector": "가전"
+    },
+    {
+      "theme": "AI 기술 혁신",
+      "description": "삼성전자가 엑시노스 2600에 AI 그래픽 최적화 기술을 처음으로 적용하였습니다.",
+      "sector": "반도체"
+    },
+    {
+      "theme": "네이버 AI 검색",
+      "description": "네이버가 대화형 AI 검색 기능을 출시하며 한국형 AI 검색 시대를 열었습니다.",
+      "sector": "통신"
+    },
+    {
+      "theme": "원유 공급 불안",
+      "description": "중동 전쟁으로 인한 원유 공급 불안이 시장에 영향을 미치고 있습니다.",
+      "sector": "에너지"
+    }
+  ],
+  "conclusion": "삼성전자의 가전 구조 개편과 AI 기술 혁신이 주목받고 있으며, 네이버의 대화형 AI 검색 기능 출시는 새로운 시대를 열 것으로 기대됩니다. 또한, 중동 전쟁으로 인한 원유 공급 불안이 에너지 시장에 미치는 영향을 주의해야 합니다.",
+  "kr_headlines": [
+    {
+      "title": "[뉴욕유가] 진전없는 美·이란 협상…WTI 100달러 육박 마감",
+      "summary": "(뉴욕=연합뉴스) 최진우 연합인포맥스 특파원 = 미국과 이란의 종전 협상에 진전이 보이지 않자 국제 유가는 2거래일 연속 상승했다.",
+      "impact": "긍정",
+      "source": "연합뉴스 경제"
+    },
+    {
+      "title": "달러-원, UAE OPEC 탈퇴에 유가 따라 뒷걸음질…1,473.20원 마감",
+      "summary": "(서울=연합뉴스) 김성진 연합인포맥스 기자 = 달러-원 환율은 야간 거래에서 하락 반전했다.",
+      "impact": "부정",
+      "source": "연합뉴스 경제"
+    },
+    {
+      "title": "기업은행 중소 부동산업 연체율 13년 만에 최고",
+      "summary": "(서울=연합뉴스) 한지훈 기자 = 중소기업 특화 은행인 IBK기업은행의 부동산업 및 임대업 연체율이 13년 만에 최고 수준에 달한 것으로 나타났...",
+      "impact": "중립",
+      "source": "연합뉴스 경제"
+    },
+    {
+      "title": "이찬진, 업추비 첫 공개…8개월간 약 1천700만원 지출",
+      "summary": "(서울=연합뉴스) 배영경 강류나 기자 = 이찬진 금융감독원장의 취임 이후 업무추진비 집행내역이 공개됐다.",
+      "impact": "중립",
+      "source": "연합뉴스 경제"
+    },
+    {
+      "title": "국제유가, UAE의 OPEC 탈퇴에도 3%↑…WTI 다시 100달러",
+      "summary": "(뉴욕=연합뉴스) 이지헌 특파원 = 아랍에미리트(UAE)의 석유수출국기구(OPEC) 탈퇴 소식 속에 미국과 이란 간 종전 논의가 교착 상태에 빠...",
+      "impact": "중립",
+      "source": "연합뉴스 경제"
+    }
+  ],
+  "us_headlines": [
+    {
+      "title": "These adviser fees are a hit to your portfolio — here are 2 questions to stop them",
+      "summary": "From revenue-sharing ‘kickbacks’ to interest on idle cash, hidden costs may be quietly eroding your returns.",
+      "impact": "긍정",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "These two countries are the most likely to leave OPEC’s orbit next",
+      "summary": "The U.A.E. was the “most likely” candidate to leave OPEC, but others may follow.",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "‘I’m not interested in long-term care insurance’: I’d like to retire at 55. How much will I have to pay for healthcare?",
+      "summary": "“The only thing holding me back is worrying about medical costs.”",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Trump’s fight with Jimmy Kimmel escalates as the FCC puts ABC under review",
+      "summary": "The Federal Communications Commission says its review is looking at whether the network’s diversity initiatives are disc",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "U.A.E. is leaving OPEC but will still need to exercise caution as it increases oil production",
+      "summary": "The United Arab Amirates decision to leave the Organization of the Petroleum Exporting Countries at the end of the week ",
+      "impact": "중립",
+      "source": "MarketWatch"
+    }
+  ]
+}
