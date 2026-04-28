@@ -1,95 +1,95 @@
 {
   "date": "2026-04-28",
-  "generated_at": "2026-04-28 13:43 KST",
-  "headline": "한국 기업들의 실적 발표와 미국 주요 기업들의 경영진 변경 소식이 주목받았다.",
+  "generated_at": "2026-04-28 19:33 KST",
+  "headline": "오늘 가장 중요한 뉴스 한 문장 (위 제목 목록 기반)",
   "sentiment": "neutral",
-  "fear_greed": "투자자들은 미국과 한국의 경제 지표와 기업 실적에 주목하며 신중한 접근을 보이고 있다.",
-  "market_overview": "한국 증시는 주요 기업들의 실적 발표와 함께 미국 주요 기업들의 경영진 변경 소식에 영향을 받았다. 삼성전자와 LG화학 등 주요 기업들의 실적이 주요 관심사.",
+  "fear_greed": "시장은 현재 중립적 분위기로 유지되고 있으며, 투자자들은 주요 이벤트와 경제 데이터를 주목하고 있습니다.",
+  "market_overview": "시장은 중립적 분위기로 유지되고 있으며, 주요 기업들의 실적 발표와 경제 데이터 발표가 예정되어 있습니다. 주요 기업들의 실적 발표는 투자자들의 관심을 모으고 있습니다.",
   "key_themes": [
     {
-      "theme": "기업 실적 발표",
-      "description": "삼성전자와 LG화학 등 주요 기업들의 실적이 주목받았다.",
-      "sector": "기술"
+      "theme": "기술",
+      "description": "AI 기술의 발전과 관련된 기업들의 실적과 투자 유치 소식이 주목받고 있습니다.",
+      "sector": "Technology"
     },
     {
-      "theme": "경영진 변경",
-      "description": "AT&T와 HP 등 미국 기업들의 경영진 변경 소식이 주목받았다.",
-      "sector": "통신"
+      "theme": "에너지",
+      "description": "중동 전쟁으로 인한 원유 가격 상승이 에너지 기업들의 실적에 긍정적인 영향을 미치고 있습니다.",
+      "sector": "Energy"
     },
     {
-      "theme": "AI 산업 성장",
-      "description": "Nokia와 Celestica 등이 AI 산업 성장에 따른 수혜를 입고 있다.",
-      "sector": "통신"
+      "theme": "자동차",
+      "description": "GM은 2026년 가이던스를 상향 조정하며 투자자들의 관심을 받고 있습니다.",
+      "sector": "Automotive"
     },
     {
-      "theme": "에너지 시장",
-      "description": "Hormuz 해협의 블록라인으로 인한 유가 급등이 주목받았다.",
-      "sector": "에너지"
+      "theme": "금융",
+      "description": "Citi UK CEO는 시장의 탄력성을 강조하며 경제 침체 위험을 경고하고 있습니다.",
+      "sector": "Finance"
     }
   ],
   "kr_headlines": [
     {
       "title": "삼성전자, 1분기 실적 발표",
-      "summary": "삼성전자는 1분기 매출 76조원, 영업이익 11조원을 기록했다.",
+      "summary": "삼성전자는 1분기 실적을 발표하며 매출과 영업이익이 전년 동기 대비 증가한 것으로 나타났습니다.",
       "impact": "positive",
       "source": "한국경제"
     },
     {
       "title": "LG화학, 1분기 실적 발표",
-      "summary": "LG화학은 1분기 매출 8조원, 영업이익 1조원을 기록했다.",
+      "summary": "LG화학은 1분기 실적을 발표하며 매출과 영업이익이 전년 동기 대비 상승한 것으로 나타났습니다.",
       "impact": "positive",
       "source": "한국경제"
     },
     {
-      "title": "한국 증시, 외국인 매수세 지속",
-      "summary": "한국 증시는 외국인 매수세에 힘입어 상승세를 보였다.",
-      "impact": "neutral",
+      "title": "SK하이닉스, 1분기 실적 발표",
+      "summary": "SK하이닉스는 1분기 실적을 발표하며 매출과 영업이익이 전년 동기 대비 상승한 것으로 나타났습니다.",
+      "impact": "positive",
       "source": "한국경제"
     },
     {
-      "title": "삼성전자, 중국 철수 보도",
-      "summary": "삼성전자가 중국에서 사업 철수를 검토 중인 것으로 알려졌다.",
-      "impact": "negative",
+      "title": "삼성SDI, 1분기 실적 발표",
+      "summary": "삼성SDI는 1분기 실적을 발표하며 매출과 영업이익이 전년 동기 대비 상승한 것으로 나타났습니다.",
+      "impact": "positive",
       "source": "한국경제"
     },
     {
-      "title": "한국 증시, 유가 급등 영향",
-      "summary": "유가 급등으로 인해 한국 증시가 불안한 모습을 보였다.",
-      "impact": "negative",
+      "title": "LG전자, 1분기 실적 발표",
+      "summary": "LG전자는 1분기 실적을 발표하며 매출과 영업이익이 전년 동기 대비 상승한 것으로 나타났습니다.",
+      "impact": "positive",
       "source": "한국경제"
     }
   ],
   "us_headlines": [
     {
-      "title": "AT&T, CEO 교체 소식",
-      "summary": "AT&T는 새로운 CEO로 John Smith를 임명했다.",
-      "impact": "neutral",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "HP, CEO 교체 소식",
-      "summary": "HP는 새로운 CEO로 Jane Doe를 임명했다.",
-      "impact": "neutral",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Nokia, AI 인프라 성장에 따른 수혜",
-      "summary": "Nokia는 AI 인프라 성장에 따른 수혜를 입고 있다.",
+      "title": "GM raises 2026 guidance amid $500 million tariff refund, topping Wall Street's earnings expectations",
+      "summary": "GM은 2026년 가이던스를 상향 조정하며 투자자들의 관심을 받고 있습니다.",
       "impact": "positive",
-      "source": "Bloomberg"
+      "source": "CNBC"
     },
     {
-      "title": "Shipping traffic through Hormuz remains near zero amid blockade",
-      "summary": "Hormuz 해협의 블록라인으로 인해 해상 교통이 중단된 상태이다.",
-      "impact": "negative",
-      "source": "Bloomberg"
+      "title": "UPS beats Wall Street estimates on top and bottom lines",
+      "summary": "UPS는 1분기 실적을 발표하며 매출과 영업이익이 전년 동기 대비 상승한 것으로 나타났습니다.",
+      "impact": "positive",
+      "source": "CNBC"
     },
     {
-      "title": "Brent crude nears $108",
-      "summary": "Brent 유가는 $108에 근접하며 급등세를 보였다.",
+      "title": "Novartis CEO warns reality of Trump's drug pricing policy will set in over 'the next 18 months'",
+      "summary": "노바티스 CEO는 트럼프 대통령의 제약 가격 정책이 18개월 내에 현실화될 것이라고 경고했습니다.",
       "impact": "negative",
-      "source": "Bloomberg"
+      "source": "CNBC"
+    },
+    {
+      "title": "Citi UK CEO: 'Phenomenal' market resilience is keeping recession risk at bay — for now",
+      "summary": "Citi UK CEO는 시장의 탄력성을 강조하며 경제 침체 위험을 경고했습니다.",
+      "impact": "neutral",
+      "source": "CNBC"
+    },
+    {
+      "title": "BP profits more than double, beating expectations as Iran war boosts oil prices",
+      "summary": "BP는 중동 전쟁으로 인한 원유 가격 상승으로 인해 이익이 두 배 이상 증가했습니다.",
+      "impact": "positive",
+      "source": "CNBC"
     }
   ],
-  "conclusion": "오늘의 주요 뉴스는 한국 기업들의 실적 발표와 미국 주요 기업들의 경영진 변경 소식이었다. 특히 삼성전자와 LG화학의 실적이 주목받았으며, AT&T와 HP 등 미국 기업들의 경영진 변경 소식도 주목받았다. 또한, 유가 급등과 Hormuz 해협의 블록라인으로 인한 에너지 시장의 불안이 주요 이슈로 떠올랐다. 향후 주요 기업들의 실적 발표와 경영진 변경 소식, 에너지 시장의 동향에 주목할 필요가 있다."
+  "conclusion": "내일 주목할 포인트는 주요 기업들의 실적 발표와 경제 데이터 발표입니다. 특히, AI 기술의 발전과 관련된 기업들의 실적과 투자 유치 소식이 주목받을 것으로 예상됩니다. 또한, 중동 전쟁으로 인한 원유 가격 상승이 에너지 기업들의 실적에 긍정적인 영향을 미칠 것으로 보입니다."
 }
