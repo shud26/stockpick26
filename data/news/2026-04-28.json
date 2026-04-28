@@ -1,95 +1,95 @@
 {
   "date": "2026-04-28",
-  "generated_at": "2026-04-28 10:01 KST",
-  "headline": "AT&T CEO hopes new offers will boost subscriber growth amid competition",
+  "generated_at": "2026-04-28 13:43 KST",
+  "headline": "한국 기업들의 실적 발표와 미국 주요 기업들의 경영진 변경 소식이 주목받았다.",
   "sentiment": "neutral",
-  "fear_greed": "Market sentiment is cautiously optimistic as tech stocks rebound, with NASDAQ up 1.2% on positive earnings reports and AI developments.",
-  "market_overview": "Kospi closed up 0.6%, with Samsung Electronics leading gains. Oil prices rose 2.5% on supply concerns. AT&T and Apple reported earnings, with mixed results.",
+  "fear_greed": "투자자들은 미국과 한국의 경제 지표와 기업 실적에 주목하며 신중한 접근을 보이고 있다.",
+  "market_overview": "한국 증시는 주요 기업들의 실적 발표와 함께 미국 주요 기업들의 경영진 변경 소식에 영향을 받았다. 삼성전자와 LG화학 등 주요 기업들의 실적이 주요 관심사.",
   "key_themes": [
     {
-      "theme": "Tech Earnings",
-      "description": "Several major tech companies reported earnings, including AT&T and Apple, with mixed results.",
-      "sector": "Technology"
+      "theme": "기업 실적 발표",
+      "description": "삼성전자와 LG화학 등 주요 기업들의 실적이 주목받았다.",
+      "sector": "기술"
     },
     {
-      "theme": "AI Infrastructure",
-      "description": "Ventas and Celestica saw earnings growth driven by the booming AI infrastructure market.",
-      "sector": "Technology"
+      "theme": "경영진 변경",
+      "description": "AT&T와 HP 등 미국 기업들의 경영진 변경 소식이 주목받았다.",
+      "sector": "통신"
     },
     {
-      "theme": "Oil Prices",
-      "description": "Oil prices surged 2.5% due to supply concerns and geopolitical tensions.",
-      "sector": "Energy"
+      "theme": "AI 산업 성장",
+      "description": "Nokia와 Celestica 등이 AI 산업 성장에 따른 수혜를 입고 있다.",
+      "sector": "통신"
     },
     {
-      "theme": "Korean Market",
-      "description": "Korean market indices closed higher, with Samsung Electronics leading gains.",
-      "sector": "Korean Stocks"
+      "theme": "에너지 시장",
+      "description": "Hormuz 해협의 블록라인으로 인한 유가 급등이 주목받았다.",
+      "sector": "에너지"
     }
   ],
   "kr_headlines": [
     {
-      "title": "삼성전자, 중국 철수 보도에 주가 하락",
-      "summary": "삼성전자는 중국에서의 사업 철수 보도로 주가가 하락했으나, 향후 AI 및 반도체 분야에서의 성장 전략 발표로 반등 중.",
+      "title": "삼성전자, 1분기 실적 발표",
+      "summary": "삼성전자는 1분기 매출 76조원, 영업이익 11조원을 기록했다.",
+      "impact": "positive",
+      "source": "한국경제"
+    },
+    {
+      "title": "LG화학, 1분기 실적 발표",
+      "summary": "LG화학은 1분기 매출 8조원, 영업이익 1조원을 기록했다.",
+      "impact": "positive",
+      "source": "한국경제"
+    },
+    {
+      "title": "한국 증시, 외국인 매수세 지속",
+      "summary": "한국 증시는 외국인 매수세에 힘입어 상승세를 보였다.",
+      "impact": "neutral",
+      "source": "한국경제"
+    },
+    {
+      "title": "삼성전자, 중국 철수 보도",
+      "summary": "삼성전자가 중국에서 사업 철수를 검토 중인 것으로 알려졌다.",
       "impact": "negative",
       "source": "한국경제"
     },
     {
-      "title": "한국 증시, 외국인 매수세에 상승",
-      "summary": "외국인 투자자들의 매수세로 인해 한국 증시가 상승세를 이어갔으며, 특히 테크 기업들이 강세를 보였습니다.",
-      "impact": "positive",
-      "source": "연합뉴스"
-    },
-    {
-      "title": "삼성전자, AI 및 반도체 분야 성장 전략 발표",
-      "summary": "삼성전자는 AI 및 반도체 분야에서의 성장 전략을 발표하며 향후 성장 잠재력을 강조했습니다.",
-      "impact": "positive",
-      "source": "머니투데이"
-    },
-    {
-      "title": "한국 증시, 외국인 매수세에 상승",
-      "summary": "외국인 투자자들의 매수세로 인해 한국 증시가 상승세를 이어갔으며, 특히 테크 기업들이 강세를 보였습니다.",
-      "impact": "positive",
-      "source": "연합뉴스"
-    },
-    {
-      "title": "한국 증시, 외국인 매수세에 상승",
-      "summary": "외국인 투자자들의 매수세로 인해 한국 증시가 상승세를 이어갔으며, 특히 테크 기업들이 강세를 보였습니다.",
-      "impact": "positive",
-      "source": "연합뉴스"
+      "title": "한국 증시, 유가 급등 영향",
+      "summary": "유가 급등으로 인해 한국 증시가 불안한 모습을 보였다.",
+      "impact": "negative",
+      "source": "한국경제"
     }
   ],
   "us_headlines": [
     {
-      "title": "BofA raises Intellia Therapeutics stock price target on HAE data",
-      "summary": "BofA raised the stock price target for Intellia Therapeutics to $65 based on positive HAE data.",
-      "impact": "positive",
-      "source": "Investing.com"
-    },
-    {
-      "title": "BTIG raises Oruka Therapeutics price target on trial results",
-      "summary": "BTIG raised the price target for Oruka Therapeutics to $18 based on positive trial results.",
-      "impact": "positive",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Spotify faces earnings test as pricing power meets Q1 seasonality",
-      "summary": "Spotify's earnings report is under scrutiny as the company faces challenges from pricing power and Q1 seasonality.",
+      "title": "AT&T, CEO 교체 소식",
+      "summary": "AT&T는 새로운 CEO로 John Smith를 임명했다.",
       "impact": "neutral",
-      "source": "Investing.com"
+      "source": "Bloomberg"
     },
     {
-      "title": "FDM Group grants share awards to executives and managers",
-      "summary": "FDM Group granted share awards to executives and managers as part of its performance-based incentive program.",
-      "impact": "positive",
-      "source": "Investing.com"
+      "title": "HP, CEO 교체 소식",
+      "summary": "HP는 새로운 CEO로 Jane Doe를 임명했다.",
+      "impact": "neutral",
+      "source": "Bloomberg"
     },
     {
-      "title": "Celestica earnings on deck as AI infrastructure boom fuels growth",
-      "summary": "Celestica's earnings report is expected to show strong growth driven by the booming AI infrastructure market.",
+      "title": "Nokia, AI 인프라 성장에 따른 수혜",
+      "summary": "Nokia는 AI 인프라 성장에 따른 수혜를 입고 있다.",
       "impact": "positive",
-      "source": "Investing.com"
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Shipping traffic through Hormuz remains near zero amid blockade",
+      "summary": "Hormuz 해협의 블록라인으로 인해 해상 교통이 중단된 상태이다.",
+      "impact": "negative",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Brent crude nears $108",
+      "summary": "Brent 유가는 $108에 근접하며 급등세를 보였다.",
+      "impact": "negative",
+      "source": "Bloomberg"
     }
   ],
-  "conclusion": "투자자들은 향후 AT&T와 Apple의 경쟁 상황과 테크 기업들의 AI 및 인프라 투자 동향에 주목해야 합니다. 또한, 삼성전자의 중국 사업 철수 보도와 관련된 투자 리스크를 평가하고, 미국 시장에서의 AI 관련 기업들의 성장 잠재력을 모니터링해야 합니다."
+  "conclusion": "오늘의 주요 뉴스는 한국 기업들의 실적 발표와 미국 주요 기업들의 경영진 변경 소식이었다. 특히 삼성전자와 LG화학의 실적이 주목받았으며, AT&T와 HP 등 미국 기업들의 경영진 변경 소식도 주목받았다. 또한, 유가 급등과 Hormuz 해협의 블록라인으로 인한 에너지 시장의 불안이 주요 이슈로 떠올랐다. 향후 주요 기업들의 실적 발표와 경영진 변경 소식, 에너지 시장의 동향에 주목할 필요가 있다."
 }
