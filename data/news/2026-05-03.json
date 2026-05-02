@@ -1,0 +1,95 @@
+{
+  "date": "2026-05-03",
+  "generated_at": "2026-05-03 07:00 KST",
+  "headline": "삼성바이오로직스 노조 파업으로 1500억원 손실 발생",
+  "sentiment": "bearish",
+  "fear_greed": "시장은 삼성바이오로직스 파업으로 인한 불확실성에 대한 우려가 커지고 있다.",
+  "market_overview": "삼성바이오로직스 노조 파업으로 인한 1500억원의 손실이 발생했다. 이로 인해 삼성바이오로직스의 생산이 중단되고 있어 기업의 경영 상황이 악화되고 있다. 한편, 삼성전자지부 노조의 파업 결정에 대해 법원이 부당하다고 판단하였다. 또한, 삼성바이오로직스의 파업으로 인한 생산 중단은 제약 산업 전반에 미치는 영향이 예상된다.",
+  "key_themes": [
+    {
+      "theme": "삼성바이오로직스 파업",
+      "description": "삼성바이오로직스 노조의 파업으로 인해 1500억원의 손실이 발생하고 생산이 중단되었다.",
+      "sector": "제약"
+    },
+    {
+      "theme": "삼성전자지부 노조 파업",
+      "description": "삼성전자지부 노조의 파업 결정에 대해 법원이 부당하다고 판단하였다.",
+      "sector": "반도체"
+    },
+    {
+      "theme": "LCC 노선 배분 논란",
+      "description": "국토교통부의 국제항공운수권 배분 결과로 LCC 업계에서 논란이 일고 있다.",
+      "sector": "항공"
+    },
+    {
+      "theme": "중국 전기차 생산 효율",
+      "description": "중국 전기차 제조업체는 인공지능을 활용해 생산 효율을 크게 높이고 있다.",
+      "sector": "자동차"
+    }
+  ],
+  "conclusion": "삼성바이오로직스의 파업으로 인한 생산 중단과 제약 산업 전반에 미치는 영향이 주목된다. 또한, 삼성전자지부 노조의 파업 결정에 대한 법원의 판단도 중요한 이슈가 될 전망이다. LCC 노선 배분 논란과 중국 전기차 제조업체의 생산 효율 개선도 주요 관심사로 부상할 것으로 보인다.",
+  "kr_headlines": [
+    {
+      "title": "‘자금난’ 美 저가 스피릿 항공 구제협상 무산…폐업 절차 돌입",
+      "summary": "파산 위험에 놓인 미국의 저가 항공사 스피릿 항공이 도널드 트럼프 미국 행정부와의 긴급 구제 금융 협상 타결에 실패하면서 사실상 폐업 절차에 돌입했다고 월스트리트저널(WSJ)이 1일(현지 시간) 해당 사안에 정통한 ",
+      "impact": "긍정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "“반도체가 중동전쟁 뚫었다”…수출 5강 도약도 ‘청신호’",
+      "summary": "인공지능(AI) 특수에 힙입은 반도체 슈퍼사이클 호황이 지속된 것에 힘입어 우리나라 수출이 2개월 연속 월 수출액 800억 달러 돌파라는 신기록을 작성했다. 정부가 내세운 7400억 달러 달성 및 수출 5강 도약도 ",
+      "impact": "긍정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "韓수출 처음으로 두달 연속 800억 달러 넘어… 반도체 1년전보다 173% 증가",
+      "summary": "중동 전쟁 장기화에도 한국 수출이 사상 처음으로 두 달 연속 800억 달러를 넘어섰다. 인공지능(AI)이 이끄는 슈퍼사이클(초호황)의 영향으로 반도체 수출액이 역대 두 번째로 컸고, 컴퓨터 수출도 사상 최대 실적을 ",
+      "impact": "긍정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "‘램마겟돈’ 직면한 빅테크 “메모리發 쩐의 전쟁”… 삼전닉스엔 기회",
+      "summary": "“다음 분기에는 메모리 비용이 크게 상승(significantly higher)할 것이다.” 지난달 30일(현지 시간) 팀 쿡 애플 최고경영자(CEO)는 실적 발표 콘퍼런스콜에서 원가 전망을 묻는 질문에 이같이 답했",
+      "impact": "중립",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "반도체 효과 무섭네…동탄·광교 ‘국평 20억 클럽’ 눈앞",
+      "summary": "경기 남부를 중심으로 이른바 ‘셔세권(셔틀버스 노선 인접 지역)’ 입지가 부동산 시장의 새로운 가격 상승 동력으로 부상하고 있다. 삼성전자와 SK하이닉스 등 반도체 산업단지와 인접한 화성 동탄신도시와 수원 광교신도시",
+      "impact": "긍정",
+      "source": "동아닷컴 경제"
+    }
+  ],
+  "us_headlines": [
+    {
+      "title": "The S&P 500 and Nasdaq kept their record rallies going. Here are 3 key takeaways",
+      "summary": "It seemed like what really captivated Wall Street though was corporate earnings.",
+      "impact": "중립",
+      "source": "CNBC Top News"
+    },
+    {
+      "title": "Trump says he's raising EU auto tariffs to 25%",
+      "summary": "The Supreme Court struck down Trump's \"reciprocal\" tariffs earlier this year, and Europe warned that its trade deal with",
+      "impact": "부정",
+      "source": "CNBC Top News"
+    },
+    {
+      "title": "‘We’re all worried the honey pot will run dry’: Does the U.S. government borrow from my Social Security to fund federal programs?",
+      "summary": "There are many suggestions floating around Washington D.C. on how to fix the program’s imminent funding issues.",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "‘There is an imbalance of power’: My husband has cancer. Why must we wait two hours for a 10-minute CT scan?",
+      "summary": "“This letter is in memory of all the patients who died waiting for their medical appointments to begin.”",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Higher inflation is on the way. The Fed needs to make this clear before it raises rates.",
+      "summary": "Fed’s communication should help investors manage risk — including the possibility that rates may rise.",
+      "impact": "긍정",
+      "source": "MarketWatch"
+    }
+  ]
+}
