@@ -1,0 +1,95 @@
+{
+  "date": "2026-05-06",
+  "generated_at": "2026-05-06 07:00 KST",
+  "headline": "삼성전자 노조 파업 대응과 LG디스플레이의 OLED 신제품 발표가 주목받고 있다.",
+  "sentiment": "neutral",
+  "fear_greed": "시장은 혼조세를 보이며, 일부 기업의 성과와 혁신은 긍정적인 신호를 보여주고 있다.",
+  "market_overview": "삼성전자 노조 파업 대응과 LG디스플레이의 OLED 신제품 발표가 주목받고 있다. 애플은 삼성전자 파운드리에 주문 검토 중이며, LG전자는 ESG 평가에서 최고 등급을 받았다. 나트륨전지 개발이 진행 중이고, SK텔레콤은 '포켓몬 런' 행사를 진행하며 고객 경험 강화에 나섰다.",
+  "key_themes": [
+    {
+      "theme": "반도체",
+      "description": "삼성전자 노조 파업 대응과 HBM 기술의 중요성이 부각되고 있다.",
+      "sector": "반도체"
+    },
+    {
+      "theme": "디스플레이",
+      "description": "LG디스플레이가 미국 전시회에서 OLED 신제품을 선보이며 경쟁력을 강화하고 있다.",
+      "sector": "디스플레이"
+    },
+    {
+      "theme": "ESG",
+      "description": "LG전자가 ESG 평가에서 최고 등급을 받으며 지속가능 경영의 중요성이 강조되고 있다.",
+      "sector": "ESG"
+    },
+    {
+      "theme": "자동차 부품",
+      "description": "자동차 부품 시장에서 가격 정보의 불투명성 문제를 해결하기 위한 솔루션이 개발되고 있다.",
+      "sector": "자동차 부품"
+    }
+  ],
+  "conclusion": "삼성전자와 LG디스플레이의 행보가 주목받고 있으며, 나트륨전지와 자동차 부품 시장의 혁신도 주요 이슈로 떠올랐다. 향후 반도체와 디스플레이 산업의 경쟁력 강화와 ESG 경영의 중요성이 더욱 부각될 전망이다.",
+  "kr_headlines": [
+    {
+      "title": "뉴욕 증시, 유가 하락·실적 호조에 상승 마감…S&P·나스닥, 최고치 경신",
+      "summary": "뉴욕 증시가 5일(현지시간) 유가 하락과 주요 기업 실적 호조로 상승 마감했다.CNBC에 따르면 뉴욕증권거래소(NYSE)에서 다우존스 30 산업평균지수는 전장 대비 356.44포인트(0.73%) 오른 4만9298.3",
+      "impact": "중립",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "“삼성전자 파업땐 노사 모두 설 자리 잃어” 이사회 의장 호소",
+      "summary": "삼성전자 노조가 21일부터 18일간 파업 시행을 예고한 가운데, 신제윤 삼성전자 이사회 의장(사진)이 사내 임직원들에게 “파업 시 국가 경제에 심각한 악영향을 끼치게 될 것”이라며 원만한 해결을 촉구했다. 신 의장은",
+      "impact": "부정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "쿠팡Inc, 4년 3개월 만에 분기 최대 3500억 적자…매출 12.4조",
+      "summary": "쿠팡Inc가 지난 2021년 4분기 이후 4년 3개월 만에 최대 규모의 영업손실과 당기순손실을 올 1분기에 기록했다.또 작년 11월 개인정보 유출 사고가 발생한 후 분기 매출도 올 1분기까지 최근 2개 분기 연속 전",
+      "impact": "중립",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "위태로워진 휴전에 브렌트유 5.8% 치솟아… 베선트 “中, 테러지원국 이란에 자금” 경고",
+      "summary": "이란이 미국과의 휴전 이후 아랍에미리트(UAE)의 에너지 시설을 다시 공격하는 등 중동 지역을 둘러싼 군사적 긴장감이 고조되면서 국제 유가가 다시 치솟았다. 전 세계 원유 재고가 8년래 최저 수준으로 떨어진 가운데,",
+      "impact": "부정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "[속보] 쿠팡, 1분기 영업손실 3500억 ‘쇼크’…4년3개월 만 최대 적자",
+      "summary": "매출 12.4조에도 성장률 8% ‘상장 이후 최저’ 2개 분기 연속 매출 감소…외형 성장 둔화 시장 전망 대비 손실 5~6배 ‘어닝 쇼크’ 시간외 주가 3~4% 하락…투심도 위축쿠..",
+      "impact": "부정",
+      "source": "매일경제"
+    }
+  ],
+  "us_headlines": [
+    {
+      "title": "AMD tops estimates for first quarter as data center revenue jumps 57%",
+      "summary": "AMD's earnings report lands as investors rush into the stock on optimism that the AI boom is just getting started.",
+      "impact": "중립",
+      "source": "CNBC Top News"
+    },
+    {
+      "title": "Super Micro stock jumps 19% on guidance beat as revenue more than doubles",
+      "summary": "Super Micro pointed to progress in U.S. manufacturing in issuing a stronger-than-expected quarterly forecast.",
+      "impact": "긍정",
+      "source": "CNBC Top News"
+    },
+    {
+      "title": "Skyworks Solutions forecasts higher revenue on strong chip demand",
+      "summary": "Skyworks Solutions forecasts higher revenue on strong chip demand",
+      "impact": "중립",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Super Micro’s stock surges as Wall Street cheers a margin recovery",
+      "summary": "Shares of the AI server manufacturer jumped 16% as investors shrugged off a revenue miss to celebrate a rebound in profi",
+      "impact": "긍정",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "SEC advances Trump-backed proposal to end mandatory quarterly earnings reports",
+      "summary": "The SEC formally proposed a rule change that would allow companies to file semiannual reports on a new form, 10-S, in pl",
+      "impact": "중립",
+      "source": "CNBC Top News"
+    }
+  ]
+}
