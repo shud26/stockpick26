@@ -1,0 +1,57 @@
+{
+  "date": "2026-05-07",
+  "generated_at": "2026-05-07 07:00 KST",
+  "sentiment": "bullish",
+  "fear_greed": "시장은 전반적으로 긍정적인 분위기입니다. 고려아연의 실적 호조와 삼성전자의 메모리 반도체 수요 증가가 주요 지표입니다.",
+  "market_summary": "한국 증시는 이란과 미국 간의 긴장 완화 기대감과 함께 삼성전자와 LG이노텍 등 IT 업종의 호재로 상승세를 이어갈 전망입니다. 고려아연의 실적 호조와 함께 금속 및 광물 부문이 강세를 보일 것으로 예상됩니다.",
+  "conclusion": "내일은 삼성전자와 LG이노텍 등 IT 업종에 대한 집중 투자가 필요하며, 고려아연과 같은 광물 부문도 주목할 만합니다. 미국 시장에서는 반도체 및 IT 업종의 이익 개선 소식이 주가 상승을 이끌 것으로 보입니다.",
+  "kr_picks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 266000,
+      "reason": "메모리 반도체 수요 증가",
+      "buy_zone": "258,020~268,660원",
+      "target": "297,920원 (+12%)",
+      "stop_loss": "247,380원 (-7%)",
+      "catalyst": "반도체 수요 증가",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005930"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "exchange": "NASDAQ",
+      "sector": "반도체",
+      "action": "hold",
+      "rating": 3,
+      "current_price": 207.83,
+      "reason": "AI 반도체 수요 증가",
+      "buy_zone": "$201.60~$209.91",
+      "target": "$232.77 (+12%)",
+      "stop_loss": "$193.28 (-7%)",
+      "catalyst": "AI 반도체 수요 증가",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:NVDA"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "exchange": "NASDAQ",
+      "sector": "반도체",
+      "action": "buy",
+      "rating": 4,
+      "current_price": 113.01,
+      "reason": "반도체 수요 증가",
+      "buy_zone": "$109.62~$114.14",
+      "target": "$126.57 (+12%)",
+      "stop_loss": "$105.10 (-7%)",
+      "catalyst": "반도체 수요 증가",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:INTC"
+    }
+  ]
+}
