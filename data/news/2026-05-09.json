@@ -1,0 +1,95 @@
+{
+  "date": "2026-05-09",
+  "generated_at": "2026-05-09 07:00 KST",
+  "headline": "삼성전자 노사가 정부 중재로 협상 재개, 파업 위기 해소",
+  "sentiment": "bullish",
+  "fear_greed": "시장은 삼성전자 노사 간 협상 재개 소식에 긍정적으로 반응하고 있다.",
+  "market_overview": "삼성전자 노사가 정부 중재로 협상 재개를 결정하면서 파업 위기에서 벗어났다. 제주항공은 이란 사태로 인해 무급휴직을 실시하며 수익성 방어에 나섰다. HMM은 본사의 부산 이전을 공식 확정하고 세부 협상에 들어갔다. 한국콜마와 코스메카코리아는 각각 역대 최대 실적을 기록하며 주가 상승세를 보이고 있다.",
+  "key_themes": [
+    {
+      "theme": "삼성전자 노사 협상",
+      "description": "삼성전자 노사가 정부 중재로 협상 재개, 파업 위기 해소",
+      "sector": "전자"
+    },
+    {
+      "theme": "제주항공 무급휴직",
+      "description": "이란 사태로 인해 무급휴직 실시하며 수익성 방어",
+      "sector": "항공"
+    },
+    {
+      "theme": "HMM 본사 이전",
+      "description": "본사 부산 이전 확정, 세부 협상 진행 중",
+      "sector": "해운"
+    },
+    {
+      "theme": "화장품 기업 실적",
+      "description": "한국콜마와 코스메카코리아, 역대 최대 실적 기록",
+      "sector": "화장품"
+    }
+  ],
+  "conclusion": "삼성전자 노사 간 협상 재개로 인한 긍정적 시장 분위기가 이어질 것으로 보인다. 제주항공의 무급휴직 결정은 단기적으로 부담이 될 수 있으나, 장기적으로는 수익성 개선에 기여할 것으로 예상된다. HMM의 본사 이전은 기업 경쟁력 강화를 위한 중요한 이정표가 될 전망이다. 한국콜마와 코스메카코리아의 강력한 실적은 화장품 산업의 성장성을 뒷받침한다.",
+  "kr_headlines": [
+    {
+      "title": "방산·정유주만 사면 끝?…포성 뒤에 숨어있는 부의 질서 [전쟁과투자3]",
+      "summary": "전쟁은 포성보다 할인율로 먼저 온다. 전쟁이 나면 사람들은 전선을 본다. 자본시장은 유가와 금리를 본다. 그래서 투자에서 먼저 다치는 것은 실적보다 밸류에이션인 경우가 많다. 유가..",
+      "impact": "중립",
+      "source": "매일경제"
+    },
+    {
+      "title": "“또 오르기 전 사놓자” 환율 하락기 달러예금 증가",
+      "summary": "국내 시중은행의 달러 예금이 늘어난 것으로 나타났다. 미국-이란 간 종전 협상에 외국인 자금의 국내 증시 유입 등의 영향으로 원-달러 환율이 하락하자 투자자들이 향후 환율 상승을 노리며 달러 예금을 늘린 것으로 보인",
+      "impact": "긍정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "머스크, 반도체 독립 선언… ‘테라팹’ 1190억달러 투자",
+      "summary": "일론 머스크(사진)가 이끄는 스페이스X가 초대형 반도체 공장 ‘테라팹(Terafab)’을 세우기 위해 최대 1190억 달러를 투자할 계획인 것으로 나타났다. 7일(현지 시간) 뉴욕타임스와 월스트리트저널 등 외신에 따",
+      "impact": "중립",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "반도체 덕에… 3월 경상수지 흑자 373억달러 역대 최대",
+      "summary": "반도체 수출 호조에 힘입어 3월 한국 경상수지가 사상 최대 규모 흑자를 기록했다. 35개월 연속 흑자 행진도 이어갔다.한국은행이 8일 발표한 ‘국제수지(잠정)’ 통계에 따르면 3월 경상수지는 373억2710만 달러(",
+      "impact": "긍정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "달러-원, 위험 선호 재확산에 오름폭 축소…1,462.30원 마감",
+      "summary": "(뉴욕=연합뉴스) 진정호 연합인포맥스 특파원 = 달러-원 환율이 야간 거래에서 상승폭을 줄이며 1,460원대 초반에서 장을 닫았다.",
+      "impact": "긍정",
+      "source": "연합뉴스 경제"
+    }
+  ],
+  "us_headlines": [
+    {
+      "title": "EPAM shares slip despite quarterly earnings beat and upbeat guidance",
+      "summary": "EPAM shares slip despite quarterly earnings beat and upbeat guidance",
+      "impact": "긍정",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Rocket Lab surges 34% in best day ever on revenue beat, record-setting launch deal",
+      "summary": "Enthusiasm for space stocks has skyrocketed ahead of SpaceX's anticipated IPO.",
+      "impact": "긍정",
+      "source": "CNBC Top News"
+    },
+    {
+      "title": "Iran focus at Trump-Xi summit may delay progress on tariffs, rare earths",
+      "summary": "Thanks to the Iran war, big issues for U.S. businesses like rare earths and supply chains may take a back seat on the ag",
+      "impact": "중립",
+      "source": "CNBC Top News"
+    },
+    {
+      "title": "McDonald's beats Q1 earnings estimates despite challenging environment with value meals and new menu items",
+      "summary": "McDonald's beats Q1 earnings estimates despite challenging environment with value meals and new menu items",
+      "impact": "긍정",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Is LyondellBasell (LYB) the Best European Stock That Beat Earnings Estimates to Buy?",
+      "summary": "Is LyondellBasell (LYB) the Best European Stock That Beat Earnings Estimates to Buy?",
+      "impact": "긍정",
+      "source": "Yahoo Finance"
+    }
+  ]
+}
