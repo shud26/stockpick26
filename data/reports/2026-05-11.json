@@ -1,0 +1,102 @@
+{
+  "date": "2026-05-11",
+  "generated_at": "2026-05-11 07:00 KST",
+  "sentiment": "bullish",
+  "fear_greed": "시장은 중동 전쟁 위기 완화에 대한 기대감으로 긍정적인 분위기를 유지하고 있다.",
+  "market_summary": "지난주 코스피는 13% 넘게 상승하며 7500선을 돌파했다. 원·달러 환율도 1,439.6원까지 하락하며 안정세를 보이고 있다. 투자자들은 이란과 미국의 종전 협상에 주목하고 있으며, 중동 전쟁 위기가 완화되면서 글로벌 경제에 긍정적인 영향을 미칠 것으로 예상된다.",
+  "conclusion": "중동 전쟁 위기 완화에 따른 긍정적인 경제 상황을 반영해, 에너지, 금융, 테크 섹터에 투자하는 것이 유리할 것으로 보인다. 특히, 미국의 재무장관이 한국을 방문하는 이벤트와 함께 중국과 일본을 순방하는 일정이 예정되어 있어, 한국 주식 시장에도 긍정적인 영향을 미칠 것으로 기대된다.",
+  "kr_picks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "매수",
+      "rating": 5,
+      "current_price": 268500,
+      "reason": "글로벌 반도체 시장 회복세에 따른 실적 개선 기대",
+      "buy_zone": "260,445~271,185원",
+      "target": "300,720원 (+12%)",
+      "stop_loss": "249,705원 (-7%)",
+      "catalyst": "삼성SDI 배터리 사업 확대",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005930"
+    },
+    {
+      "ticker": "000660",
+      "name": "SK하이닉스",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 1686000,
+      "reason": "반도체 업황 개선 및 DRAM 가격 상승 기대",
+      "buy_zone": "1,635,420~1,702,860원",
+      "target": "1,888,320원 (+12%)",
+      "stop_loss": "1,567,980원 (-7%)",
+      "catalyst": "중동 전쟁 위기 완화",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:000660"
+    },
+    {
+      "ticker": "035720",
+      "name": "카카오",
+      "exchange": "KRX",
+      "sector": "IT서비스",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 46000,
+      "reason": "AI 및 메타버스 사업 확대 기대",
+      "buy_zone": "44,620~46,460원",
+      "target": "51,520원 (+12%)",
+      "stop_loss": "42,780원 (-7%)",
+      "catalyst": "AI 기술 개발",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:035720"
+    },
+    {
+      "ticker": "005380",
+      "name": "현대차",
+      "exchange": "KRX",
+      "sector": "자동차",
+      "action": "매수",
+      "rating": 4,
+      "current_price": 613000,
+      "reason": "전기차 및 수소차 사업 확대 기대",
+      "buy_zone": "594,610~619,130원",
+      "target": "686,560원 (+12%)",
+      "stop_loss": "570,090원 (-7%)",
+      "catalyst": "중동 전쟁 위기 완화",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005380"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "exchange": "NASDAQ",
+      "sector": "IT",
+      "action": "hold",
+      "rating": 3,
+      "current_price": 293.32,
+      "reason": "AI 및 메타버스 사업 확대 기대",
+      "buy_zone": "$284.52~$296.25",
+      "target": "$328.52 (+12%)",
+      "stop_loss": "$272.79 (-7%)",
+      "catalyst": "AI 기술 개발",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:AAPL"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "exchange": "NASDAQ",
+      "sector": "IT",
+      "action": "buy",
+      "rating": 4,
+      "current_price": 415.12,
+      "reason": "AI 및 클라우드 사업 확대 기대",
+      "buy_zone": "$402.67~$419.27",
+      "target": "$464.93 (+12%)",
+      "stop_loss": "$386.06 (-7%)",
+      "catalyst": "AI 기술 개발",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:MSFT"
+    }
+  ]
+}
