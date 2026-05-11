@@ -1,0 +1,87 @@
+{
+  "date": "2026-05-12",
+  "generated_at": "2026-05-12 07:00 KST",
+  "sentiment": "bullish",
+  "fear_greed": "시장은 긍정적 분위기로, 특히 AI와 에너지 산업에 대한 관심이 높다.",
+  "market_summary": "AI와 에너지 산업에 대한 투자자들의 관심이 높아지면서 글로벌 증시가 상승세를 이어가고 있다. 특히 미국과 한국의 주요 지수들이 연일 강세를 보이며 투자자들의 기대감이 높아지고 있다. 향후 AI와 에너지 산업의 성장 잠재력에 주목해야 할 시점이다.",
+  "conclusion": "AI와 에너지 산업에 대한 투자 기회를 적극 활용할 것을 권장한다. 특히 AI 관련 기술 기업들과 에너지 산업의 핵심 기업들에 주목해야 할 것으로 보인다. 또한, 이들 산업의 이벤트와 뉴스를 주시하며 적절한 매수 타이밍을 노려야 할 것이다.",
+  "kr_picks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 285500,
+      "reason": "AI 산업 발전에 따른 반도체 수요 증가 전망",
+      "buy_zone": "276,935~288,355원",
+      "target": "319,760원 (+12%)",
+      "stop_loss": "265,515원 (-7%)",
+      "catalyst": "AI 산업 성장",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005930"
+    },
+    {
+      "ticker": "068270",
+      "name": "셀트리온",
+      "exchange": "KRX",
+      "sector": "바이오",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 191300,
+      "reason": "에너지 산업 성장으로 인한 수혜 기대",
+      "buy_zone": "185,561~193,213원",
+      "target": "214,256원 (+12%)",
+      "stop_loss": "177,909원 (-7%)",
+      "catalyst": "에너지 산업 성장",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:068270"
+    },
+    {
+      "ticker": "000660",
+      "name": "SK하이닉스",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "매수",
+      "rating": 4,
+      "current_price": 1880000,
+      "reason": "AI 기술 활용으로 인한 성장 가능성이 높음",
+      "buy_zone": "1,823,600~1,898,800원",
+      "target": "2,105,600원 (+12%)",
+      "stop_loss": "1,748,400원 (-7%)",
+      "catalyst": "AI 기술 발전",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:000660"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "exchange": "NASDAQ",
+      "sector": "IT",
+      "action": "hold",
+      "rating": 3,
+      "current_price": 292.68,
+      "reason": "AI 기술 활용으로 인한 성장 가능성이 높음",
+      "buy_zone": "$283.90~$295.61",
+      "target": "$327.80 (+12%)",
+      "stop_loss": "$272.19 (-7%)",
+      "catalyst": "AI 기술 발전",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:AAPL"
+    },
+    {
+      "ticker": "XOM",
+      "name": "ExxonMobil",
+      "exchange": "NYSE",
+      "sector": "에너지",
+      "action": "buy",
+      "rating": 4,
+      "current_price": 149.68,
+      "reason": "에너지 산업 성장으로 인한 수혜 기대",
+      "buy_zone": "$145.19~$151.18",
+      "target": "$167.64 (+12%)",
+      "stop_loss": "$139.20 (-7%)",
+      "catalyst": "에너지 산업 성장",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NYSE:XOM"
+    }
+  ]
+}
