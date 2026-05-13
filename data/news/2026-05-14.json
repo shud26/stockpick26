@@ -1,0 +1,95 @@
+{
+  "date": "2026-05-14",
+  "generated_at": "2026-05-14 07:00 KST",
+  "headline": "정유사의 실적 개선과 삼성전자 노조의 파업 위기",
+  "sentiment": "neutral",
+  "fear_greed": "시장은 긍정적인 분위기지만 정유사의 하반기 실적 악화 우려로 신중한 접근 필요",
+  "market_overview": "정유사의 1분기 실적이 크게 개선되었으나, 하반기 원유 도입비용 증가로 수익 악화 가능성 있어. 삼성전자 노조의 파업 위기와 현대중공업의 해외 투자 성공 등 다양한 이슈가 시장을 움직이고 있다.",
+  "key_themes": [
+    {
+      "theme": "정유사 실적 개선",
+      "description": "1분기 정유사 실적이 크게 개선되었으나, 하반기 원유 도입비용 증가로 수익 악화 우려",
+      "sector": "에너지"
+    },
+    {
+      "theme": "삼성전자 노조 파업 위기",
+      "description": "삼성전자 노사 간 사후조정 결렬로 파업 위기, 21일부터 총파업 가능성",
+      "sector": "전자"
+    },
+    {
+      "theme": "한국남부발전 미국 투자 성공",
+      "description": "한국남부발전, 미국 에너지 인프라 투자 성공으로 금융비용 절감",
+      "sector": "전력"
+    },
+    {
+      "theme": "LG전자 로봇 기술 개발",
+      "description": "LG전자, 로봇 핵심기술 자체 개발을 위한 인재 확보 속도",
+      "sector": "전자"
+    }
+  ],
+  "conclusion": "정유사의 실적 개선은 단기적 성과지만, 하반기 원유 도입비용 증가로 수익 악화 가능성 있어 주의 필요. 삼성전자 노조의 파업 위기와 현대중공업의 해외 투자 성공 등 다양한 이슈를 주시하며 신중한 투자 전략 필요.",
+  "kr_headlines": [
+    {
+      "title": "KDI “올 성장률 1.9→2.5%, 반도체가 중동악재 덮어”",
+      "summary": "한국개발연구원(KDI)이 올해 한국 경제성장률 전망치를 1.9%에서 2.5%로 높였다. 기존 전망치 발표 후 3개월 만이다. JP모건, 씨티, 노무라 등 세계 주요 투자은행(IB)들도 잇달아 한국 성장률 전망치를 상",
+      "impact": "긍정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "물가·워시 불확실성에…월가 \"美 연내 금리인하 안 한다\"",
+      "summary": "(서울=연합뉴스) 임지우 기자 = 미국 연방준비제도(Fed·연준) 의장 교체를 앞두고 인플레이션(물가 상승) 우려가 커지면서 연준이 올해 안에 ...",
+      "impact": "중립",
+      "source": "연합뉴스 경제"
+    },
+    {
+      "title": "달러-원, 끈적한 PPI가 하방 막았다…횡보 마감",
+      "summary": "(뉴욕=연합뉴스) 진정호 연합인포맥스 특파원 = 달러-원 환율이 야간 거래에서 횡보하다 소폭 하락한 채 장을 마쳤다.",
+      "impact": "부정",
+      "source": "연합뉴스 경제"
+    },
+    {
+      "title": "ECB, 6월 금리인상 무게…\"전쟁 끝나도 당분간 인플레\"",
+      "summary": "(베를린=연합뉴스) 김계연 특파원 = 유럽중앙은행(ECB) 통화정책위원들이 중동전쟁으로 인한 인플레이션 우려를 들어 내달 정책금리 인상을 잇따라...",
+      "impact": "부정",
+      "source": "연합뉴스 경제"
+    },
+    {
+      "title": "63억 적자→5조 흑자라고?…정유사 미친 실적, 실은 신기루라는데",
+      "summary": "1분기 4社 영업익 5조 ‘깜짝 실적’ 유가급등 따른 재고평가 착시영향 하반기 원유 도입비용 증가 우려도 3연속 동결 최고가격제 부담도 커중동 전쟁 장기화로 국제유가가 급변하는 ..",
+      "impact": "긍정",
+      "source": "매일경제 증권"
+    }
+  ],
+  "us_headlines": [
+    {
+      "title": "Trump in China: Traders predict a tariff truce extension and Boeing aircraft purchases",
+      "summary": "Traders also think it is likely that the president will talk about Iran, despite his comments that the U.S. doesn't need",
+      "impact": "중립",
+      "source": "CNBC Top News"
+    },
+    {
+      "title": "Earnings call transcript: Spruce Power’s Q1 2026 sees improved profitability",
+      "summary": "Earnings call transcript: Spruce Power’s Q1 2026 sees improved profitability",
+      "impact": "긍정",
+      "source": "Investing.com"
+    },
+    {
+      "title": "BuzzFeed, Inc. Q1 2026 Earnings Call Summary",
+      "summary": "BuzzFeed, Inc. Q1 2026 Earnings Call Summary",
+      "impact": "중립",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Viant Technology Inc. Q1 2026 Earnings Call Summary",
+      "summary": "Viant Technology Inc. Q1 2026 Earnings Call Summary",
+      "impact": "중립",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Consolidated Water Co. Ltd. Q1 2026 Earnings Call Summary",
+      "summary": "Consolidated Water Co. Ltd. Q1 2026 Earnings Call Summary",
+      "impact": "중립",
+      "source": "Yahoo Finance"
+    }
+  ]
+}

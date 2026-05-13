@@ -1,0 +1,72 @@
+{
+  "date": "2026-05-14",
+  "generated_at": "2026-05-14 07:00 KST",
+  "sentiment": "neutral",
+  "fear_greed": "시장은 긍정적인 분위기지만 정유사의 하반기 실적 악화 우려로 신중한 접근 필요",
+  "market_summary": "반도체 호황과 원화 스테이블코인의 발전으로 코스피가 상승세를 유지하고 있다. 하지만 정유사의 하반기 실적 악화 우려가 있어 신중한 접근이 필요하다. 미국의 생산자물가 상승률이 4년래 최고치를 기록하며 인플레이션 우려가 커지고 있다.",
+  "conclusion": "반도체 업종의 호황을 반영해 투자 포트폴리오에 반도체 관련 종목을 추가하는 것이 좋다. 또한, 원화 스테이블코인 관련 기업도 주목할 만하다. 미국 시장에서는 인플레이션 우려가 있으므로, 실적 개선이 예상되는 기업을 중심으로 투자 전략을 세우는 것이 바람직하다.",
+  "kr_picks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 284000,
+      "reason": "반도체 호황 지속",
+      "buy_zone": "275,480~286,840원",
+      "target": "318,080원 (+12%)",
+      "stop_loss": "264,120원 (-7%)",
+      "catalyst": "반도체 실적 개선",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005930"
+    },
+    {
+      "ticker": "035720",
+      "name": "카카오",
+      "exchange": "KRX",
+      "sector": "IT서비스",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 42950,
+      "reason": "기술 혁신 지속",
+      "buy_zone": "41,661~43,379원",
+      "target": "48,104원 (+12%)",
+      "stop_loss": "39,943원 (-7%)",
+      "catalyst": "신규 서비스 출시",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:035720"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "exchange": "NASDAQ",
+      "sector": "IT",
+      "action": "hold",
+      "rating": 3,
+      "current_price": 298.87,
+      "reason": "기술 혁신 지속",
+      "buy_zone": "$289.90~$301.86",
+      "target": "$334.73 (+12%)",
+      "stop_loss": "$277.95 (-7%)",
+      "catalyst": "신제품 출시",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:AAPL"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "exchange": "NASDAQ",
+      "sector": "자동차",
+      "action": "buy",
+      "rating": 4,
+      "current_price": 445.27,
+      "reason": "전기차 수요 증가",
+      "buy_zone": "$431.91~$449.72",
+      "target": "$498.70 (+12%)",
+      "stop_loss": "$414.10 (-7%)",
+      "catalyst": "전기차 수요 증가",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:TSLA"
+    }
+  ]
+}
