@@ -1,0 +1,102 @@
+{
+  "date": "2026-05-15",
+  "generated_at": "2026-05-15 07:00 KST",
+  "sentiment": "neutral",
+  "fear_greed": "시장은 혼조세를 보이며, 투자자들은 삼성전자 파업과 한미 정상회담에 주목하고 있다.",
+  "market_summary": "삼성전자 파업 가능성과 한미 정상회담 등이 주요 이슈로 자리잡고 있다. 미국과 중국의 정상회담이 긍정적인 결과를 가져올지 주목된다. AI 반도체 산업의 성장세가 주목받고 있으며, 고유가에 따른 소매판매 둔화가 경제 전반에 미치는 영향도 주요 관심사다.",
+  "conclusion": "내일 투자 전략은 삼성전자 파업 가능성에 대비하며, AI 관련 기업과 고유가에 영향을 덜 받는 섹터에 주목해야 한다. 특히, AI 반도체 산업의 성장세와 중국과의 무역 관계 개선 가능성에 주목해야 한다.",
+  "kr_picks": [
+    {
+      "ticker": "035420",
+      "name": "NAVER",
+      "exchange": "KRX",
+      "sector": "IT서비스",
+      "action": "매수",
+      "rating": 4,
+      "current_price": 213000,
+      "reason": "AI 관련 투자 확대 전망",
+      "buy_zone": "206,610~215,130원",
+      "target": "238,560원 (+12%)",
+      "stop_loss": "198,090원 (-7%)",
+      "catalyst": "AI 투자 확대",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:035420"
+    },
+    {
+      "ticker": "035720",
+      "name": "카카오",
+      "exchange": "KRX",
+      "sector": "IT서비스",
+      "action": "매수",
+      "rating": 4,
+      "current_price": 45950,
+      "reason": "고유가 환경에서 수혜 전망",
+      "buy_zone": "44,571~46,409원",
+      "target": "51,464원 (+12%)",
+      "stop_loss": "42,733원 (-7%)",
+      "catalyst": "고유가 환경",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:035720"
+    },
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 296000,
+      "reason": "삼성전자 파업 가능성에 따른 변동성 높음",
+      "buy_zone": "287,120~298,960원",
+      "target": "331,520원 (+12%)",
+      "stop_loss": "275,280원 (-7%)",
+      "catalyst": "삼성전자 파업 결과",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005930"
+    },
+    {
+      "ticker": "000660",
+      "name": "SK하이닉스",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 1970000,
+      "reason": "반도체 시장 변동성 높음",
+      "buy_zone": "1,910,900~1,989,700원",
+      "target": "2,206,400원 (+12%)",
+      "stop_loss": "1,832,100원 (-7%)",
+      "catalyst": "반도체 시장 전망",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:000660"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "exchange": "NASDAQ",
+      "sector": "반도체",
+      "action": "hold",
+      "rating": 3,
+      "current_price": 235.74,
+      "reason": "AI 반도체 산업 성장세",
+      "buy_zone": "$228.67~$238.10",
+      "target": "$264.03 (+12%)",
+      "stop_loss": "$219.24 (-7%)",
+      "catalyst": "AI 투자 확대",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:NVDA"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "exchange": "NASDAQ",
+      "sector": "IT",
+      "action": "buy",
+      "rating": 4,
+      "current_price": 409.43,
+      "reason": "AI 관련 투자 확대",
+      "buy_zone": "$397.15~$413.52",
+      "target": "$458.56 (+12%)",
+      "stop_loss": "$380.77 (-7%)",
+      "catalyst": "AI 투자 확대",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:MSFT"
+    }
+  ]
+}
