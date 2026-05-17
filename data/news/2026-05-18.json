@@ -1,0 +1,95 @@
+{
+  "date": "2026-05-18",
+  "generated_at": "2026-05-18 07:00 KST",
+  "headline": "삼성전자 노사가 마지막 협상 테이블에 앉아 파업 해결을 위한 실마리를 찾았다.",
+  "sentiment": "neutral",
+  "fear_greed": "시장은 삼성전자 노사 협상 결과에 주목하며 신중한 분위기다.",
+  "market_overview": "삼성전자 총파업 사흘 전인 18일, 노사가 마지막 협상에 들어갔다. 이재용 삼성전자 회장이 대국민 사과와 호소를 통해 해결의 실마리를 잡았지만, 파업이 중단될지 여전히 불확실하다. 한편, 두산그룹이 SK실트론 인수를 확정하며 반도체 업계에 주목해야 할 이슈가 생겼다.",
+  "key_themes": [
+    {
+      "theme": "삼성전자 파업",
+      "description": "이재용 회장의 호소에도 불구하고 파업 중단 여부 불확실.",
+      "sector": "반도체"
+    },
+    {
+      "theme": "두산그룹 인수",
+      "description": "두산이 SK실트론 인수 확정, 반도체 업계 재편 기대.",
+      "sector": "반도체"
+    },
+    {
+      "theme": "고용시장 양극화",
+      "description": "경총, 고용시장 양극화 심화 경고, 임금체계 개편 필요.",
+      "sector": "서비스"
+    },
+    {
+      "theme": "K-BBQ 해외진출",
+      "description": "K-BBQ, 해외 주요 도시에서 한국 식문화 대표 브랜드로 자리.",
+      "sector": "서비스"
+    }
+  ],
+  "conclusion": "삼성전자 파업의 최종 결과와 두산그룹의 SK실트론 인수 진행 상황이 주요 주식 시장에 큰 영향을 미칠 전망이다. 또한, 고용시장의 양극화와 서비스 산업의 해외 진출 동향도 주목해야 할 이슈다.",
+  "kr_headlines": [
+    {
+      "title": "코스피 불장에 역대급 빚투… 은행 신용대출 이달 1.8조 늘었다",
+      "summary": "국내 5대 시중은행의 신용대출 잔액이 5월 들어서만 1조8000억 원 넘게 증가한 것으로 나타났다. 코스피가 장중 8,000 선을 넘어서는 등 국내 증시가 가파른 상승세를 보이면서 빚투(빚내서 투자) 수요가 늘어난 ",
+      "impact": "긍정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "두산, SK실트론 인수 확정…최태원 지분 포함 내주 계약",
+      "summary": "두산그룹이 글로벌 3위 반도체 웨이퍼 업체인 SK실트론 인수를 사실상 확정 지었다. 최태원 SK그룹 회장의 개인 보유 지분까지 연내 모두 사들이며 지분 100% 확보에 나선다. 두..",
+      "impact": "중립",
+      "source": "매일경제 증권"
+    },
+    {
+      "title": "반도체 슈퍼사이클 맞은 코스피…수도권 주택시가총액 넘은 듯",
+      "summary": "(세종=연합뉴스) 이세원 송정은 기자 = 주식시장이 활기를 띠면서 코스피 시가총액이 수도권 주택 시가총액을 사실상 넘어선 것으로 추정된다.",
+      "impact": "중립",
+      "source": "연합뉴스 경제"
+    },
+    {
+      "title": "뉴욕·상하이 증시, 엔비디아·월마트·타깃 실적발표",
+      "summary": "뉴욕·상하이 증시, 엔비디아·월마트·타깃 실적발표",
+      "impact": "중립",
+      "source": "한국경제 증권"
+    },
+    {
+      "title": "메모리 품귀 속 삼성 파업땐 대체업체 물색… 中 경쟁사만 웃는다",
+      "summary": "세계 1위 메모리 기업인 삼성전자의 파업이 현실화될 가능성에 경쟁사들이 반사이익을 얻을 것이란 전망이 나온다. 글로벌 정보기술(IT) 기업들이 메모리 칩을 확보하려 혈안이 돼 있는 상황에서 삼성 파업발 공급 차질은 ",
+      "impact": "부정",
+      "source": "동아닷컴 경제"
+    }
+  ],
+  "us_headlines": [
+    {
+      "title": "Nvidia is getting some help as it props up S&P 500 earnings growth",
+      "summary": "Micron is expected to be the second-largest contributor to the index’s overall earnings growth — behind Nvidia, whose im",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Top Wall Street analysts suggest these 3 stocks for their long-term prospects",
+      "summary": "Robust spending and strong demand for AI infrastructure have reinforced analysts' confidence in several stocks after ear",
+      "impact": "중립",
+      "source": "CNBC Top News"
+    },
+    {
+      "title": "Dow Jones Futures: Oil Prices, Yields In Focus As Trump Says 'Clock Is Ticking' For Iran; Nvidia Earnings Ahead",
+      "summary": "Dow Jones Futures: Oil Prices, Yields In Focus As Trump Says 'Clock Is Ticking' For Iran; Nvidia Earnings Ahead",
+      "impact": "중립",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "The Iran war could be a $300 billion shock — driving up mortgage rates and squeezing wages",
+      "summary": "The Trump administration and Congress can act now to bring down energy costs and make Americans’ lives more affordable.",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Walmart and Target are about to show just how much shopping habits have changed due to the Iran war",
+      "summary": "Walmart has said that customers start to cut spending when gas prices hit $4.50 to $5 a gallon.",
+      "impact": "부정",
+      "source": "MarketWatch"
+    }
+  ]
+}
