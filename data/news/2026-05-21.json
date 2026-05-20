@@ -1,0 +1,95 @@
+{
+  "date": "2026-05-21",
+  "generated_at": "2026-05-21 07:00 KST",
+  "headline": "삼성전자 노사가 파업 직전에 극적으로 잠정합의를 도출, 산업 전반에 긍정적 영향 전망",
+  "sentiment": "bullish",
+  "fear_greed": "시장은 삼성전자 노사의 극적 타결에 긍정적 반응을 보이며 안도감이 감돌고 있다.",
+  "market_overview": "삼성전자 노사가 파업 직전에 극적으로 잠정 합의를 도출하면서 주요 기업들의 생산 중단 위기를 피하게 되었다. 이로 인해 산업 전반에 긍정적인 영향이 예상되며, 투자자들의 불안감이 완화되고 있다. 또한, 베트남과의 비즈니스 및 투자 연결 기회가 확대되면서 한국 기업들의 역내·글로벌 공급망 참여도 더욱 강화될 전망이다.",
+  "key_themes": [
+    {
+      "theme": "삼성전자 노사 합의",
+      "description": "삼성전자 노사가 파업 직전에 극적으로 잠정 합의를 도출, 산업 전반에 긍정적 영향 예상",
+      "sector": "반도체"
+    },
+    {
+      "theme": "베트남 비즈니스 기회",
+      "description": "한국과 베트남 기업들의 비즈니스 및 투자 연결 기회 확대, 역내 공급망 참여 강화 전망",
+      "sector": "글로벌 비즈니스"
+    },
+    {
+      "theme": "AI 네이티브 전환",
+      "description": "베트남의 젊은 세대가 AI 네이티브로 전환, 한국 기업들에 새로운 비즈니스 기회 제공",
+      "sector": "기술"
+    },
+    {
+      "theme": "생산라인 안정화",
+      "description": "삼성전자 생산라인 비상모드 전환 완화, 산업 전반에 안정적 분위기 확산 전망",
+      "sector": "반도체"
+    }
+  ],
+  "conclusion": "삼성전자 노사의 극적 타결은 산업 전반에 긍정적인 영향을 미치며, 투자자들의 불안감이 완화되고 있다. 또한, 베트남과의 비즈니스 기회 확대는 한국 기업들에게 새로운 성장 동력이 될 것으로 예상된다. 향후 산업 전반의 안정적 분위기 유지와 함께, 베트남 시장에 대한 관심이 더욱 높아질 것으로 보인다.",
+  "kr_headlines": [
+    {
+      "title": "“달러당 1500원 뉴노멀 되나” … 서학개미도 동학개미도 환율이 중요한 이유",
+      "summary": "유가와 금리상승 리스크, 원화 강타서학개미인 A는 최근 투자 수익률을 점검해봤다. 미국 주식과 ETF 등에 넣어놨던 투자자산의 수익률은 14% 내외였다. 그런데 원화로 환산한 수익..",
+      "impact": "긍정",
+      "source": "매일경제"
+    },
+    {
+      "title": "엔비디아 실적데이…뉴욕증시,반도체주식들 상승",
+      "summary": "엔비디아 실적데이…뉴욕증시,반도체주식들 상승",
+      "impact": "긍정",
+      "source": "한국경제 경제"
+    },
+    {
+      "title": "종전 기대감에 발작 진정...국채금리 급락에 美증시 반등[월가월부]",
+      "summary": "트럼프 “협상 최종 단계”에 채권금리 급락 국제유가 5%대 하락하며 인플레 우려 진정 4월 FOMC 의사록서 드러난 금리인상 목소리이란전쟁 종전 기대감에 국제유가와 미 국채금리가 ..",
+      "impact": "부정",
+      "source": "매일경제"
+    },
+    {
+      "title": "달러-원, 美·이란 종전 합의 기대감 확산…1,496.70원 마감",
+      "summary": "(뉴욕=연합뉴스) 진정호 연합인포맥스 특파원 = 달러-원 환율이 야간 거래에서 10원 넘게 하락했다.",
+      "impact": "부정",
+      "source": "연합뉴스 경제"
+    },
+    {
+      "title": "국제 유가 5%대 하락…WTI, 98달러대로 내려",
+      "summary": "국제 유가 5%대 하락…WTI, 98달러대로 내려",
+      "impact": "부정",
+      "source": "한국경제 경제"
+    }
+  ],
+  "us_headlines": [
+    {
+      "title": "E.l.f. Beauty to walk back some tariff price increases amid high gas prices and consumer 'suffering'",
+      "summary": "E.l.f. Beauty raised prices by $1 last August to offset the impact of tariffs. It's now planning to walk back some of th",
+      "impact": "긍정",
+      "source": "CNBC Top News"
+    },
+    {
+      "title": "Agilysys, Inc. Q4 2026 Earnings Call Summary",
+      "summary": "Agilysys, Inc. Q4 2026 Earnings Call Summary",
+      "impact": "중립",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "ReNew Energy Global Plc Q4 2026 Earnings Call Summary",
+      "summary": "ReNew Energy Global Plc Q4 2026 Earnings Call Summary",
+      "impact": "중립",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Chinese Memory-Chip Maker YMTC Kicks Off Pre-IPO Guidance Talks",
+      "summary": "Chinese Memory-Chip Maker YMTC Kicks Off Pre-IPO Guidance Talks",
+      "impact": "중립",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "I found my co-worker’s W-2 in a book — she makes $15,000 more than me for the same job. What should I do?",
+      "summary": "“How do you advocate for yourself without coming off whiny?”",
+      "impact": "중립",
+      "source": "MarketWatch"
+    }
+  ]
+}
