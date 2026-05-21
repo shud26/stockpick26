@@ -1,0 +1,95 @@
+{
+  "date": "2026-05-22",
+  "generated_at": "2026-05-22 07:00 KST",
+  "headline": "삼성전자 노사 갈등 해결과 카카오의 후폭풍이 주목받는 한 주 시작",
+  "sentiment": "bullish",
+  "fear_greed": "투자자들의 긍정적인 기대감이 높아짐",
+  "market_overview": "삼성전자 노사 갈등이 해결되면서 금주 주식시장은 안정세를 유지할 것으로 보인다. 삼성전자는 무주택 직원을 대상으로 저금리 대출을 지원하며 복지 정책을 강화했다. 또한, 베트남 진출 기업들은 현지 이해와 장기 투자를 통한 네트워크 구축을 강조하고 있다.",
+  "key_themes": [
+    {
+      "theme": "삼성전자 노사 관계",
+      "description": "삼성전자 노사 갈등이 해결되면서 금주 주식시장은 안정세를 유지할 것으로 보인다.",
+      "sector": "기술"
+    },
+    {
+      "theme": "베트남 진출",
+      "description": "한국 기업들은 베트남 진출을 위해 현지 이해와 장기 투자를 통한 네트워크 구축을 강조하고 있다.",
+      "sector": "제조"
+    },
+    {
+      "theme": "카카오의 후폭풍",
+      "description": "삼성전자 노사 갈등 해결 이후 카카오에서 발생한 후폭풍이 주목받고 있다.",
+      "sector": "기술"
+    },
+    {
+      "theme": "베트남 LNG 프로젝트",
+      "description": "SK이노베이션은 베트남 LNG 프로젝트를 AI 산업 인프라 구축의 일환으로 추진하고 있다.",
+      "sector": "에너지"
+    }
+  ],
+  "conclusion": "삼성전자 노사 갈등 해결과 카카오의 후폭풍, 그리고 베트남 진출 전략이 주목받는 가운데, 투자자들은 삼성전자와 카카오의 주가 변화에 주목해야 한다. 또한, 베트남 진출 기업들의 현지 이해와 장기 투자 전략에 대한 관심도 높아질 것으로 예상된다.",
+  "kr_headlines": [
+    {
+      "title": "반도체 파업 유보에, 코스피 8% 치솟아 7800 회복",
+      "summary": "삼성전자 파업 리스크 해소, 인공지능(AI) 투자, 중동 전쟁 종전 기대에 따른 국채 금리와 유가 하락 등 호재가 겹치며 코스피가 하루에 600포인트 넘게 올라 단숨에 7,800 선을 회복했다. 이날 역대 최대 일일",
+      "impact": "중립",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "달러-원, 美·이란 종전 기대 후퇴에 상승 반전…1,508원 마감",
+      "summary": "(뉴욕=연합뉴스) 최진우 연합인포맥스 특파원 = 달러-원 환율이 야간 거래에서 상승세로 전환하며 1,508원에 마감했다.",
+      "impact": "긍정",
+      "source": "연합뉴스 경제"
+    },
+    {
+      "title": "국제유가, 이란 협상 진전 기대에 하락 마감…브렌트유 2.3%↓",
+      "summary": "(뉴욕=연합뉴스) 김연숙 특파원 = 21일(현지시간) 국제유가가 미국과 이란 간의 협상 진전 기대감에 3일 연속 하락 마감했다.",
+      "impact": "부정",
+      "source": "연합뉴스 경제"
+    },
+    {
+      "title": "“지금 증시 닷컴버블과 다르다…미국 기본 깔고 코스피 더 늘릴 때”",
+      "summary": "목대균 KCGI자산운용 대표 인터뷰최근 국내 증시가 급등과 급락을 반복하며 투자자들의 불안감이 커지고 있다. 하지만 목대균 KCGI자산운용 대표는 현재 시장을 단순한 버블 국면으로..",
+      "impact": "중립",
+      "source": "매일경제"
+    },
+    {
+      "title": "1인당 6억… ‘N% 성과급’ 위험한 도미노",
+      "summary": "삼성전자 노사가 임금 협약에 잠정 합의하며 파업 위기를 넘겼지만 한국 산업계에 적잖은 파장이 이어질 것으로 전망된다. 앞서 SK하이닉스에 이어 삼성전자도 ‘영업이익 연동 성과급’을 도입해 재계에 ‘보상 패러다임 전환",
+      "impact": "부정",
+      "source": "동아닷컴 경제"
+    }
+  ],
+  "us_headlines": [
+    {
+      "title": "Elon Musk’s xAI is draining SpaceX’s cash, with little to show for it",
+      "summary": "SpaceX’s AI division, which houses the Grok platform, generated $818 million of revenue in its last quarter, resulting i",
+      "impact": "부정",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Workday jumps 14% as it bumps up margin forecast on AI strength",
+      "summary": "Workday's CEO says the company is seeing success in artificial intelligence.",
+      "impact": "중립",
+      "source": "CNBC Top News"
+    },
+    {
+      "title": "Spotify soars 13% after announcing AI music deal with UMG, guidance",
+      "summary": "Spotify, which is holding its first investor day in four years, is now under the direction of co-CEOs Gustav Söderström ",
+      "impact": "중립",
+      "source": "CNBC Top News"
+    },
+    {
+      "title": "Quantum stocks soar as the Trump administration looks to be buying in",
+      "summary": "The U.S. government is set to provide $2 billion in grants and take stakes in nine quantum-computing companies.",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "NYC’s Mamdani boasts new $50 World Cup ticket program: ‘That is five lattes in New York City!’",
+      "summary": "World Cup ticket prices are down 22% over the last 60 days, according to one ticket tracking website.",
+      "impact": "중립",
+      "source": "MarketWatch"
+    }
+  ]
+}
