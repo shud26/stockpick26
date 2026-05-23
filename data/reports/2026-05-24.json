@@ -1,0 +1,102 @@
+{
+  "date": "2026-05-24",
+  "generated_at": "2026-05-24 07:00 KST",
+  "sentiment": "bullish",
+  "fear_greed": "투자자들은 삼성전자 임금협상의 긍정적인 진행과 현대카드 슈퍼콘서트의 성공적인 흥행에 대한 기대감을 보이고 있다.",
+  "market_summary": "삼성전자 임금협상의 긍정적인 진행과 현대카드 슈퍼콘서트의 성공적인 흥행에 대한 기대감이 시장을 견인하고 있다. LG의 자사주 소각과 롯데에너지머티리얼즈의 자회사 매각도 주목받고 있다.",
+  "conclusion": "투자 전략은 삼성전자와 현대카드에 집중하는 것이 좋을 것으로 보인다. 삼성전자의 임금협상과 현대카드의 슈퍼콘서트 성공이 주가에 긍정적인 영향을 미칠 것으로 예상된다.",
+  "kr_picks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 292500,
+      "reason": "임금협상의 긍정적 진행",
+      "buy_zone": "283,725~295,425원",
+      "target": "327,600원 (+12%)",
+      "stop_loss": "272,025원 (-7%)",
+      "catalyst": "임금협상 결과",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005930"
+    },
+    {
+      "ticker": "035720",
+      "name": "카카오",
+      "exchange": "KRX",
+      "sector": "IT서비스",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 41850,
+      "reason": "슈퍼콘서트 성공",
+      "buy_zone": "40,594~42,268원",
+      "target": "46,872원 (+12%)",
+      "stop_loss": "38,920원 (-7%)",
+      "catalyst": "슈퍼콘서트 흥행",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:035720"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "exchange": "NASDAQ",
+      "sector": "반도체",
+      "action": "hold",
+      "rating": 3,
+      "current_price": 119.84,
+      "reason": "AI 기술 투자",
+      "buy_zone": "$116.24~$121.04",
+      "target": "$134.22 (+12%)",
+      "stop_loss": "$111.45 (-7%)",
+      "catalyst": "AI 기술 성공",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:INTC"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "exchange": "NASDAQ",
+      "sector": "IT",
+      "action": "buy",
+      "rating": 4,
+      "current_price": 418.57,
+      "reason": "클라우드 사업 확장",
+      "buy_zone": "$406.01~$422.76",
+      "target": "$468.80 (+12%)",
+      "stop_loss": "$389.27 (-7%)",
+      "catalyst": "클라우드 수익 증가",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:MSFT"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "exchange": "NASDAQ",
+      "sector": "IT",
+      "action": "buy",
+      "rating": 4,
+      "current_price": 308.82,
+      "reason": "삼성전자와의 경쟁",
+      "buy_zone": "$299.56~$311.91",
+      "target": "$345.88 (+12%)",
+      "stop_loss": "$287.20 (-7%)",
+      "catalyst": "삼성전자 대응",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:AAPL"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "exchange": "NASDAQ",
+      "sector": "자동차",
+      "action": "buy",
+      "rating": 4,
+      "current_price": 426.01,
+      "reason": "전기차 수요 증가",
+      "buy_zone": "$413.23~$430.27",
+      "target": "$477.13 (+12%)",
+      "stop_loss": "$396.19 (-7%)",
+      "catalyst": "전기차 판매 증가",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:TSLA"
+    }
+  ]
+}
