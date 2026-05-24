@@ -1,0 +1,95 @@
+{
+  "date": "2026-05-25",
+  "generated_at": "2026-05-25 07:00 KST",
+  "headline": "스타벅스와 일베에 대한 정부 규제 검토, 장기 실업자 비중 22년 만에 최고",
+  "sentiment": "neutral",
+  "fear_greed": "시장은 혼란스러운 상황에서 신중한 접근을 요구하고 있다.",
+  "market_overview": "정부는 스타벅스와 일베 등 혐오 표현을 규제하기 위한 조치를 검토하고 있다. 이와 함께 장기 실업자의 비중이 22년 만에 가장 높아 사회적 문제로 대두되고 있다.",
+  "key_themes": [
+    {
+      "theme": "정부 규제",
+      "description": "정부는 스타벅스와 일베 등 혐오 표현에 대한 규제를 검토 중이다.",
+      "sector": "정치"
+    },
+    {
+      "theme": "장기 실업자",
+      "description": "장기 실업자의 비중이 22년 만에 가장 높아 청년과 30대가 주요 피해 집단이다.",
+      "sector": "경제"
+    },
+    {
+      "theme": "호르무즈 해협",
+      "description": "이란 혁명수비대는 호르무즈 해협을 통과한 상선 25척을 보고했다.",
+      "sector": "에너지"
+    },
+    {
+      "theme": "비데 테크",
+      "description": "위생가전 비데가 향기 기능과 AI 배변 관리 기능을 갖춘 제품으로 진화하고 있다.",
+      "sector": "가전"
+    }
+  ],
+  "conclusion": "정부는 혐오 표현에 대한 강력한 규제를 추진할 것으로 보인다. 또한 장기 실업자가 증가하는 상황에서 청년 및 30대의 고용 문제 해결이 시급하다. 이란 혁명수비대의 호르무즈 해협 통과 보고는 에너지 시장에 불안 요인으로 작용할 수 있다.",
+  "kr_headlines": [
+    {
+      "title": "고유가-외국인 순매도 맞물려, 원-달러 환율 1520원 육박",
+      "summary": "글로벌 국채 금리와 국제 유가의 동반 강세, 외국인의 증시 순매도가 맞물리며 원-달러 환율이 달러당 1520원에 육박했다. 24일 한국은행에 따르면 22일 원-달러 환율의 야간 거래(이튿날 오전 2시 마감)는 151",
+      "impact": "중립",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "워시 연준 의장 취임… 연내 美금리 인상 전망 확산",
+      "summary": "‘세계 경제 대통령’으로 불리는 미국 연방준비제도(Fed·연준) 수장으로 케빈 워시 신임 의장이 공식 취임했다. 도널드 트럼프 대통령은 경기 진작을 위해 낮은 금리를 주문하고 있지만, 이란 전쟁 이후 고유가로 인한 ",
+      "impact": "긍정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "삼전-닉스 등 5대 기업, 韓수출 비중 44% 차지",
+      "summary": "올해 1분기(1∼3월) 한국 수출 총액의 44%를 삼성전자, SK하이닉스 등 상위 5대 기업이 차지한 것으로 나타났다. 1년 새 비중이 15%포인트 가까이 높아졌다. 반도체를 중심으로 한 수출 호조세가 몇몇 특정 기",
+      "impact": "긍정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "세계 국채 금리 뛰자 주담대 고정금리 하단 5%대로",
+      "summary": "국내 시중은행 주택담보대출 금리 하단이 연 5%대로 오르고 있다. 중동 전쟁 여파로 인플레이션 우려가 고조되며 미국 일본 영국 등 주요국 국채 금리가 크게 오르자 시장 금리도 덩달아 오르고 있다. 중동 전쟁이 마무리",
+      "impact": "긍정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "엔비디아 “AI용 CPU 진출… 中 포함 시장규모 300조원”",
+      "summary": "엔비디아가 새롭게 진출하는 인공지능(AI)용 중앙처리장치(CPU) 시장 규모를 2000억 달러(약 300조 원)로 전망한 가운데 젠슨 황 최고경영자(CEO)는 “중국 시장도 고려한 규모”라고 밝혔다. 23일(현지 시",
+      "impact": "중립",
+      "source": "동아닷컴 경제"
+    }
+  ],
+  "us_headlines": [
+    {
+      "title": "Stocks are riding an earnings hot streak — but investors are facing a summer that’s rife with risks",
+      "summary": "The U.S. stock market has arrived at the unofficial start to summer with major benchmarks sitting at record highs. But a",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Stocks and earnings surge, and Iran deal may be imminent: What to watch this week",
+      "summary": "Stocks and earnings surge, and Iran deal may be imminent: What to watch this week",
+      "impact": "긍정",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "‘My husband is leery of my plan’: We are both 60 and have $5 million. Is now a good time to dip into our savings?",
+      "summary": "“We have been scrimping for a long time.”",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "I’m 67. Our family trust earns $300,000 annually for my kids. How do I ensure they won’t get killed on taxes?",
+      "summary": "“My thought is to distribute all of the income to my children each year so that the trust itself pays little to no tax.”",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Is the stock market closed on Memorial Day? Does the post office deliver mail?",
+      "summary": "The holiday weekend will affect the stock and bond market. Here’s what you need to know.",
+      "impact": "중립",
+      "source": "MarketWatch"
+    }
+  ]
+}
