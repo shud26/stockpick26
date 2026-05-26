@@ -1,0 +1,57 @@
+{
+  "date": "2026-05-27",
+  "generated_at": "2026-05-27 07:00 KST",
+  "sentiment": "bullish",
+  "fear_greed": "시장은 미국과 이란의 협상 진전 소식에 긍정적으로 반응",
+  "market_summary": "반도체 업계의 첨단 패키징 기술 경쟁이 본격화되고 있으며, AI 데이터센터 냉각 시장이 급성장하고 있다. 특히, SK하이닉스의 iHBM 기술과 LG의 청년 육성 프로그램이 주목받고 있다.",
+  "conclusion": "내일은 반도체 및 AI 관련 분야에 집중하는 것이 좋다. 특히, 첨단 패키징 기술과 데이터센터 냉각 기술 분야에서 혁신을 이룬 기업들을 주목해야 한다.",
+  "kr_picks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 299000,
+      "reason": "iHBM 기술 공개로 발열 문제 해결",
+      "buy_zone": "290,030~301,990원",
+      "target": "334,880원 (+12%)",
+      "stop_loss": "278,070원 (-7%)",
+      "catalyst": "발열 해결 기술 공개",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005930"
+    },
+    {
+      "ticker": "035720",
+      "name": "카카오",
+      "exchange": "KRX",
+      "sector": "IT서비스",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 41450,
+      "reason": "AI 플랫폼 개발",
+      "buy_zone": "40,206~41,864원",
+      "target": "46,424원 (+12%)",
+      "stop_loss": "38,548원 (-7%)",
+      "catalyst": "AI 플랫폼 개발",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:035720"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "exchange": "NASDAQ",
+      "sector": "IT",
+      "action": "hold",
+      "rating": 3,
+      "current_price": 308.33,
+      "reason": "AI 서비스 확장",
+      "buy_zone": "$299.08~$311.41",
+      "target": "$345.33 (+12%)",
+      "stop_loss": "$286.75 (-7%)",
+      "catalyst": "AI 서비스 확장",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:AAPL"
+    }
+  ]
+}
