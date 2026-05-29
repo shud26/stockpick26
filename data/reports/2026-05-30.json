@@ -1,0 +1,72 @@
+{
+  "date": "2026-05-30",
+  "generated_at": "2026-05-30 07:00 KST",
+  "sentiment": "bullish",
+  "fear_greed": "AI 산업과 가상자산 분야의 긍정적인 전망이 시장에 긍정적인 영향을 미치고 있다.",
+  "market_summary": "AI 산업과 가상자산 분야의 긍정적인 전망이 시장에 긍정적인 영향을 미치고 있다. 특히, 메모리 반도체와 가상자산 관련 기업들의 주가가 상승세를 보이고 있다. LG전자와 네이버의 주가가 상한가를 기록하며 시장의 관심을 받고 있다.",
+  "conclusion": "내일 투자 전략은 AI 산업과 가상자산 관련 기업들을 중심으로 하여, LG전자, 네이버, SK하이닉스, 삼성전자, 코레일, 씨엔에스를 추천한다. 특히, 가상자산 관련 기업들의 지분 확보 경쟁이 본격화되면서 관련 기업들의 주가 상승이 예상된다.",
+  "kr_picks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 317000,
+      "reason": "메모리 반도체 가격 상승",
+      "buy_zone": "307,490~320,170원",
+      "target": "355,040원 (+12%)",
+      "stop_loss": "294,810원 (-7%)",
+      "catalyst": "메모리 반도체 가격 상승",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005930"
+    },
+    {
+      "ticker": "035420",
+      "name": "NAVER",
+      "exchange": "KRX",
+      "sector": "IT서비스",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 234000,
+      "reason": "엔비디아 CEO와의 회동 예정",
+      "buy_zone": "226,980~236,340원",
+      "target": "262,080원 (+12%)",
+      "stop_loss": "217,620원 (-7%)",
+      "catalyst": "엔비디아 CEO 회동",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:035420"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "exchange": "NASDAQ",
+      "sector": "반도체",
+      "action": "hold",
+      "rating": 3,
+      "current_price": 211.14,
+      "reason": "한국 기업들과의 회동 예정",
+      "buy_zone": "$204.81~$213.25",
+      "target": "$236.48 (+12%)",
+      "stop_loss": "$196.36 (-7%)",
+      "catalyst": "한국 기업들과의 회동",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:NVDA"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "exchange": "NASDAQ",
+      "sector": "반도체",
+      "action": "buy",
+      "rating": 4,
+      "current_price": 516.1,
+      "reason": "AI 산업 확장",
+      "buy_zone": "$500.62~$521.26",
+      "target": "$578.03 (+12%)",
+      "stop_loss": "$479.97 (-7%)",
+      "catalyst": "AI 산업 확장",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:AMD"
+    }
+  ]
+}
