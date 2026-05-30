@@ -1,0 +1,57 @@
+{
+  "date": "2026-05-31",
+  "generated_at": "2026-05-31 07:00 KST",
+  "sentiment": "bullish",
+  "fear_greed": "시장 분위기는 긍정적이다. AI와 반도체 업계의 긍정적인 이슈가 주요 관심사.",
+  "market_summary": "AI와 메모리 반도체 업계의 긍정적인 이슈가 시장을 이끌고 있다. 삼성전자와 SK하이닉스의 시가총액이 1조 달러를 돌파하며 주요 주식시장에서 주목받고 있다. 또한, 샌디스크와 마이크론도 AI와 메모리 반도체 시장의 성장에 힘입어 상승세를 보이고 있다.",
+  "conclusion": "내일 투자 전략은 AI와 메모리 반도체 업계에 집중해야 한다. 삼성전자와 SK하이닉스는 이미 1조 달러 클럽에 진입했으며, 샌디스크와 마이크론도 이 분야에서 빠르게 성장하고 있다. 이들 업종의 주요 이벤트와 실적 발표를 주시하며 투자 포지션을 조정하는 것이 좋다.",
+  "kr_picks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 317000,
+      "reason": "메모리 반도체 시장 지배력 확대",
+      "buy_zone": "307,490~320,170원",
+      "target": "355,040원 (+12%)",
+      "stop_loss": "294,810원 (-7%)",
+      "catalyst": "메모리 반도체 수요 증가",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005930"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "exchange": "NASDAQ",
+      "sector": "IT",
+      "action": "hold",
+      "rating": 3,
+      "current_price": 312.06,
+      "reason": "AI 관련 기술 투자 확대",
+      "buy_zone": "$302.70~$315.18",
+      "target": "$349.51 (+12%)",
+      "stop_loss": "$290.22 (-7%)",
+      "catalyst": "AI 관련 기술 투자 확대",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:AAPL"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "exchange": "NASDAQ",
+      "sector": "IT",
+      "action": "buy",
+      "rating": 4,
+      "current_price": 380.34,
+      "reason": "AI 관련 솔루션 개발",
+      "buy_zone": "$368.93~$384.14",
+      "target": "$425.98 (+12%)",
+      "stop_loss": "$353.72 (-7%)",
+      "catalyst": "AI 관련 솔루션 개발",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:GOOGL"
+    }
+  ]
+}
