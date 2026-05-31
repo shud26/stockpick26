@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-01",
+  "generated_at": "2026-06-01 07:00 KST",
+  "sentiment": "bullish",
+  "fear_greed": "시장은 반도체 업계의 성장 잠재력에 대한 낙관적인 전망을 보이고 있다.",
+  "market_summary": "반도체 업계의 성장 잠재력이 주목받으며 코스피 지수는 상승세를 이어가고 있다. 특히 마이크론의 주가 상승과 함께 코스피 지수도 상승세를 보이고 있다. 또한, AI 산업의 발전이 기대되는 가운데, 관련 기업들의 주가도 상승하고 있다.",
+  "conclusion": "반도체 업계의 성장 잠재력과 AI 산업의 발전이 주목받는 가운데, 관련 섹터와 종목에 대한 투자가 유망할 것으로 보인다. 특히 마이크론과 국내 반도체 기업들의 주가 상승이 주목받을 것으로 예상된다.",
+  "kr_picks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 317000,
+      "reason": "반도체 업계의 성장 잠재력",
+      "buy_zone": "307,490~320,170원",
+      "target": "355,040원 (+12%)",
+      "stop_loss": "294,810원 (-7%)",
+      "catalyst": "반도체 수출 증가",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005930"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "exchange": "NASDAQ",
+      "sector": "반도체",
+      "action": "hold",
+      "rating": 3,
+      "current_price": 211.14,
+      "reason": "반도체 업계의 성장 잠재력",
+      "buy_zone": "$204.81~$213.25",
+      "target": "$236.48 (+12%)",
+      "stop_loss": "$196.36 (-7%)",
+      "catalyst": "반도체 수출 증가",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:NVDA"
+    }
+  ]
+}
