@@ -1,0 +1,72 @@
+{
+  "date": "2026-06-04",
+  "generated_at": "2026-06-04 07:00 KST",
+  "sentiment": "bullish",
+  "fear_greed": "투자자들의 긍정적인 기대감이 높아짐",
+  "market_summary": "AI 투자 지형이 바뀌면서 전방위적인 확산이 이루어지고 있다. 엔비디아를 필두로 한 하드웨어 반도체부터 데이터센터 인프라 주식까지, 투자자들은 다양한 분야에서 머니 무브를 경험하고 있다. 코스피가 9000포인트를 향해 달려가고 있지만, 투자자들의 체감 온도는 여전히 미지근한 상태다. 코스닥 ETF들이 잇단 호재로 반등 기대감을 높이고 있다.",
+  "conclusion": "AI 투자 지형의 변화와 함께 데이터센터 인프라 주식, ETF 등 다양한 분야에서 투자 기회가 열리고 있다. 투자자들은 이 기회를 활용하여 수익을 극대화할 필요가 있다. 특히, 코스닥 ETF들의 반등 기대감이 높아지면서 이 분야에서도 관심을 가져볼 만하다.",
+  "kr_picks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "매수",
+      "rating": 5,
+      "current_price": 360500,
+      "reason": "AI 투자 지형의 변화로 인해 반도체 부문이 주목받고 있다",
+      "buy_zone": "349,685~364,105원",
+      "target": "403,760원 (+12%)",
+      "stop_loss": "335,265원 (-7%)",
+      "catalyst": "엔비디아의 성과",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005930"
+    },
+    {
+      "ticker": "035420",
+      "name": "NAVER",
+      "exchange": "KRX",
+      "sector": "IT서비스",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 280500,
+      "reason": "에너지 부문에서 주목받고 있다",
+      "buy_zone": "272,085~283,305원",
+      "target": "314,160원 (+12%)",
+      "stop_loss": "260,865원 (-7%)",
+      "catalyst": "에너지 수요 증가",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:035420"
+    },
+    {
+      "ticker": "035720",
+      "name": "카카오",
+      "exchange": "KRX",
+      "sector": "IT서비스",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 42550,
+      "reason": "AI 투자 지형의 변화로 인해 IT 부문이 주목받고 있다",
+      "buy_zone": "41,273~42,975원",
+      "target": "47,656원 (+12%)",
+      "stop_loss": "39,571원 (-7%)",
+      "catalyst": "AI 투자 지형의 변화",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:035720"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "exchange": "NASDAQ",
+      "sector": "반도체",
+      "action": "hold",
+      "rating": 3,
+      "current_price": 214.75,
+      "reason": "AI 투자 지형의 변화로 인해 주목받고 있다",
+      "buy_zone": "$208.31~$216.90",
+      "target": "$240.52 (+12%)",
+      "stop_loss": "$199.72 (-7%)",
+      "catalyst": "엔비디아의 성과",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:NVDA"
+    }
+  ]
+}

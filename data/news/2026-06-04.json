@@ -1,0 +1,95 @@
+{
+  "date": "2026-06-04",
+  "generated_at": "2026-06-04 07:00 KST",
+  "headline": "젠슨 황 방한과 AI 데이터센터 관련 동박업계 재편이 주요 이슈",
+  "sentiment": "bullish",
+  "fear_greed": "투자자들의 긍정적인 기대감이 높아짐",
+  "market_overview": "증시는 AI와 로봇 기술의 발전에 주목하며 상승세를 이어가고 있다. 특히, 반도체와 로봇 산업이 주도주로 부상하며 투자자들의 관심을 받고 있다. 또한, 일본 증시도 새로운 기록을 세우며 전반적인 긍정적인 분위기를 이어가고 있다.",
+  "key_themes": [
+    {
+      "theme": "AI 데이터센터",
+      "description": "AI 데이터센터 관련 산업이 고부가가치 제품으로 사업 재편에 속도를 내고 있다.",
+      "sector": "반도체"
+    },
+    {
+      "theme": "로봇 기술",
+      "description": "로봇 기술이 주도주로 부상하며 LG전자와 현대차그룹 등이 주가 상승을 견인하고 있다.",
+      "sector": "기술"
+    },
+    {
+      "theme": "반도체",
+      "description": "반도체 산업이 AI와 로봇 기술의 발전에 힘입어 주도적인 역할을 하고 있다.",
+      "sector": "반도체"
+    },
+    {
+      "theme": "일본 증시",
+      "description": "일본 증시가 새로운 기록을 세우며 전반적인 긍정적인 분위기를 이어가고 있다.",
+      "sector": "국제 증시"
+    }
+  ],
+  "conclusion": "젠슨 황 방한과 AI 데이터센터 관련 동박업계 재편이 주요 이슈로 부상하며, 투자자들의 관심이 집중될 전망이다. 특히, 로봇 기술과 반도체 산업의 발전이 주도주로 부상하며 투자자들의 관심을 받을 것으로 예상된다.",
+  "kr_headlines": [
+    {
+      "title": "환율 야간 종가 1519원… 제도 도입 이래 최고가",
+      "summary": "원-달러 환율이 3일 오전 2시에 끝난 야간 거래에서 장중 1520원을 넘겼다. 야간 거래 제도가 도입된 지 1년 11개월 만에 가장 높은 수준이다. 국제 유가가 상승한 데다 외국인이 유가증권시장에서 18거래일 연속",
+      "impact": "중립",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "스페이스X “몸값 1조7500억 달러 목표” 사상 최대 IPO 초읽기",
+      "summary": "일론 머스크의 우주기업 스페이스X가 기업가치 1조7500억 달러(약 2625조 원)를 목표로 사상 최대 기업공개(IPO)에 도전한다. 3일(현지 시간) 로이터통신에 따르면 스페이스X는 이르면 12일 나스닥 상장을 목",
+      "impact": "중립",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "AI-우주-방산으로 ‘간판’ 바꿔 달자 주가 폭등",
+      "summary": "올해 스페이스X, 앤스로픽, 오픈AI 등 대형 기업들의 기업공개(IPO)가 줄줄이 예정된 가운데 투자시장 자금이 우주와 인공지능(AI) 등 특정 분야에 쏠리고 있다. 이에 따라 투자 유치에 어려움을 겪거나 기존 사업",
+      "impact": "부정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "OECD, 韓 올 성장률 전망 1.7% → 2.6% 상향",
+      "summary": "경제협력개발기구(OECD)가 올해 한국 경제 성장률 전망치를 2.6%로 0.9%포인트 높여 잡았다. 주요 20개국(G20) 가운데 한국의 상승 폭이 가장 컸다. 올해 한국의 명목 성장률은 10%를 넘어설 것으로 추정",
+      "impact": "긍정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "“금리인상 온다” 배트 짧게 잡는 투자자… 단기예금으로 ‘머니무브’",
+      "summary": "직장인 박명희 씨는 최근 만기가 된 은행 예금의 재예치를 고민하고 있다. 현재 연 2.50%인 기준금리가 이르면 7월 인상되면 은행 금리도 현재보다는 오를 것으로 예상돼서다. 박 씨는 “당장 여유 자금을 1년 미만 ",
+      "impact": "중립",
+      "source": "동아닷컴 경제"
+    }
+  ],
+  "us_headlines": [
+    {
+      "title": "HPE Stock Surges On Fiscal Q2 Earnings Beat, Raised Guidance, Fiscal 2027 Outlook",
+      "summary": "HPE Stock Surges On Fiscal Q2 Earnings Beat, Raised Guidance, Fiscal 2027 Outlook",
+      "impact": "긍정",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "As Honeywell Aerospace readies for its standalone debut, its CEO is forecasting big growth",
+      "summary": "By 2030 Honeywell is targeting annual earnings of at least $6.5 billion and full-year free cash flow of at least $4 bill",
+      "impact": "중립",
+      "source": "CNBC Top News"
+    },
+    {
+      "title": "Wall Street hated these 15 stocks. Then their earnings proved the analysts wrong.",
+      "summary": "Earnings beats mean a lot more when it happens to stocks the market gave up on.",
+      "impact": "긍정",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Broadcom’s stock falls despite accelerating AI-chip growth",
+      "summary": "Latest revenue figures lack meaningful upside after the stock’s sharp recent rally.",
+      "impact": "부정",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "3 reasons why Palo Alto Networks’ stock fell despite upbeat earnings",
+      "summary": "Analysts attribute the stock drop to profit-taking, the timing of AI contributions and changes to reporting conventions.",
+      "impact": "긍정",
+      "source": "MarketWatch"
+    }
+  ]
+}
