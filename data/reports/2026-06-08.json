@@ -1,0 +1,72 @@
+{
+  "date": "2026-06-08",
+  "generated_at": "2026-06-08 07:00 KST",
+  "sentiment": "bullish",
+  "fear_greed": "시장은 긍정적인 분위기로, 특히 AI 산업에 대한 기대감이 높다",
+  "market_summary": "AI 산업의 성장과 엔비디아의 방한이 주요 이슈로 부각되며 투자자들의 관심이 집중되고 있다. 특히 엔비디아와 국내 주요 기업들의 협력 강화가 기대되며 관련 산업군의 주가 상승이 예상된다. 반도체와 AI 관련 기업들이 주도적으로 상승할 것으로 보인다.",
+  "conclusion": "내일 투자 전략은 AI와 반도체 산업에 집중할 것을 권장한다. 엔비디아의 방한과 국내 기업들과의 협력 강화가 주요 이벤트로, 이에 따른 협력 기업들의 주가 상승이 예상된다.",
+  "kr_picks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 329000,
+      "reason": "AI 산업 협력 확대 기대감",
+      "buy_zone": "319,130~332,290원",
+      "target": "368,480원 (+12%)",
+      "stop_loss": "305,970원 (-7%)",
+      "catalyst": "엔비디아 방한",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005930"
+    },
+    {
+      "ticker": "035720",
+      "name": "카카오",
+      "exchange": "KRX",
+      "sector": "IT서비스",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 40250,
+      "reason": "엔비디아와의 협력 강화 기대감",
+      "buy_zone": "39,042~40,652원",
+      "target": "45,080원 (+12%)",
+      "stop_loss": "37,432원 (-7%)",
+      "catalyst": "엔비디아 방한",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:035720"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "exchange": "NASDAQ",
+      "sector": "반도체",
+      "action": "hold",
+      "rating": 3,
+      "current_price": 205.1,
+      "reason": "AI 협력 확대 기대감",
+      "buy_zone": "$198.95~$207.15",
+      "target": "$229.71 (+12%)",
+      "stop_loss": "$190.74 (-7%)",
+      "catalyst": "엔비디아 방한",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:NVDA"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "exchange": "NASDAQ",
+      "sector": "자동차",
+      "action": "buy",
+      "rating": 4,
+      "current_price": 391.0,
+      "reason": "스페이스X 청약 성공 기대감",
+      "buy_zone": "$379.27~$394.91",
+      "target": "$437.92 (+12%)",
+      "stop_loss": "$363.63 (-7%)",
+      "catalyst": "스페이스X 청약",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:TSLA"
+    }
+  ]
+}
