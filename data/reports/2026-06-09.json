@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-09",
+  "generated_at": "2026-06-09 07:00 KST",
+  "sentiment": "bullish",
+  "fear_greed": "시장은 엔비디아의 한국 AI 생태계 진출과 관련된 긍정적인 소식에 긍정적인 분위기를 유지하고 있다.",
+  "market_summary": "시장은 전반적으로 안정적인 분위기를 유지하고 있으며, 특히 AI 관련 기업들이 주목받고 있다. 코스피 지수는 7500선을 지지받으며 하루 만에 7600선으로 반등했으며, 미국 주식 시장도 AI 관련 기업들의 실적 개선에 힘입어 상승세를 이어가고 있다.",
+  "conclusion": "내일 투자 전략은 AI 관련 기업들의 지속적인 성장세와 함께, 반도체 산업의 회복세를 주목해야 할 것으로 보인다. 특히 엔비디아의 한국 진출은 AI 산업 전반에 긍정적인 영향을 미칠 것으로 예상된다.",
+  "kr_picks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 295500,
+      "reason": "반도체 업황 개선과 AI 산업의 성장세에 따른 수혜 기대",
+      "buy_zone": "286,635~298,455원",
+      "target": "330,960원 (+12%)",
+      "stop_loss": "274,815원 (-7%)",
+      "catalyst": "AI 산업 성장",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005930"
+    },
+    {
+      "ticker": "035420",
+      "name": "NAVER",
+      "exchange": "KRX",
+      "sector": "IT서비스",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 279000,
+      "reason": "AI 기술 개발과 AI 산업 성장에 따른 수혜 기대",
+      "buy_zone": "270,630~281,790원",
+      "target": "312,480원 (+12%)",
+      "stop_loss": "259,470원 (-7%)",
+      "catalyst": "AI 기술 개발",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:035420"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "exchange": "NASDAQ",
+      "sector": "반도체",
+      "action": "hold",
+      "rating": 3,
+      "current_price": 208.64,
+      "reason": "AI 기술 개발과 AI 산업 성장에 따른 수혜 기대",
+      "buy_zone": "$202.38~$210.73",
+      "target": "$233.68 (+12%)",
+      "stop_loss": "$194.04 (-7%)",
+      "catalyst": "AI 기술 개발",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:NVDA"
+    }
+  ]
+}
