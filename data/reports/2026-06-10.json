@@ -1,0 +1,87 @@
+{
+  "date": "2026-06-10",
+  "generated_at": "2026-06-10 07:00 KST",
+  "sentiment": "neutral",
+  "fear_greed": "시장은 정부의 세제개편안 발표를 주목하며 신중한 분위기",
+  "market_summary": "시장은 정부의 세제개편안 발표를 앞두고 신중한 분위기를 유지하고 있다. 세제 개편안 발표 시점에 따라 주택 보유세와 비거주 1주택자의 전세대출 규제 등이 강화될 것으로 예상된다. 특히 다주택과 초고가 주택 보유자들에게 부담이 될 것으로 보인다. 이에 따라 부동산 관련 섹터와 금융 섹터의 투자자들은 신중한 접근이 필요하다.",
+  "conclusion": "내일은 정부의 세제 개편안 발표가 주요 이벤트로, 특히 부동산과 금융 섹터에 영향을 미칠 것으로 예상된다. 부동산 관련 종목은 신중한 접근이 필요하며, 금융 섹터 종목은 규제 강화에 따른 영향을 주목해야 한다.",
+  "kr_picks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 322000,
+      "reason": "AI 도입으로 생산성 향상 기대",
+      "buy_zone": "312,340~325,220원",
+      "target": "360,640원 (+12%)",
+      "stop_loss": "299,460원 (-7%)",
+      "catalyst": "AI 전환 계획 발표",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005930"
+    },
+    {
+      "ticker": "035420",
+      "name": "NAVER",
+      "exchange": "KRX",
+      "sector": "IT서비스",
+      "action": "매수",
+      "rating": 4,
+      "current_price": 257000,
+      "reason": "AI 기술 활용으로 성장 전망",
+      "buy_zone": "249,290~259,570원",
+      "target": "287,840원 (+12%)",
+      "stop_loss": "239,010원 (-7%)",
+      "catalyst": "AI 기술 활용 발표",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:035420"
+    },
+    {
+      "ticker": "005380",
+      "name": "현대차",
+      "exchange": "KRX",
+      "sector": "자동차",
+      "action": "매수",
+      "rating": 4,
+      "current_price": 639000,
+      "reason": "5G와 AI 활용으로 성장 전망",
+      "buy_zone": "619,830~645,390원",
+      "target": "715,680원 (+12%)",
+      "stop_loss": "594,270원 (-7%)",
+      "catalyst": "AI 기술 활용 발표",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005380"
+    },
+    {
+      "ticker": "000270",
+      "name": "기아",
+      "exchange": "KRX",
+      "sector": "자동차",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 164300,
+      "reason": "전기 수요 증가 기대",
+      "buy_zone": "159,371~165,943원",
+      "target": "184,016원 (+12%)",
+      "stop_loss": "152,799원 (-7%)",
+      "catalyst": "전기 수요 증가",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:000270"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "exchange": "NASDAQ",
+      "sector": "IT",
+      "action": "hold",
+      "rating": 3,
+      "current_price": 290.55,
+      "reason": "AI 기술 활용으로 성장 전망",
+      "buy_zone": "$281.83~$293.46",
+      "target": "$325.42 (+12%)",
+      "stop_loss": "$270.21 (-7%)",
+      "catalyst": "AI 기술 활용 발표",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:AAPL"
+    }
+  ]
+}
