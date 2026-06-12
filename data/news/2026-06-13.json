@@ -1,0 +1,95 @@
+{
+  "date": "2026-06-13",
+  "generated_at": "2026-06-13 07:00 KST",
+  "headline": "삼성전자 파운드리 부문이 구글의 AI 반도체 생산을 수주하는 것으로 알려져 있다.",
+  "sentiment": "bullish",
+  "fear_greed": "시장은 AI 산업과 반도체 업계의 긍정적인 전망에 낙관적인 분위기를 보이고 있다.",
+  "market_overview": "삼성전자 파운드리 부문이 구글의 AI 반도체 생산을 수주할 것으로 보이며, 이는 파운드리 부문의 실적 개선을 기대하게 한다. 또한, LG엔솔은 메이저 로봇업체와의 거래를 확대하고 있어 배터리 산업의 성장이 예상된다. 한편, SK하이닉스도 챗GPT를 포함한 생성형 AI 플랫폼 도입을 추진하고 있다.",
+  "key_themes": [
+    {
+      "theme": "반도체",
+      "description": "삼성전자 파운드리 부문이 구글의 AI 반도체 생산을 수주할 것으로 보인다.",
+      "sector": "반도체"
+    },
+    {
+      "theme": "배터리",
+      "description": "LG엔솔이 메이저 로봇업체와의 거래를 확대하고 있어 배터리 산업의 성장이 예상된다.",
+      "sector": "배터리"
+    },
+    {
+      "theme": "AI",
+      "description": "챗GPT를 포함한 생성형 AI 플랫폼 도입이 SK하이닉스와 기업들의 업무 지원 도구로 자리잡고 있다.",
+      "sector": "IT"
+    },
+    {
+      "theme": "자동차",
+      "description": "현대차 노조가 올해 임금협상 교섭 결렬을 선언하며 파업 수순에 들어갔다.",
+      "sector": "자동차"
+    }
+  ],
+  "conclusion": "내일은 삼성전자 파운드리 부문의 구글 AI 반도체 생산 수주 소식과 LG엔솔의 로봇 배터리 시장 진출에 대한 관심이 높아질 것으로 보인다. 또한, SK하이닉스의 생성형 AI 플랫폼 도입과 현대차 노조의 파업 움직임도 주목할 만하다.",
+  "kr_headlines": [
+    {
+      "title": "한은 총재 “늦지 않게 금리 올릴 필요” 내달 인상 가능성 더 커져",
+      "summary": "신현송 한국은행 총재(사진)는 12일 “물가 안정에 중점을 두고 늦지 않게 금리를 인상해 나갈 필요가 있다”고 밝혔다. 한은이 기준금리 인상 신호를 거듭 보내면서 7월 금융통화위원회에서 금리를 높일 가능성이 더욱 커",
+      "impact": "긍정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "스페이스X, 단숨에 美시총 10위권… 머스크는 첫 ‘조만장자’ 눈앞",
+      "summary": "우주기업 스페이스X가 기업공개(IPO)로 사상 최대인 750억 달러(약 114조 원)를 조달하는 데 성공하며 12일(현지 시간) 미국 나스닥에 입성했다. 공모가(주당 135달러) 기준 시가총액만 1조7700억 달러로",
+      "impact": "부정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "스페이스X, 공모가 135달러 확정… 사상 최대 IPO",
+      "summary": "일론 머스크가 이끄는 우주기업 스페이스X가 사우디아라비아 국영 석유기업 아람코를 제치고 사상 최대 규모의 기업공개(IPO)에 성공했다. 12일 로이터통신 등 외신에 따르면 스페이스X는 11일(현지 시간) IPO 공모",
+      "impact": "부정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "달러-원, 종전 합의 임박했다고 보는 분위기…1,518.30원 마감",
+      "summary": "(뉴욕=연합뉴스) 진정호 연합인포맥스 특파원 = 달러-원 환율이 야간 거래에서 낙폭을 조금 더 넓혔다.",
+      "impact": "부정",
+      "source": "연합뉴스 경제"
+    },
+    {
+      "title": "'비상경영' 신발끈 고쳐매고 고유가·고환율 허들 넘는 대한항공",
+      "summary": "'비상경영' 신발끈 고쳐매고 고유가·고환율 허들 넘는 대한항공",
+      "impact": "중립",
+      "source": "한국경제 경제"
+    }
+  ],
+  "us_headlines": [
+    {
+      "title": "Paramount-WBD merger wins approval from DOJ, source says",
+      "summary": "The DOJ approval is an important milestone for the roughly $110 billion deal, though it could still face legal challenge",
+      "impact": "중립",
+      "source": "CNBC Top News"
+    },
+    {
+      "title": "TopBuild amends bond terms tied to merger, removes change of control offer",
+      "summary": "TopBuild amends bond terms tied to merger, removes change of control offer",
+      "impact": "중립",
+      "source": "Investing.com"
+    },
+    {
+      "title": "How to decide whether a major splurge — like spending thousands on Knicks or World Cup tickets — is worth it",
+      "summary": "Ask yourself these questions when considering an extravagant purchase.",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "‘I feel like he may be taking advantage of us’: Our adviser pushes annuities after we already said no. Do we fire him?",
+      "summary": "“I feel like he may be taking advantage of us.”",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Adobe’s CFO is departing for Marvell. And it’s one more reason for investors to choose chips over software.",
+      "summary": "The software sector has struggled in recent months amid concern that software companies will struggle to survive in the ",
+      "impact": "중립",
+      "source": "MarketWatch"
+    }
+  ]
+}
