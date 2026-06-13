@@ -1,0 +1,95 @@
+{
+  "date": "2026-06-14",
+  "generated_at": "2026-06-14 07:00 KST",
+  "headline": "삼성과 페라리 CEO, 이탈리아 비즈니스라운드테이블에서 협력 가능성 논의",
+  "sentiment": "bullish",
+  "fear_greed": "시장은 이재용 삼성 회장과 페라리 CEO의 협력 가능성에 대한 긍정적인 기대감을 보이고 있다.",
+  "market_overview": "삼성과 페라리의 협력 가능성 논의와 경차 시장의 회복세가 주요 이슈로 부각되었다. 이재용 삼성전자 회장은 이재명 대통령의 이탈리아 국빈방문 기간 동안 페라리 CEO와의 비즈니스라운드테이블에서 다양한 협력 방안을 논의했다. 또한 경차 시장은 고유가 상황에서도 존재감을 회복하며 1~4월 경차 등록 대수가 전년 동기 대비 13% 증가했다.",
+  "key_themes": [
+    {
+      "theme": "삼성 페라리 협력",
+      "description": "삼성과 페라리의 협력 가능성 논의로 이목이 집중되고 있다.",
+      "sector": "자동차"
+    },
+    {
+      "theme": "경차 시장 회복",
+      "description": "고유가에도 불구하고 경차 시장이 회복세를 보이고 있다.",
+      "sector": "자동차"
+    },
+    {
+      "theme": "인도 공군 수송기 추락",
+      "description": "인도 공군 수송기가 추락해 5명 사망하는 사고가 발생했다.",
+      "sector": "국방"
+    },
+    {
+      "theme": "로봇 기업 성수동 이전",
+      "description": "로봇 기업들이 성수동으로 이전하며 지역 경제가 변화하고 있다.",
+      "sector": "기술"
+    }
+  ],
+  "conclusion": "이재용 삼성 회장과 페라리 CEO의 협력 논의는 양국 기업 간 협력 가능성을 높이는 계기가 될 전망이다. 또한 경차 시장의 회복세와 로봇 기업들의 성수동 이전은 각각 자동차와 기술 분야에서 주목할 만한 이슈로 부상할 것으로 보인다.",
+  "kr_headlines": [
+    {
+      "title": "은행 예금금리 다시 3%대 진입…기업 여윳돈 유치 분주",
+      "summary": "(서울=연합뉴스) 한지훈 임지우 이도흔 기자 = 기준금리 인상 전망에 시장금리가 상승하면서 주요 시중은행 정기예금 금리도 3%대로 올라서고 있다...",
+      "impact": "긍정",
+      "source": "연합뉴스 경제"
+    },
+    {
+      "title": "6만 달러 선도 위험해진 비트코인…지난해 최고가 대비 가격 ‘반토막’",
+      "summary": "암호화폐 비트코인 가격이 6만 달러 전후에 머무르면서 지난해 고점 대비 절반 수준으로 내려왔다.13일 가상자산 거래 정보 사이트 코인마켓캡에 따르면 비트코인 가격은 지난 6일 순간적으로 6만 달러(약 9100만원) ",
+      "impact": "중립",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "1500원 환율에 칼 빼든 당국…“정교하게 대응해야”",
+      "summary": "원·달러 환율이 1500원 선에서 고공행진을 이어가자 외환당국이 잇따라 시장 안정 대책을 꺼내 들고 있다.역외 차액결제선물환(NDF) 시장을 중심으로 투기적 거래를 점검하고, 환율 상승에 편승한 불법 외환거래 단속을",
+      "impact": "부정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "유가 이틀 연속 하락 80달러대…이란전쟁 종전 기대감 고조",
+      "summary": "미국과 이란의 종전 양해각서(MOU) 서명이 임박했다는 소식이 전해지면서 시장이 반응하고 있다. 국제유가는 이틀 연속 하락하며 80달러 대를 보이고 있다. 12일(현지시간) 런던 ICE 선물거래소에서 8월 인도분 브",
+      "impact": "부정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "오늘은 급등·내일은 폭락…AI주 투자자 마음 편히 해줄 ETF는",
+      "summary": "美 나스닥·韓 코스피와 어울리는 ETF는회사원 최모 씨(51)는 변동성은 낮고, 주가는 꾸준히 오르면서 미국 기업에 투자해 환율 관련 이득 까지 있는 ‘동일가중 상장지수펀드(ETF..",
+      "impact": "긍정",
+      "source": "매일경제"
+    }
+  ],
+  "us_headlines": [
+    {
+      "title": "From 10% chance of success to $2 trillion market cap: SpaceX's historic IPO",
+      "summary": "After its Nasdaq debut on Friday, SpaceX was the sixth most-valuable U.S. company, despite being a fraction the size by ",
+      "impact": "중립",
+      "source": "CNBC Top News"
+    },
+    {
+      "title": "Morgan Stanley sees limited evidence of reshoring after one year of tariffs",
+      "summary": "Morgan Stanley sees limited evidence of reshoring after one year of tariffs",
+      "impact": "중립",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Social Security benefits and costs are perfectly reasonable — no case exists for massive cuts",
+      "summary": "It might be nice to reduce the large share of benefits going to high earners who retire later and live long lives.",
+      "impact": "부정",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "The true national debt just hit $1 million per U.S. household",
+      "summary": "The effective U.S. national debt just crashed through $100 trillion for the first time in history, and now stands at an ",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Social Security’s COLA could be 4.7% in 2027 as inflation hits the highest level in 3 years",
+      "summary": "A total of 44% of older Americans depend on Social Security for all of their income, according to the Senior Citizens Le",
+      "impact": "중립",
+      "source": "MarketWatch"
+    }
+  ]
+}
