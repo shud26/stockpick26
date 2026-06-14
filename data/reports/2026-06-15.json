@@ -1,0 +1,72 @@
+{
+  "date": "2026-06-15",
+  "generated_at": "2026-06-15 07:00 KST",
+  "sentiment": "bullish",
+  "fear_greed": "시장은 삼성그룹의 에너지 사업 재시동과 AI 데이터센터 전력 수요 대응에 긍정적 반응을 보이고 있다.",
+  "market_summary": "삼성그룹의 에너지 사업 재시동과 AI 데이터센터 전력 수요 대응에 대한 긍정적인 반응이 이어지고 있다. 레버리지의 활용이 증가하고 있으며, 일본은행의 기준금리 인상이 주목받고 있다.",
+  "conclusion": "내일은 삼성그룹의 에너지 사업 재시동과 AI 데이터센터 전력 수요 대응에 대한 긍정적인 반응을 주목해야 한다. 레버리지의 활용과 일본은행의 기준금리 인상에 따른 엔캐리 트레이드를 주의해야 한다.",
+  "kr_picks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 322500,
+      "reason": "AI 데이터센터 전력 수요 대응",
+      "buy_zone": "312,825~325,725원",
+      "target": "361,200원 (+12%)",
+      "stop_loss": "299,925원 (-7%)",
+      "catalyst": "AI 데이터센터 전력 수요 대응",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005930"
+    },
+    {
+      "ticker": "006400",
+      "name": "삼성SDI",
+      "exchange": "KRX",
+      "sector": "배터리",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 539000,
+      "reason": "에너지 사업 재시동",
+      "buy_zone": "522,830~544,390원",
+      "target": "603,680원 (+12%)",
+      "stop_loss": "501,270원 (-7%)",
+      "catalyst": "에너지 사업 재시동",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:006400"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "exchange": "NASDAQ",
+      "sector": "IT",
+      "action": "hold",
+      "rating": 3,
+      "current_price": 291.13,
+      "reason": "AI 데이터센터 전력 수요 대응",
+      "buy_zone": "$282.40~$294.04",
+      "target": "$326.07 (+12%)",
+      "stop_loss": "$270.75 (-7%)",
+      "catalyst": "AI 데이터센터 전력 수요 대응",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:AAPL"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "exchange": "NASDAQ",
+      "sector": "자동차",
+      "action": "buy",
+      "rating": 4,
+      "current_price": 406.43,
+      "reason": "배터리 수요 증가",
+      "buy_zone": "$394.24~$410.49",
+      "target": "$455.20 (+12%)",
+      "stop_loss": "$377.98 (-7%)",
+      "catalyst": "배터리 수요 증가",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:TSLA"
+    }
+  ]
+}
