@@ -1,0 +1,95 @@
+{
+  "date": "2026-06-17",
+  "generated_at": "2026-06-17 07:00 KST",
+  "headline": "삼성전자의 지방 반도체 공장 투자 가능성을 둘러싼 논의가 확산되고 있다.",
+  "sentiment": "bullish",
+  "fear_greed": "시장은 미국과 이란의 전쟁 종료에 대한 기대감으로 긍정적인 분위기를 보이고 있다.",
+  "market_overview": "삼성전자의 지방 투자 논의와 미국과 이란의 전쟁 종료에 따른 국제유가 하락으로 인한 유류할증료 인하가 주요 이슈로 떠올랐다. 또한, 반도체 산업과 AI 광고, 그리고 K푸드와 K뷰티의 중동 시장 진출이 주목받고 있다.",
+  "key_themes": [
+    {
+      "theme": "반도체 투자 논의",
+      "description": "삼성전자의 지방 투자 가능성이 정치논리에 영향을 받지 않아야 한다는 의견이 제기되었다.",
+      "sector": "반도체"
+    },
+    {
+      "theme": "국제유가 하락",
+      "description": "미국과 이란의 전쟁 종료 기대감으로 국제유가가 하락하고 유류할증료가 인하되었다.",
+      "sector": "석유 및 에너지"
+    },
+    {
+      "theme": "K푸드와 K뷰티의 중동 진출",
+      "description": "미국과 이란의 종전 합의로 K푸드와 K뷰티의 중동 시장 공략이 재개되었다.",
+      "sector": "식품 및 화장품"
+    },
+    {
+      "theme": "AI 광고",
+      "description": "대홍기획이 AI를 활용한 캠페인으로 세계 3대 광고제에서 수상했다.",
+      "sector": "광고"
+    }
+  ],
+  "conclusion": "삼성전자의 지방 투자 논의와 국제유가 하락으로 인한 유류할증료 인하가 주요 이슈로 떠올랐다. 또한, K푸드와 K뷰티의 중동 시장 진출이 재개되며 관련 업계의 기대감이 높아지고 있다. 이러한 상황에서 AI 광고의 중요성이 더욱 부각되고 있다.",
+  "kr_headlines": [
+    {
+      "title": "수입물가 24.8% 껑충… 종전돼도 고물가 우려",
+      "summary": "중동 전쟁 여파로 지난달 수입 물가가 1년 전 대비 24.8% 올랐다. 3년 10개월 만에 가장 큰 폭으로 상승했다. 미국과 이란의 합의로 전쟁은 사실상 마무리됐지만 고유가, 고환율에 따른 수입 물가는 당분간 꺾이기",
+      "impact": "긍정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "日 금리인상 가세, 31년만에 최고 수준으로",
+      "summary": "일본은행(BOJ·중앙은행)이 16일 금융정책결정회의를 열고 6개월 만에 기준금리를 올렸다. 일본 아사히신문 등에 따르면 일본은행은 이날 기준금리인 단기 정책금리를 현행 ‘0.75% 정도’에서 ‘1% 정도’로 0.25",
+      "impact": "긍정",
+      "source": "동아닷컴 경제"
+    },
+    {
+      "title": "일부 금통위원 \"인플레 선제 대응해야…상승압력 지표보다 커\"",
+      "summary": "(서울=연합뉴스) 한지훈 기자 = 한국은행 금융통화위원들은 지난달 28일 기준금리를 동결하면서도 물가 상승 우려로 향후 금리 인상이 필요하다는 ...",
+      "impact": "중립",
+      "source": "연합뉴스 경제"
+    },
+    {
+      "title": "국제유가, 종전합의에 5%대 급락…브렌트 3달만에 70달러대 진입",
+      "summary": "(뉴욕=연합뉴스) 이지헌 특파원 = 미국과 이란 간 종전 협상 타결에 따른 낙관론이 이어지면서 16일(현지시간) 국제 유가가 급락세를 이어가며 ...",
+      "impact": "부정",
+      "source": "연합뉴스 경제"
+    },
+    {
+      "title": "달러-원, 이란 종전 합의에 위험 선호 유지…1,508.30원 마감",
+      "summary": "(뉴욕=연합뉴스) 진정호 연합인포맥스 특파원 = 달러-원 환율이 야간 거래에서 낙폭을 조금 더 늘렸다.",
+      "impact": "중립",
+      "source": "연합뉴스 경제"
+    }
+  ],
+  "us_headlines": [
+    {
+      "title": "SpaceX rises 4% to leapfrog Amazon in market cap, closes short of Microsoft",
+      "summary": "CEO Elon Musk said Sunday that the company \"might be able to reach approximately\" $1 trillion revenue in 2030.",
+      "impact": "중립",
+      "source": "CNBC Top News"
+    },
+    {
+      "title": "Fed Chair Warsh expected to withhold 'dot' from central bank's interest rate outlook",
+      "summary": "The central bank's Federal Open Market Committee is set to release its quarterly update of where individual officials ex",
+      "impact": "중립",
+      "source": "CNBC Top News"
+    },
+    {
+      "title": "Investors pile into moonshot SpaceX bets as first-day options trading shatters records",
+      "summary": "On Friday, SpaceX clinched the biggest IPO in the history of the U.S. equity market, raising more than $85 billion. On T",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Most people now get their news from social media. But many say they dislike it and are tuning out.",
+      "summary": "Audiences been increasingly getting news from social media for years — but many are now disillusioned, creating yet anot",
+      "impact": "중립",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "‘I’m a realist’: I’m 50 with $6.5 million saved. Should I quit my $200,000 job and retire early?",
+      "summary": "“I have been considering leaving my job so that I can focus on my trading activities full time.”",
+      "impact": "중립",
+      "source": "MarketWatch"
+    }
+  ]
+}

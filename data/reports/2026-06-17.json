@@ -1,0 +1,72 @@
+{
+  "date": "2026-06-17",
+  "generated_at": "2026-06-17 07:00 KST",
+  "sentiment": "bullish",
+  "fear_greed": "시장은 미국과 이란의 전쟁 종료에 대한 기대감으로 긍정적인 분위기를 보이고 있다.",
+  "market_summary": "미국과 이란의 전쟁 종료에 따른 긍정적인 시장 분위기 속에서, 주요 섹터들은 호조를 보이고 있다. 특히, IT와 에너지 섹터가 주목받고 있으며, 전쟁 종료로 인한 안정화 효과가 기업들의 실적 개선으로 이어질 가능성이 높다.",
+  "conclusion": "미국과 이란의 전쟁 종료로 인한 긍정적인 시장 분위기 속에서, IT와 에너지 섹터에 대한 투자 기회가 주어질 것으로 보인다. 특히, 전쟁 종료로 인한 안정화 효과가 기업들의 실적 개선으로 이어질 가능성이 높다.",
+  "kr_picks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "sector": "반도체",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 343000,
+      "reason": "전쟁 종료로 인한 안정화 효과",
+      "buy_zone": "332,710~346,430원",
+      "target": "384,160원 (+12%)",
+      "stop_loss": "318,990원 (-7%)",
+      "catalyst": "전쟁 종료",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005930"
+    },
+    {
+      "ticker": "005380",
+      "name": "현대차",
+      "exchange": "KRX",
+      "sector": "자동차",
+      "action": "관망",
+      "rating": 3,
+      "current_price": 640000,
+      "reason": "AGI 활용 단계 진입",
+      "buy_zone": "620,800~646,400원",
+      "target": "716,800원 (+12%)",
+      "stop_loss": "595,200원 (-7%)",
+      "catalyst": "데이터 AI서밋",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=KRX:005380"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "exchange": "NASDAQ",
+      "sector": "IT",
+      "action": "hold",
+      "rating": 3,
+      "current_price": 299.24,
+      "reason": "전쟁 종료로 인한 안정화 효과",
+      "buy_zone": "$290.26~$302.23",
+      "target": "$335.15 (+12%)",
+      "stop_loss": "$278.29 (-7%)",
+      "catalyst": "전쟁 종료",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:AAPL"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "exchange": "NASDAQ",
+      "sector": "IT",
+      "action": "buy",
+      "rating": 4,
+      "current_price": 393.83,
+      "reason": "AGI 활용 단계 진입",
+      "buy_zone": "$382.02~$397.77",
+      "target": "$441.09 (+12%)",
+      "stop_loss": "$366.26 (-7%)",
+      "catalyst": "데이터 AI서밋",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:MSFT"
+    }
+  ]
+}
