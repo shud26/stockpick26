@@ -1,0 +1,26 @@
+{
+  "date": "2026-06-19",
+  "generated_at": "2026-06-19 07:00 KST",
+  "sentiment": "bullish",
+  "fear_greed": "시장은 AI 및 반도체 산업에 대한 긍정적인 전망으로 급등세를 보이고 있다.",
+  "market_summary": "AI와 반도체 업계의 성장 잠재력이 주식 시장을 견인하고 있으며, 특히 CXMT와 같은 중국 메모리 반도체 기업들의 IPO가 주목받고 있다. 투자자들은 이들 분야에서 혁신적인 기술과 제품을 제공하는 기업들을 선호하고 있다.",
+  "conclusion": "내일은 AI 및 반도체 산업에 대한 긍정적 전망이 지속될 것으로 예상된다. 특히 CXMT의 IPO와 관련된 이벤트가 주요 관심사로 부각될 것으로 보인다. 투자 포지션을 조정하면서 이들 분야에서 성장 잠재력이 높은 기업들을 선별적으로 매수하는 전략을 추천한다.",
+  "kr_picks": [],
+  "us_picks": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "exchange": "NASDAQ",
+      "sector": "IT",
+      "action": "hold",
+      "rating": 3,
+      "current_price": 298.01,
+      "reason": "AI 기술을 통한 제품 개발 및 서비스 강화에 대한 성장 잠재력 높음",
+      "buy_zone": "$289.07~$300.99",
+      "target": "$333.77 (+12%)",
+      "stop_loss": "$277.15 (-7%)",
+      "catalyst": "AI 기술 개발",
+      "tradingview": "https://www.tradingview.com/chart/?symbol=NASDAQ:AAPL"
+    }
+  ]
+}
