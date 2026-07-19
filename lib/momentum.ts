@@ -45,3 +45,9 @@ export function getLog(): LogEntry[] {
   if (!fs.existsSync(f)) return [];
   return JSON.parse(fs.readFileSync(f, "utf-8")).reverse();
 }
+
+export function getHistory(): Record<string, [string, number][]> {
+  const f = path.join(DATA, "history.json");
+  if (!fs.existsSync(f)) return {};
+  return JSON.parse(fs.readFileSync(f, "utf-8"));
+}

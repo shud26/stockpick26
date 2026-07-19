@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getMomentum } from "@/lib/momentum";
+import { byName } from "@/lib/assets";
 
 const KR_NAME: Record<string, string> = {
   NASDAQ100: "나스닥100",
@@ -27,10 +28,10 @@ export default function Home() {
   return (
     <main className="wrap" style={{ paddingTop: 34 }}>
       <h1 style={{ fontSize: 24, fontWeight: 800, letterSpacing: "-0.5px" }}>
-        모멘텀 신호 대시보드
+        모멘텀 순위 대시보드
       </h1>
       <p className="muted" style={{ fontSize: 14, marginTop: 6 }}>
-        가속 듀얼 모멘텀(1·3·6개월) 신호를 매일 자동 계산해 기록합니다 · 갱신{" "}
+        가속 듀얼 모멘텀(1·3·6개월) 순위를 매일 자동 계산해 기록합니다 · 갱신{" "}
         <span className="num">{m.updated}</span> · 시세{" "}
         {m.source === "toss" ? "토스증권 오픈API" : "야후 파이낸스"}
       </p>
@@ -38,7 +39,7 @@ export default function Home() {
       {/* 현재 시그널 */}
       <section className="card" style={{ marginTop: 22 }}>
         <div className="muted" style={{ fontSize: 13, marginBottom: 8 }}>
-          ETF 전략 현재 신호 <Link href="/method" style={{ color: "var(--accent)" }}>· 계산 방식</Link>
+          ETF 전략 현재 판정 <Link href="/method" style={{ color: "var(--accent)" }}>· 계산 방식</Link>
         </div>
         <div style={{ display: "flex", alignItems: "baseline", gap: 14, flexWrap: "wrap" }}>
           <div style={{ fontSize: 30, fontWeight: 800 }}>
@@ -70,7 +71,7 @@ export default function Home() {
           <tbody>
             {etf.map((r) => (
               <tr key={r.name}>
-                <td>{r.name}</td>
+                <td>{byName[r.name] ? <Link href={`/asset/${byName[r.name].slug}`} style={{ color: "var(--accent)" }}>{r.name}</Link> : r.name}</td>
                 <td><Pct v={r.r1} /></td>
                 <td><Pct v={r.r3} /></td>
                 <td><Pct v={r.r6} /></td>
@@ -100,7 +101,7 @@ export default function Home() {
             {stocks.map((r) => (
               <tr key={r.name}>
                 <td>
-                  {r.name}
+                  {byName[r.name] ? <Link href={`/asset/${byName[r.name].slug}`} style={{ color: "var(--accent)" }}>{r.name}</Link> : r.name}
                   {m.basket.includes(r.name) && <span className="tag">바스켓</span>}
                 </td>
                 <td><Pct v={r.r1} /></td>
