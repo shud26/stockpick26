@@ -31,7 +31,8 @@ export default function Home() {
       </h1>
       <p className="muted" style={{ fontSize: 14, marginTop: 6 }}>
         가속 듀얼 모멘텀(1·3·6개월) 신호를 매일 자동 계산해 기록합니다 · 갱신{" "}
-        <span className="num">{m.updated}</span>
+        <span className="num">{m.updated}</span> · 시세{" "}
+        {m.source === "toss" ? "토스증권 오픈API" : "야후 파이낸스"}
       </p>
 
       {/* 현재 시그널 */}
