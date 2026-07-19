@@ -74,7 +74,8 @@ export default function MethodPage() {
         수수료와 슬리피지가 쌓이는 횝소(whipsaw) 손실이 발생하고, 급락 후 V자 반등
         초입을 놓치는 것도 구조적 약점입니다. 월 1회 수준의 느린 리밸런싱은 이런
         비용을 줄이는 대신 반응 속도를 포기한 절충입니다. 과거에 통했던 규칙이
-        미래에도 통한다는 보장은 없습니다.
+        미래에도 통한다는 보장은 없습니다. 16년치 검증 수치는{" "}
+        <a href="/backtest" style={{ color: "var(--accent)" }}>백테스트 글</a>에 전부 공개했습니다.
       </p>
 
       <div className="disclaimer" style={{ margin: "30px 0" }}>
