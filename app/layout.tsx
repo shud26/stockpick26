@@ -1,26 +1,47 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "StockPick26 — 매일 시황 분석 & 종목 추천",
-  description: "AI가 매일 경제뉴스를 분석해 국내·미국 시황과 종목 추천을 정리합니다.",
+  metadataBase: new URL("https://stockpick26.com"),
+  title: "StockPick26 — 모멘텀 신호 대시보드",
+  description:
+    "가속 듀얼 모멘텀 전략의 신호와 국내 ETF·대형주 모멘텀 순위를 매일 자동 계산해 기록하는 대시보드. 자동매매 봇의 페이퍼 운용 일지를 그대로 공개합니다.",
   openGraph: {
-    title: "StockPick26 — 매일 시황 분석 & 종목 추천",
-    description: "AI가 매일 경제뉴스를 분석해 국내·미국 시황과 종목 추천을 정리합니다.",
+    title: "StockPick26 — 모멘텀 신호 대시보드",
+    description:
+      "가속 듀얼 모멘텀 신호와 ETF·대형주 모멘텀 순위를 매일 자동 계산해 기록합니다.",
     type: "website",
     url: "https://stockpick26.com",
     siteName: "StockPick26",
   },
-  alternates: {
-    canonical: "https://stockpick26.com",
-  },
+  alternates: { canonical: "https://stockpick26.com" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko">
-      <body style={{ margin: 0, padding: 0, background: '#fff', color: '#111', fontFamily: 'system-ui, -apple-system, sans-serif' }}>
+      <body>
+        <nav className="nav">
+          <div className="wrap" style={{ display: "flex", alignItems: "center", gap: 22, width: "100%" }}>
+            <Link href="/" className="brand">
+              Stock<span>Pick26</span>
+            </Link>
+            <Link href="/" className="item">대시보드</Link>
+            <Link href="/method" className="item">방법론</Link>
+            <Link href="/log" className="item">운용 일지</Link>
+            <Link href="/about" className="item">소개</Link>
+          </div>
+        </nav>
         {children}
+        <footer className="footer">
+          <div className="wrap" style={{ display: "flex", gap: 18, flexWrap: "wrap" }}>
+            <span>StockPick26 — 자동화 봇의 모멘텀 관찰 기록</span>
+            <Link href="/about">소개·면책</Link>
+            <Link href="/privacy">개인정보처리방침</Link>
+            <span>본 사이트의 모든 정보는 투자 권유가 아닙니다.</span>
+          </div>
+        </footer>
       </body>
     </html>
   );
