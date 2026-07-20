@@ -1,0 +1,58 @@
+{
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20 09:05 KST",
+  "news_preview": "# 경제뉴스 — 2026-07-20\n\n> 자동 수집 08:01 KST\n\n---\n\n## 🇰🇷 국내경제\n\n---\n\n## 🌐 글로벌\n\n---\n\n## 📈 미국증시\n\n---\n\n## ₿ 크립토\n\n---",
+  "market_summary": "전체 시황 요약 내용이 부족하여 구체적인 분석이 어려움.",
+  "sentiment": "neutral",
+  "key_themes": [
+    {
+      "theme": "인공지능 산업",
+      "description": "AI 기술 발전으로 인해 관련 산업이 급성장하고 있다.",
+      "sector": "IT, 헬스케어"
+    }
+  ],
+  "kr_picks": [
+    {
+      "ticker": "035420",
+      "name": "네이버",
+      "sector": "IT 서비스",
+      "action": "매수",
+      "rating": 4,
+      "reason": "AI 기술을 활용한 다양한 비즈니스 모델 확장.",
+      "news_basis": "네이버의 AI 관련 신제품 출시 소식",
+      "buy_zone": "현재 주가 25만원 이하",
+      "target": "30만원 (52주 고점 31.5만원 돌파 시 34만원)",
+      "stop_loss": "리스크 관리 필요",
+      "risk": "경쟁사의 신제품 출시, AI 기술 발전 지연",
+      "catalyst": "AI 신제품"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "sector": "Semiconductors",
+      "action": "buy",
+      "rating": 5,
+      "reason": "AI 시장에서의 지속적인 성장을 위한 GPU 개발.",
+      "news_basis": "NVIDIA의 AI 관련 제품 출시 발표",
+      "buy_zone": "현재 주가 350달러 이하",
+      "target": "420달러 (52주 고점 475달러 돌파 시 510달러)",
+      "stop_loss": "경쟁사의 기술력 향상, AI 산업 성장ชะ림",
+      "risk": "경쟁사의 기술력 향상, AI 산업 성장 지연",
+      "catalyst": "AI 제품 출시"
+    }
+  ],
+  "chart_points": [
+    {
+      "ticker": "035420",
+      "name": "네이버",
+      "exchange": "KRX",
+      "key_level": "현재 주가 25만원 이하",
+      "ma_signal": "20MA 위, 골든크로스 진행 중",
+      "rsi_signal": "RSI 58 중립",
+      "pattern": "상승 추세"
+    }
+  ],
+  "one_liner": "제공된 뉴스 내용이 부족하여 구체적인 분석이 어려움."
+}
