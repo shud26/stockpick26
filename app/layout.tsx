@@ -30,6 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/" className="item">대시보드</Link>
             <Link href="/method" className="item">방법론</Link>
             <Link href="/backtest" className="item">백테스트</Link>
+            <Link href="/cost" className="item">비용</Link>
             <Link href="/log" className="item">운용 일지</Link>
             <Link href="/glossary" className="item">용어집</Link>
             <Link href="/about" className="item">소개</Link>
