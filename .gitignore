@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 트리니티 상태파일 (개인 프로필 힌트 포함 — 2026-07-23 유출 사고)
+.trinity/
