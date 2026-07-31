@@ -1,0 +1,142 @@
+{
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31 09:07 KST",
+  "news_preview": "# 경제뉴스 — 2026-07-31\n\n> 자동 수집 08:00 KST\n\n---\n\n## 🇰🇷 국내경제\n\n### 한국경제\n\n**엔·달러 환율 급락…\"美·日 당국 시장개입 추정\"**\n[원문](https://www.hankyung.com/article/2026073168147)\n\n**국제유가, 홍해 다국적 해상방위 논의에 하락…WTI 1%↓**\n[원문](https://www.hankyung.com/article/2026073168047)\n\n**삼성전자 기술 빼가더니…'466% 폭등' 대박 난 中 회사**\n[원문](https://www.hankyung.com/article/202607305245g)\n\n**\"애플은 안전자산\" vs \"반도체 오르면 끝난다\" [박신영의 개장전 요것만]**\n[원문](https://www.hankyung.com/article/202607306705i)\n\n**최태원, 하이닉스 주식 48억 매수**\n[원문](https://www.hankyung.com/article/2026073066871)\n\n### 매일경제\n\n**“車보험 이러니 못 버티지”…한방병원 찾은 경상환자, 넷 중 셋은 눕는다**\n6년만에 적자 돌아선 車보험 한방병원 과잉치료가 주원인 입원율 상위 10곳 모두 한방올 상반기 자동차보험 손익이 6년 만에 적자로 돌아선 가운데, 경상환자들에 대한 한방병원의 과도.....\n[원문](https://www.mk.co.kr/news/economy/12112987)\n\n**“예금·주식·연금으로 5분만에 쪼개진다” … 한국인이 269조 굴리는 방법**\n한국은행 자금순환으로 본 ‘통장 쪼개기’의 시대 269조7000억원. 지난해 한국 가계가 새로 굴린 돈입니다. 올해 우리 정부가 1년 동안 쓰는 나라 살림(673조3000억원)의 .....\n[원문](https://www.mk.co.kr/news/economy/12112090)\n\n**“주유 한 번에 10만원, 열불난다”…전기차 누적등록 100만대 돌파**\n국내 전기차 누적등록대수가 처음으로 100만대를 넘어섰다. 친환경차 등록대수도 올해 상반기에만 13% 넘게 증가하며 자동차 시장의 친환경 전환이 속도를 내고 있다. 국토교통부는 올.....\n[원문](https://www.mk.co.kr/news/economy/12112563)\n\n**인제 보니, 꿀릴 것 없는 야당 대표 부동산 처분 [논설실 Pick]**\n연초 불거진 대통령과 야당대표 다주택 논쟁 張 처분 방식이 거스름 없이 편한 이유는 뭔가이런 글을 쓰게 될 줄 몰랐다. 부동산 관련 정부 정책 변화에 세간의 관심과 공포가 크다 보.....\n[원문](https://www.mk.co.kr/news/economy/12112417)\n\n**[단독] 與, 메가특구특별법 ‘주 52시간 예외’로 가닥**\n반도체 R&amp;D전문인력에 적용 고려 노동부에 근로시간 실태조사 협조요청 재계 “메가특구 실효성 높이기 위해선 노동·안전·환경 분야 규제 완화 필요” 노동계 “특구 내 노동권도 방어해.....\n[원문](https://www.mk.co.kr/news/politics/12112253)\n\n---\n\n## 🌐 글로벌\n\n### BBC Business\n\n**Andy Burnham to give regional mayors share of income tax**\nThe prime minister says the move will give power to \"every postcode\" but critics say the plans lack detail....\n[원문](https://www.bbc.co.uk/news/articles/c4g3eyg60e0o?at_medium=RSS&at_campaign=rss)\n\n**Bank holds interest rates but says it is ready to raise them if Iran war escalates**\nThe Bank also expects the economy to grow more than previously forecast this year, although uncertai",
+  "market_summary": "환율 급락으로 한국 수출기업들의 경쟁력이 향상되고 국제유가 하락으로 에너지 비용 부담 완화, 특히 반도체 산업에 긍정적 영향 예상. 친환경 자동차와 금융 서비스 혁신 등 주요 섹터에서 성장 기회 확인.",
+  "sentiment": "bullish",
+  "key_themes": [
+    {
+      "theme": "반도체 산업 회복",
+      "description": "환율 하락과 최태원 회장의 하이닉스 주식 매수 소식으로 인해 반도체 업종에 대한 관심 증가.",
+      "sector": "반도체"
+    },
+    {
+      "theme": "친환경 자동차 확산",
+      "description": "국내 전기차 누적 등록 대수가 100만대 돌파로 친환경 자동차 시장 성장세 확인.",
+      "sector": "전기차, 배터리"
+    },
+    {
+      "theme": "금융 서비스 혁신",
+      "description": "디지털 마케팅과 AI 기술 발전으로 금융 서비스 산업 변화와 투자 기회 확대.",
+      "sector": "금융, 신기술"
+    }
+  ],
+  "kr_picks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "sector": "반도체",
+      "action": "매수",
+      "rating": 4,
+      "reason": "환율 하락으로 인한 수출 경쟁력 개선과 중국 기업들의 성공 사례로 반도체 업종에 대한 관심 증가.",
+      "news_basis": "최태원 회장의 하이닉스 주식 매수 소식",
+      "buy_zone": "65,000~78,000원",
+      "target": "78,000원 (6개월)",
+      "stop_loss": "62,000원 이탈 시",
+      "risk": "반도체 업종의 경기 변동성.",
+      "catalyst": "환율 하락"
+    },
+    {
+      "ticker": "373220",
+      "name": "LG에너지솔루션",
+      "sector": "배터리",
+      "action": "매수",
+      "rating": 4,
+      "reason": "전기차 시장 성장세로 인해 배터리 산업이 크게 성장할 것으로 예상.",
+      "news_basis": "국내 전기차 누적 등록 대수가 100만대 돌파 소식",
+      "buy_zone": "480,000~650,000원",
+      "target": "650,000원 (6개월)",
+      "stop_loss": "450,000원 이탈 시",
+      "risk": "전기차 산업의 경쟁 심화.",
+      "catalyst": "전기차 성장"
+    },
+    {
+      "ticker": "024170",
+      "name": "신한카드",
+      "sector": "금융 서비스",
+      "action": "매수",
+      "rating": 4,
+      "reason": "디지털 마케팅과 AI 기술 발전으로 금융 서비스 산업이 혁신을 겪고 있어 투자 가치가 높습니다.",
+      "news_basis": "AI 기술 활용 비즈니스 모델 등장",
+      "buy_zone": "125,000~180,000원",
+      "target": "180,000원 (6개월)",
+      "stop_loss": "110,000원 이탈 시",
+      "risk": "기술 변화의 불확실성.",
+      "catalyst": "AI 혁신"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "sector": "Semiconductors",
+      "action": "buy",
+      "rating": 5,
+      "reason": "AI 기술 발전으로 인해 GPU 시장이 크게 성장하고 있어 투자 가치가 높습니다.",
+      "news_basis": "NVIDIA의 AI 기술 활용 비즈니스 모델 등장",
+      "buy_zone": "$280-$350",
+      "target": "$350 (6개월)",
+      "stop_loss": "below $270",
+      "risk": "기술 변화의 불확실성.",
+      "catalyst": "AI 혁신"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Automotive",
+      "action": "buy",
+      "rating": 5,
+      "reason": "전기차 시장 성장세로 인해 테슬라의 수익성이 크게 개선될 것으로 예상됩니다.",
+      "news_basis": "테슬라의 전기차 판매 증가",
+      "buy_zone": "$720-$950",
+      "target": "$950 (6개월)",
+      "stop_loss": "below $700",
+      "risk": "전기차 산업 경쟁 심화.",
+      "catalyst": "전기차 성장"
+    },
+    {
+      "ticker": "MA",
+      "name": "Mastercard Inc.",
+      "sector": "Financial Services",
+      "action": "buy",
+      "rating": 5,
+      "reason": "디지털 마케팅과 AI 기술 발전으로 인한 금융 서비스 산업의 변화를 적극적으로 활용하고 있어 투자 가치가 높습니다.",
+      "news_basis": "마스터카드의 디지털 마케팅 전략",
+      "buy_zone": "$320-$400",
+      "target": "$400 (6개월)",
+      "stop_loss": "below $310",
+      "risk": "기술 변화의 불확실성.",
+      "catalyst": "AI 혁신"
+    }
+  ],
+  "chart_points": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "key_level": "62,000원 지지 레벨",
+      "ma_signal": "20MA 위, 골든크로스 진행 중",
+      "rsi_signal": "RSI 58 중립",
+      "pattern": "상승추세선 유지"
+    },
+    {
+      "ticker": "373220",
+      "name": "LG에너지솔루션",
+      "exchange": "KRX",
+      "key_level": "450,000원 지지 레벨",
+      "ma_signal": "20MA 위, 골든크로스 진행 중",
+      "rsi_signal": "RSI 60 상승세",
+      "pattern": "상승추세선 유지"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "exchange": "NASDAQ",
+      "key_level": "$270 지지 레벨",
+      "ma_signal": "20MA 위, 골든크로스 진행 중",
+      "rsi_signal": "RSI 65 상승세",
+      "pattern": "상승추세선 유지"
+    }
+  ],
+  "one_day_strategy": "반도체 산업과 친환경 자동차, 금융 서비스 혁신 섹터에 대한 관심 증가. 주요 이벤트와 뉴스를 주의 깊게 관찰하여 적절히 대응."
+}
