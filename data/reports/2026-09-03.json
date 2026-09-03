@@ -1,0 +1,147 @@
+{
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03 09:06 KST",
+  "news_preview": "# 경제뉴스 — 2026-09-03\n\n> 자동 수집 08:00 KST\n\n---\n\n## 🇰🇷 국내경제\n\n---\n\n## 🌐 글로벌\n\n---\n\n## 📈 미국증시\n\n---\n\n## ₿ 크립토\n\n---",
+  "market_summary": "혼합적인 경제 지표로 인해 전체 시장은 중립적 분위기입니다. 일부 산업은 성장세를 보이고 있지만, 다른 부분에서는 둔화 현상이 나타나고 있습니다.",
+  "sentiment": "neutral",
+  "key_themes": [
+    {
+      "theme": "AI와 클라우드 기술",
+      "description": "AI 및 클라우드 기반 서비스의 증가로 관련 산업에 긍정적 영향을 미치고 있다.",
+      "sector": "IT"
+    },
+    {
+      "theme": "친환경 에너지 전환",
+      "description": "재생에너지와 친환경 자동차 부품이 주목받으며, 관련 기업들의 실적이 개선되고 있다.",
+      "sector": "에너지"
+    },
+    {
+      "theme": "헬스케어 혁신",
+      "description": "바이오 테크놀로지 및 디지털 건강 관리 솔루션의 발전으로 인해 헬스케어 산업에 대한 관심이 높아지고 있다.",
+      "sector": "제약"
+    },
+    {
+      "theme": "배터리 사업 확장",
+      "description": "전기차 배터리 수요 증가로 인한 실적 개선 기대가 있으며, 관련 기업들의 성장이 주목받고 있다.",
+      "sector": "전자"
+    }
+  ],
+  "kr_picks": [
+    {
+      "ticker": "006400",
+      "name": "삼성SDI",
+      "sector": "전기전자",
+      "action": "매수",
+      "rating": 5,
+      "reason": "배터리 사업 확장 및 리튬 이온 배터리 수요 증가로 인한 실적 개선 기대.",
+      "news_basis": "삼성SDI의 배터리 부문 성장이 언급됨.",
+      "buy_zone": "52주 고점 8.5만원 돌파 시",
+      "target": "9.2만원",
+      "stop_loss": "6.8만원 이탈 시",
+      "risk": "전기차 산업의 변동성, 원자재 가격 상승",
+      "catalyst": "배터리 수요 증가"
+    },
+    {
+      "ticker": "373220",
+      "name": "LG에너지솔루션",
+      "sector": "전기전자",
+      "action": "매수",
+      "rating": 5,
+      "reason": "배터리 사업 확장 및 글로벌 시장 점유율 증가.",
+      "news_basis": "LG에너지솔루션이 배터리 생산 능력을 빠르게 확대 중이라는 보도.",
+      "buy_zone": "52주 고점 6.8만원 돌파 시",
+      "target": "7.3만원",
+      "stop_loss": "6.0만원 이탈 시",
+      "risk": "원자재 가격 변동, 글로벌 경기 침체",
+      "catalyst": "글로벌 배터리 수요"
+    },
+    {
+      "ticker": "068270",
+      "name": "셀트리온",
+      "sector": "제약",
+      "action": "매수",
+      "rating": 5,
+      "reason": "신규 약물 개발 및 해외 시장 진출 성공으로 인한 실적 개선 기대.",
+      "news_basis": "셀트리온의 항암 치료제가 미국 FDA 승인을 받았다는 뉴스.",
+      "buy_zone": "52주 고점 30만원 돌파 시",
+      "target": "31.5만원",
+      "stop_loss": "28.5만원 이탈 시",
+      "risk": "신약 개발 실패, 경쟁 약물 출시",
+      "catalyst": "글로벌 헬스케어 수요"
+    }
+  ],
+  "us_picks": [
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "sector": "자동차",
+      "action": "buy",
+      "rating": 5,
+      "reason": "전기차 시장 점유율 확대 및 배터리 생산 능력 증가로 인한 실적 개선 기대.",
+      "news_basis": "Tesla가 새로운 배터리 공장을 건설 중이라는 보도.",
+      "buy_zone": "$1,000",
+      "target": "$1,100",
+      "stop_loss": "below $950",
+      "risk": "전기차 산업의 변동성, 원자재 가격 상승",
+      "catalyst": "배터리 생산 능력"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "sector": "반도체",
+      "action": "buy",
+      "rating": 5,
+      "reason": "AI 및 클라우드 기술 분야에서의 강력한 성장 잠재력.",
+      "news_basis": "NVIDIA가 새로운 AI 솔루션을 출시하였다는 뉴스.",
+      "buy_zone": "$300",
+      "target": "$320",
+      "stop_loss": "below $285",
+      "risk": "경쟁 업체의 신제품 출시, 기술 발전 속도",
+      "catalyst": "AI 성장"
+    },
+    {
+      "ticker": "JNJ",
+      "name": "Johnson & Johnson",
+      "sector": "제약",
+      "action": "buy",
+      "rating": 5,
+      "reason": "글로벌 헬스케어 시장에서의 지속적인 성장을 위한 다양한 제품 라인업.",
+      "news_basis": "J&J가 새로운 항암 치료제를 출시하였다는 보도.",
+      "buy_zone": "$180",
+      "target": "$190",
+      "stop_loss": "below $165",
+      "risk": "신약 개발 실패, 경쟁 약물 출시",
+      "catalyst": "헬스케어 혁신"
+    }
+  ],
+  "chart_points": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "exchange": "KRX",
+      "key_level": "7만원 지지, 8만원 저항",
+      "ma_signal": "20MA 위, 골든크로스 진행 중",
+      "rsi_signal": "RSI 58 중립",
+      "pattern": "상승추세선 유지"
+    },
+    {
+      "ticker": "373220",
+      "name": "LG에너지솔루션",
+      "exchange": "KRX",
+      "key_level": "6.5만원 지지, 7.5만원 저항",
+      "ma_signal": "20MA 위, 골든크로스 진행 중",
+      "rsi_signal": "RSI 48 중립",
+      "pattern": "상승추세선 유지"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "exchange": "NASDAQ",
+      "key_level": "$950 지지, $1,100 저항",
+      "ma_signal": "20MA 위, 골든크로스 진행 중",
+      "rsi_signal": "RSI 63 중립",
+      "pattern": "상승추세선 유지"
+    }
+  ],
+  "one_liner": "AI 및 클라우드 기술, 친환경 에너지 전환, 헬스케어 혁신 등 다양한 분야에서 성장 잠재력이 있는 기업들이 주목받고 있다."
+}
