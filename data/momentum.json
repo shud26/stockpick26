@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-12 22:30",
+ "updated": "2026-10-13 16:21",
  "source": "toss",
  "signal": {
   "held": "NASDAQ100",
   "signal": "NASDAQ100",
   "winner": "NASDAQ100",
   "scores": {
-   "NASDAQ100": 22.03,
-   "KOSPI200": -0.5
+   "NASDAQ100": 21.36,
+   "KOSPI200": -11.97
   },
   "safe": "BOND"
  },
